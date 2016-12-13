@@ -1,6 +1,6 @@
 fork_me_ribbon_url: https://github.com/coderefinery/IDEs
-title: "Example lesson"
-start_time: 540  # 9:00
+title: "Lesson on automated IDE (PyCharm)"
+start_time: 780  # 13:00
 
 # where things are
 source: .

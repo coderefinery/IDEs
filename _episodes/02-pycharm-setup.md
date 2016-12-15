@@ -26,10 +26,10 @@ explained main concepts of IDE, learn about its benefits and motivation to start
 ## Installation and setup
 
 - follow the software installer guide
-- open our exiting project: **File -> Open -> ...** (or download from: https://github.com/coderefinery/csvwrangler )
-- google for "hotkeys pycharm" for Win/Lin: https://resources.jetbrains.com/assets/products/pycharm/PyCharm_ReferenceCard.pdf , 
-- google for "hotkeys pycharm" for Mac: https://resources.jetbrains.com/assets/products/pycharm/PyCharm_ReferenceCard_mac.pdf
-- latest docs: https://www.jetbrains.com/help/pycharm/2016.3/
+- open our exiting project: **File -> Open -> ...** (or download from: [https://github.com/coderefinery/csvwrangler](https://github.com/coderefinery/csvwrangler) )
+- google for "hotkeys pycharm" for Win/Lin: [https://resources.jetbrains.com/assets/products/pycharm/PyCharm_ReferenceCard.pdf](https://resources.jetbrains.com/assets/products/pycharm/PyCharm_ReferenceCard.pdf), 
+- google for "hotkeys pycharm" for Mac: [https://resources.jetbrains.com/assets/products/pycharm/PyCharm_ReferenceCard_mac.pdf](https://resources.jetbrains.com/assets/products/pycharm/PyCharm_ReferenceCard_mac.pdf)
+- latest docs: [https://www.jetbrains.com/help/pycharm/2016.3/](https://www.jetbrains.com/help/pycharm/2016.3/)
 - slide...
 
 ## Intro

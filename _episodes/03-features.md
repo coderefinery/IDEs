@@ -131,5 +131,5 @@ In this part basic functionality of IDE is demonstrated and gone through.
 
 ___
 
-1. Python Wiki - http://python.wikia.com/wiki/PEP8
-2. Wikipedia - https://en.wikipedia.org/wiki/Breakpoint
+1. Python Wiki - [http://python.wikia.com/wiki/PEP8](http://python.wikia.com/wiki/PEP8)
+2. Wikipedia - [https://en.wikipedia.org/wiki/Breakpoint](https://en.wikipedia.org/wiki/Breakpoint)

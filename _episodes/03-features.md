@@ -32,7 +32,7 @@ In this part basic functionality of IDE is demonstrated and gone through.
 ### [Navigation](https://www.jetbrains.com/help/pycharm/2016.1/navigation-in-source-code.html?search=navigation) & [Code completion](https://www.jetbrains.com/help/pycharm/2016.1/code-completion.html?search=code%20comple) [1]
 
 | Action | Win/Lin keys | Mac keys |
-|---|---|---|
+|:-:    |:-:    |:-:    |
 | To find any action inside the IDE use Find Action | Ctrl + Shift + A | ⌘ ⇧ A |
 | Show intention actions and quick-fixes | Alt + Enter	| ⌥ Enter 
 | Basic code completion (the name of any class, method or variable)	| Ctrl + Space | ⌃ Space |
@@ -49,10 +49,12 @@ In this part basic functionality of IDE is demonstrated and gone through.
 ### [On-the-fly error highlighting]() [2]
 
 - concept : [**_PEP8 (style guides)_**](https://www.python.org/dev/peps/pep-0008/#introduction) - is a StyleGuide for Python. A tool that validates code against it goes by the same name. (Python wiki)
+- concept : [**_Pylint (style guides)_**](https://pylint.readthedocs.io/en/latest/intro.html) - iPylint is a tool that checks for errors in Python code, tries to enforce a coding standard and looks for code smells. It can also look for certain type errors, it can recommend suggestions about how particular blocks can be refactored and can offer you details about the code’s complexity. (Pylint wiki)
 
 | Action | Win/Lin keys | Mac keys |
-|---|---|---|
+|:-:    |:-:    |:-:    |
 | Reformat code | Ctrl + Alt + L | ⌘ ⌥ L |
+
 
 - code analysis : **Code -> Inspect Code**
 - errors highlighting
@@ -64,11 +66,12 @@ In this part basic functionality of IDE is demonstrated and gone through.
 ### [Fast and Safe Refactorings](https://www.jetbrains.com/help/pycharm/2016.1/refactoring.html?search=refac) [3]
 
 | Action | Win/Lin keys | Mac keys |
-|---|---|---|
+|:-:    |:-:    |:-:    |
 | Change Signature | Ctrl + F6 | ⌘ F6 |
 | Surround with... | Ctrl + Alt + T	| ⌘ ⌥ T |
 | Extract Constant | Ctrl + Alt + C	| ⌘ ⌥ C |
 | Extract Method | Ctrl + Alt + M | ⌘ ⌥ M |
+| Safe delete | Alt + Enter | ⌘ Delete |
 
 ---
 
@@ -80,14 +83,16 @@ In this part basic functionality of IDE is demonstrated and gone through.
 
 - run in debug mode : **Run -> Debug '...'**
 - take a look
+- remove debugging
 
 | Action | Win/Lin keys | Mac keys |
-|---|---|---|
+|:-:    |:-:    |:-:    |
 | Step over/into | F8 / F7 | F8 / F7 |
 | Resume program | F9 | F9 |
 | Step out | Shift + F8 | ⇧ F8 |
 | Evaluate expression | Alt + F8 | ⌥ F8 |
 | View breakpoints | Ctrl + Shift + F8 | ⌘ ⇧ F8 |
+
 
 - set value
 
@@ -124,12 +129,14 @@ In this part basic functionality of IDE is demonstrated and gone through.
 ### [Plugins](https://www.jetbrains.com/help/pycharm/2016.1/plugins.html?search=plugins) [8]
 
 | Action | Win/Lin keys | Mac keys |
-|---|---|---|
+|:-:    |:-:    |:-:    |
 | Open Settings dialog | Ctrl + Alt + S | ⌘ , |
+
 
 - Plugins, plugins are everywhere... 
 
 ___
 
-1. Python Wiki - [http://python.wikia.com/wiki/PEP8](http://python.wikia.com/wiki/PEP8)
-2. Wikipedia - [https://en.wikipedia.org/wiki/Breakpoint](https://en.wikipedia.org/wiki/Breakpoint)
+1. Python Wiki - http://python.wikia.com/wiki/PEP8
+2. Wikipedia - https://en.wikipedia.org/wiki/Breakpoint
+3. Pylint - https://pylint.readthedocs.io/en/latest/intro.html

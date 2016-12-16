@@ -25,7 +25,7 @@ IDE stands for Integrated Development Environment - is a software application th
 
 So called IDEs: Pyzo, NinjaIDE, Pycharm, VisualStudio, CLion, Multi, RStudio, Eclipse and editors (that with some amount of skills and knowledge might be turned into cool custom IDE-likes software complexes, or not): Emacs, Vim, Sublime, Notepad++ .
 
-*INTEGRATED*: ![]({{ site.baseurl }}/img/10-wave-fanned-black-oxide.jpg) ![]({{ site.baseurl }}/img/10-wave-closed-black-oxide.jpg)
+![]({{ site.baseurl }}/img/10-wave-fanned-black-oxide.jpg) ![]({{ site.baseurl }}/img/10-wave-closed-black-oxide.jpg)
 
 ##  Why to use and IDE?
 
@@ -42,7 +42,9 @@ keyword: **INTEGRATED**
 - What tools - if any - are you already using? What tools have you heard of?
 
 ## Conventions
-|---|---|---|
+
+| Action | Win/Lin keys | Mac keys |
+|:-:    |:-:    |:-:    |
 | Key combinations | Ctrl + Shift + A | ⌘ ⇧ A |
 
 - navigation inside software menus : **File -> Open -> ...**
@@ -53,4 +55,4 @@ keyword: **INTEGRATED**
 
 ___ 
 
-1. Wikipedia - [https://en.wikipedia.org/wiki/Integrated_development_environment](https://en.wikipedia.org/wiki/Integrated_development_environment)
+1. Wikipedia - https://en.wikipedia.org/wiki/Integrated_development_environment

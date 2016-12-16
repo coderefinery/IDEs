@@ -43,16 +43,16 @@ keyword: **INTEGRATED**
 
 ## Conventions
 
-<table>
-  <tr>
-    <th> Key combinations </th>
-    <th> Win/Lin keys </th> 
-    <th> Mac keys </th>
+<table style="width=100%;"
+  <tr style="text-align: center; border: 1 px solid black; ">
+    <th style="text-align: center; border: 1 px solid black; "> Key combinations </th>
+    <th style="text-align: center; border: 1 px solid black; "> Win/Lin keys </th> 
+    <th style="text-align: center; border: 1 px solid black; "> Mac keys </th>
   </tr>
-  <tr>
-    <td> Action </td>
-    <td> Ctrl + Shift + A </td> 
-    <td> ⌘ ⇧ A  </td>
+  <tr style="text-align: center; border: 1 px solid black; ">
+    <td style="text-align: center; border: 1 px solid black; "> Action </td>
+    <td style="text-align: center; border: 1 px solid black; "> Ctrl + Shift + A </td> 
+    <td style="text-align: center; border: 1 px solid black; "> ⌘ ⇧ A  </td>
   </tr>
 </table>
 

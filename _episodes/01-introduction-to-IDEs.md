@@ -43,9 +43,18 @@ keyword: **INTEGRATED**
 
 ## Conventions
 
-| Action           |   | Win/Lin keys     |   | Mac keys |
-| ---------------- | - | ---------------- | - | -------- |
-| Key combinations |   | Ctrl + Shift + A |   | ⌘ ⇧ A    |
+<table style="width:100%">
+  <tr>
+    <th> Key combinations </th>
+    <th> Win/Lin keys </th> 
+    <th> Mac keys </th>
+  </tr>
+    <tr>
+    <td> Action </td>
+    <td> Ctrl + Shift + A </td> 
+    <td> ⌘ ⇧ A  </td>
+  </tr>
+</table>
 
 - navigation inside software menus : **File -> Open -> ...**
 

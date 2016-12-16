@@ -56,7 +56,7 @@ keyword: **INTEGRATED**
     <td> ⌘ ⇧ A  </td>
   </tr>
 </table>
-<div>
+</div>
 
 - navigation inside software menus : **File -> Open -> ...**
 

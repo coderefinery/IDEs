@@ -41,14 +41,14 @@ explained main concepts of IDE, learn about its benefits and motivation to start
 - **Run -> ...**
 
 <table style="width=100%;">
-  <tr style="text-align: center; border: 1 px solid black; ">
-    <th style="text-align: center; border: 1 px solid black; "> Action </th>
-    <th style="text-align: center; border: 1 px solid black; "> Win/Lin keys </th> 
-    <th style="text-align: center; border: 1 px solid black; "> Mac keys </th>
+  <tr>
+    <th style="text-align: center; border: 1px solid black; "> Action </th>
+    <th style="text-align: center; border: 1px solid black; "> Win/Lin keys </th> 
+    <th style="text-align: center; border: 1px solid black; "> Mac keys </th>
   </tr>
-  <tr style="text-align: center; border: 1 px solid black; ">
-    <td style="text-align: center; border: 1 px solid black; "> To find any action inside the IDE use Find Action </td>
-    <td style="text-align: center; border: 1 px solid black; "> Ctrl + Shift + A </td> 
-    <td style="text-align: center; border: 1 px solid black; "> ⌘ ⇧ A  </td>
+  <tr>
+    <td style="text-align: center; border: 1px solid black; "> To find any action inside the IDE use Find Action </td>
+    <td style="text-align: center; border: 1px solid black; "> Ctrl + Shift + A </td> 
+    <td style="text-align: center; border: 1px solid black; "> ⌘ ⇧ A  </td>
   </tr>
 </table>

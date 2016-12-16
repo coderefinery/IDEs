@@ -32,45 +32,45 @@ In this part basic functionality of IDE is demonstrated and gone through.
 ### [Navigation](https://www.jetbrains.com/help/pycharm/2016.1/navigation-in-source-code.html?search=navigation) & [Code completion](https://www.jetbrains.com/help/pycharm/2016.1/code-completion.html?search=code%20comple) [1]
 
 <table style="width=100%;">
-  <tr style="text-align: center; border: 1 px solid black; ">
-    <th style="text-align: center; border: 1 px solid black; "> Action </th>
-    <th style="text-align: center; border: 1 px solid black; "> Win/Lin keys </th> 
-    <th style="text-align: center; border: 1 px solid black; "> Mac keys </th>
+  <tr>
+    <th style="text-align: center; border: 1px solid black; "> Action </th>
+    <th style="text-align: center; border: 1px solid black; "> Win/Lin keys </th> 
+    <th style="text-align: center; border: 1px solid black; "> Mac keys </th>
   </tr>
-  <tr style="text-align: center; border: 1 px solid black; ">
-    <td style="text-align: center; border: 1 px solid black; "> To find any action inside the IDE use Find Action </td>
-    <td style="text-align: center; border: 1 px solid black; "> Ctrl + Shift + A </td> 
-    <td style="text-align: center; border: 1 px solid black; "> ⌘ ⇧ A  </td>
+  <tr>
+    <td style="text-align: center; border: 1px solid black; "> To find any action inside the IDE use Find Action </td>
+    <td style="text-align: center; border: 1px solid black; "> Ctrl + Shift + A </td> 
+    <td style="text-align: center; border: 1px solid black; "> ⌘ ⇧ A  </td>
   </tr>
-    <tr style="text-align: center; border: 1 px solid black; ">
-    <td style="text-align: center; border: 1 px solid black; "> Show intention actions and quick-fixes </td>
-    <td style="text-align: center; border: 1 px solid black; "> Alt + Enter </td> 
-    <td style="text-align: center; border: 1 px solid black; "> ⌥ Enter </td>
+    <tr>
+    <td style="text-align: center; border: 1px solid black; "> Show intention actions and quick-fixes </td>
+    <td style="text-align: center; border: 1px solid black; "> Alt + Enter </td> 
+    <td style="text-align: center; border: 1px solid black; "> ⌥ Enter </td>
   </tr>
-  <tr style="text-align: center; border: 1 px solid black; ">
-    <td style="text-align: center; border: 1 px solid black; "> Basic code completion (the name of any class, method or variable) </td>
-    <td style="text-align: center; border: 1 px solid black; "> Ctrl + Space </td> 
-    <td style="text-align: center; border: 1 px solid black; "> ⌃ Space  </td>
+  <tr>
+    <td style="text-align: center; border: 1px solid black; "> Basic code completion (the name of any class, method or variable) </td>
+    <td style="text-align: center; border: 1px solid black; "> Ctrl + Space </td> 
+    <td style="text-align: center; border: 1px solid black; "> ⌃ Space  </td>
   </tr>
-  <tr style="text-align: center; border: 1 px solid black; ">
-    <td style="text-align: center; border: 1 px solid black; "> Go to declaration (the name of any class, method or variable) </td>
-    <td style="text-align: center; border: 1 px solid black; "> Ctrl + B , Ctrl + Click </td> 
-    <td style="text-align: center; border: 1 px solid black; "> ⌘ B , ⌘ Click </td>
+  <tr>
+    <td style="text-align: center; border: 1px solid black; "> Go to declaration (the name of any class, method or variable) </td>
+    <td style="text-align: center; border: 1px solid black; "> Ctrl + B , Ctrl + Click </td> 
+    <td style="text-align: center; border: 1px solid black; "> ⌘ B , ⌘ Click </td>
   </tr>
-  <tr style="text-align: center; border: 1 px solid black; ">
-    <td style="text-align: center; border: 1 px solid black; "> Find/Replace </td>
-    <td style="text-align: center; border: 1 px solid black; "> Ctrl + F / Ctrl +  </td> 
-    <td style="text-align: center; border: 1 px solid black; "> ⌘ F, ⌘ R </td>
+  <tr>
+    <td style="text-align: center; border: 1px solid black; "> Find/Replace </td>
+    <td style="text-align: center; border: 1px solid black; "> Ctrl + F / Ctrl +  </td> 
+    <td style="text-align: center; border: 1px solid black; "> ⌘ F, ⌘ R </td>
   </tr>
-  <tr style="text-align: center; border: 1 px solid black; ">
-    <td style="text-align: center; border: 1 px solid black; "> Go to class </td>
-    <td style="text-align: center; border: 1 px solid black; "> Ctrl + N </td> 
-    <td style="text-align: center; border: 1 px solid black; "> ⌘ O </td>
+  <tr>
+    <td style="text-align: center; border: 1px solid black; "> Go to class </td>
+    <td style="text-align: center; border: 1px solid black; "> Ctrl + N </td> 
+    <td style="text-align: center; border: 1px solid black; "> ⌘ O </td>
   </tr>
-  <tr style="text-align: center; border: 1 px solid black; ">
-    <td style="text-align: center; border: 1 px solid black; "> Go to line </td>
-    <td style="text-align: center; border: 1 px solid black; "> Ctrl + G </td> 
-    <td style="text-align: center; border: 1 px solid black; "> ⌘ L </td>
+  <tr>
+    <td style="text-align: center; border: 1px solid black; "> Go to line </td>
+    <td style="text-align: center; border: 1px solid black; "> Ctrl + G </td> 
+    <td style="text-align: center; border: 1px solid black; "> ⌘ L </td>
   </tr>
 </table>
 
@@ -84,15 +84,15 @@ In this part basic functionality of IDE is demonstrated and gone through.
 - concept : [**_Pylint (style guides)_**](https://pylint.readthedocs.io/en/latest/intro.html) - iPylint is a tool that checks for errors in Python code, tries to enforce a coding standard and looks for code smells. It can also look for certain type errors, it can recommend suggestions about how particular blocks can be refactored and can offer you details about the code’s complexity. (Pylint wiki)
 
 <table style="width=100%;">
-  <tr style="text-align: center; border: 1 px solid black; ">
-    <th style="text-align: center; border: 1 px solid black; "> Action </th>
-    <th style="text-align: center; border: 1 px solid black; "> Win/Lin keys </th> 
-    <th style="text-align: center; border: 1 px solid black; "> Mac keys </th>
+  <tr>
+    <th style="text-align: center; border: 1px solid black; "> Action </th>
+    <th style="text-align: center; border: 1px solid black; "> Win/Lin keys </th> 
+    <th style="text-align: center; border: 1px solid black; "> Mac keys </th>
   </tr>
-  <tr style="text-align: center; border: 1 px solid black; ">
-    <td style="text-align: center; border: 1 px solid black; "> Reformat code </td>
-    <td style="text-align: center; border: 1 px solid black; "> Ctrl + Alt + L </td> 
-    <td style="text-align: center; border: 1 px solid black; "> ⌘ ⌥ L </td>
+  <tr>
+    <td style="text-align: center; border: 1px solid black; "> Reformat code </td>
+    <td style="text-align: center; border: 1px solid black; "> Ctrl + Alt + L </td> 
+    <td style="text-align: center; border: 1px solid black; "> ⌘ ⌥ L </td>
   </tr>
 </table>
 
@@ -107,35 +107,35 @@ In this part basic functionality of IDE is demonstrated and gone through.
 ### [Fast and Safe Refactorings](https://www.jetbrains.com/help/pycharm/2016.1/refactoring.html?search=refac) [3]
 
 <table style="width=100%;">
-  <tr style="text-align: center; border: 1 px solid black; ">
-    <th style="text-align: center; border: 1 px solid black; "> Action </th>
-    <th style="text-align: center; border: 1 px solid black; "> Win/Lin keys </th> 
-    <th style="text-align: center; border: 1 px solid black; "> Mac keys </th>
+  <tr>
+    <th style="text-align: center; border: 1px solid black; "> Action </th>
+    <th style="text-align: center; border: 1px solid black; "> Win/Lin keys </th> 
+    <th style="text-align: center; border: 1px solid black; "> Mac keys </th>
   </tr>
-  <tr style="text-align: center; border: 1 px solid black; ">
-    <td style="text-align: center; border: 1 px solid black; "> Change Signature </td>
-    <td style="text-align: center; border: 1 px solid black; "> Ctrl + F6 </td> 
-    <td style="text-align: center; border: 1 px solid black; "> ⌘ F6 </td>
+  <tr>
+    <td style="text-align: center; border: 1px solid black; "> Change Signature </td>
+    <td style="text-align: center; border: 1px solid black; "> Ctrl + F6 </td> 
+    <td style="text-align: center; border: 1px solid black; "> ⌘ F6 </td>
   </tr>
-  <tr style="text-align: center; border: 1 px solid black; ">
-    <td style="text-align: center; border: 1 px solid black; "> Surround with... </td>
-    <td style="text-align: center; border: 1 px solid black; "> Ctrl + Alt + T </td> 
-    <td style="text-align: center; border: 1 px solid black; "> ⌘ ⌥ T </td>
+  <tr>
+    <td style="text-align: center; border: 1px solid black; "> Surround with... </td>
+    <td style="text-align: center; border: 1px solid black; "> Ctrl + Alt + T </td> 
+    <td style="text-align: center; border: 1px solid black; "> ⌘ ⌥ T </td>
   </tr>
-  <tr style="text-align: center; border: 1 px solid black; ">
-    <td style="text-align: center; border: 1 px solid black; "> Extract Constant </td>
-    <td style="text-align: center; border: 1 px solid black; "> Ctrl + Alt + C </td> 
-    <td style="text-align: center; border: 1 px solid black; "> ⌘ ⌥ C </td>
+  <tr>
+    <td style="text-align: center; border: 1px solid black; "> Extract Constant </td>
+    <td style="text-align: center; border: 1px solid black; "> Ctrl + Alt + C </td> 
+    <td style="text-align: center; border: 1px solid black; "> ⌘ ⌥ C </td>
   </tr>
-  <tr style="text-align: center; border: 1 px solid black; ">
-    <td style="text-align: center; border: 1 px solid black; "> Extract Method </td>
-    <td style="text-align: center; border: 1 px solid black; "> Ctrl + Alt + M </td> 
-    <td style="text-align: center; border: 1 px solid black; "> ⌘ ⌥ M </td>
+  <tr>
+    <td style="text-align: center; border: 1px solid black; "> Extract Method </td>
+    <td style="text-align: center; border: 1px solid black; "> Ctrl + Alt + M </td> 
+    <td style="text-align: center; border: 1px solid black; "> ⌘ ⌥ M </td>
   </tr>
-  <tr style="text-align: center; border: 1 px solid black; ">
-    <td style="text-align: center; border: 1 px solid black; "> Safe delete </td>
-    <td style="text-align: center; border: 1 px solid black; "> Alt + Enter </td> 
-    <td style="text-align: center; border: 1 px solid black; "> ⌘ Delete </td>
+  <tr>
+    <td style="text-align: center; border: 1px solid black; "> Safe delete </td>
+    <td style="text-align: center; border: 1px solid black; "> Alt + Enter </td> 
+    <td style="text-align: center; border: 1px solid black; "> ⌘ Delete </td>
   </tr>
 </table>
 
@@ -152,35 +152,35 @@ In this part basic functionality of IDE is demonstrated and gone through.
 - remove debugging
 
 <table style="width=100%;">
-  <tr style="text-align: center; border: 1 px solid black; ">
-    <th style="text-align: center; border: 1 px solid black; "> Action </th>
-    <th style="text-align: center; border: 1 px solid black; "> Win/Lin keys </th> 
-    <th style="text-align: center; border: 1 px solid black; "> Mac keys </th>
+  <tr>
+    <th style="text-align: center; border: 1px solid black; "> Action </th>
+    <th style="text-align: center; border: 1px solid black; "> Win/Lin keys </th> 
+    <th style="text-align: center; border: 1px solid black; "> Mac keys </th>
   </tr>
-  <tr style="text-align: center; border: 1 px solid black; ">
-    <td style="text-align: center; border: 1 px solid black; "> Resume program </td>
-    <td style="text-align: center; border: 1 px solid black; "> F9 </td> 
-    <td style="text-align: center; border: 1 px solid black; "> F9 </td>
+  <tr>
+    <td style="text-align: center; border: 1px solid black; "> Resume program </td>
+    <td style="text-align: center; border: 1px solid black; "> F9 </td> 
+    <td style="text-align: center; border: 1px solid black; "> F9 </td>
   </tr>
-  <tr style="text-align: center; border: 1 px solid black; ">
-    <td style="text-align: center; border: 1 px solid black; "> Step over/into </td>
-    <td style="text-align: center; border: 1 px solid black; "> F8 / F7 </td> 
-    <td style="text-align: center; border: 1 px solid black; "> F8 / F7 </td>
+  <tr>
+    <td style="text-align: center; border: 1px solid black; "> Step over/into </td>
+    <td style="text-align: center; border: 1px solid black; "> F8 / F7 </td> 
+    <td style="text-align: center; border: 1px solid black; "> F8 / F7 </td>
   </tr>
-  <tr style="text-align: center; border: 1 px solid black; ">
-    <td style="text-align: center; border: 1 px solid black; "> Step out </td>
-    <td style="text-align: center; border: 1 px solid black; "> Shift + F8 </td> 
-    <td style="text-align: center; border: 1 px solid black; "> ⇧ F8 </td>
+  <tr>
+    <td style="text-align: center; border: 1px solid black; "> Step out </td>
+    <td style="text-align: center; border: 1px solid black; "> Shift + F8 </td> 
+    <td style="text-align: center; border: 1px solid black; "> ⇧ F8 </td>
   </tr>
-  <tr style="text-align: center; border: 1 px solid black; ">
-    <td style="text-align: center; border: 1 px solid black; "> Evaluate expression </td>
-    <td style="text-align: center; border: 1 px solid black; "> Alt + F8 </td> 
-    <td style="text-align: center; border: 1 px solid black; "> ⌥ F8 </td>
+  <tr>
+    <td style="text-align: center; border: 1px solid black; "> Evaluate expression </td>
+    <td style="text-align: center; border: 1px solid black; "> Alt + F8 </td> 
+    <td style="text-align: center; border: 1px solid black; "> ⌥ F8 </td>
   </tr>
-  <tr style="text-align: center; border: 1 px solid black; ">
-    <td style="text-align: center; border: 1 px solid black; "> View breakpoints </td>
-    <td style="text-align: center; border: 1 px solid black; "> Ctrl + Shift + F8 </td> 
-    <td style="text-align: center; border: 1 px solid black; "> ⌘ ⇧ F8 </td>
+  <tr>
+    <td style="text-align: center; border: 1px solid black; "> View breakpoints </td>
+    <td style="text-align: center; border: 1px solid black; "> Ctrl + Shift + F8 </td> 
+    <td style="text-align: center; border: 1px solid black; "> ⌘ ⇧ F8 </td>
   </tr>
 </table>
 
@@ -220,15 +220,15 @@ In this part basic functionality of IDE is demonstrated and gone through.
 ### [Plugins](https://www.jetbrains.com/help/pycharm/2016.1/plugins.html?search=plugins) [8]
 
 <table style="width=100%;">
-  <tr style="text-align: center; border: 1 px solid black; ">
-    <th style="text-align: center; border: 1 px solid black; "> Action </th>
-    <th style="text-align: center; border: 1 px solid black; "> Win/Lin keys </th> 
-    <th style="text-align: center; border: 1 px solid black; "> Mac keys </th>
+  <tr>
+    <th style="text-align: center; border: 1px solid black; "> Action </th>
+    <th style="text-align: center; border: 1px solid black; "> Win/Lin keys </th> 
+    <th style="text-align: center; border: 1px solid black; "> Mac keys </th>
   </tr>
-  <tr style="text-align: center; border: 1 px solid black; ">
-    <td style="text-align: center; border: 1 px solid black; "> Open Settings dialog </td>
-    <td style="text-align: center; border: 1 px solid black; "> Ctrl + Alt + S </td> 
-    <td style="text-align: center; border: 1 px solid black; "> ⌘ , </td>
+  <tr>
+    <td style="text-align: center; border: 1px solid black; "> Open Settings dialog </td>
+    <td style="text-align: center; border: 1px solid black; "> Ctrl + Alt + S </td> 
+    <td style="text-align: center; border: 1px solid black; "> ⌘ , </td>
   </tr>
 </table>
 

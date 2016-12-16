@@ -40,7 +40,15 @@ explained main concepts of IDE, learn about its benefits and motivation to start
 - buttons
 - **Run -> ...**
 
-
-| Action | Win/Lin keys | Mac keys |
-|:-:    |:-:    |:-:    |
-| To find any action inside the IDE use Find Action | Ctrl + Shift + A	| ⌘ ⇧ A |
+<table>
+  <tr>
+    <th> Action </th>
+    <th> Win/Lin keys </th> 
+    <th> Mac keys </th>
+  </tr>
+  <tr>
+    <td> To find any action inside the IDE use Find Action </td>
+    <td> Ctrl + Shift + A </td> 
+    <td> ⌘ ⇧ A  </td>
+  </tr>
+</table>

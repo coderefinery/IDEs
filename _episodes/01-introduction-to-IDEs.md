@@ -43,7 +43,6 @@ keyword: **INTEGRATED**
 
 ## Conventions
 
-<div style="width: 50%; border: 1px solid black;">
 <table>
   <tr>
     <th> Key combinations </th>
@@ -56,7 +55,6 @@ keyword: **INTEGRATED**
     <td> ⌘ ⇧ A  </td>
   </tr>
 </table>
-</div>
 
 - navigation inside software menus : **File -> Open -> ...**
 

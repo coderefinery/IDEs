@@ -31,16 +31,48 @@ In this part basic functionality of IDE is demonstrated and gone through.
 
 ### [Navigation](https://www.jetbrains.com/help/pycharm/2016.1/navigation-in-source-code.html?search=navigation) & [Code completion](https://www.jetbrains.com/help/pycharm/2016.1/code-completion.html?search=code%20comple) [1]
 
-| Action | Win/Lin keys | Mac keys |
-|:-:    |:-:    |:-:    |
-| To find any action inside the IDE use Find Action | Ctrl + Shift + A | ⌘ ⇧ A |
-| Show intention actions and quick-fixes | Alt + Enter	| ⌥ Enter 
-| Basic code completion (the name of any class, method or variable)	| Ctrl + Space | ⌃ Space |
-| Go to declaration	| Ctrl + B , Ctrl + Click	| ⌘ B , ⌘ Click |
-| Find/Replace | Ctrl + F / Ctrl + R | ⌘ F, ⌘ R |
-| Find in path | Ctrl + Shift + F | ⌘ ⇧ F |
-| Go to class    | Ctrl + N | ⌘ O |
-| Go to line | Ctrl + G	| ⌘ L |
+<table>
+  <tr>
+    <th> Action </th>
+    <th> Win/Lin keys </th> 
+    <th> Mac keys </th>
+  </tr>
+  <tr>
+    <td> To find any action inside the IDE use Find Action </td>
+    <td> Ctrl + Shift + A </td> 
+    <td> ⌘ ⇧ A  </td>
+  </tr>
+    <tr>
+    <td> Show intention actions and quick-fixes </td>
+    <td> Alt + Enter </td> 
+    <td> ⌥ Enter </td>
+  </tr>
+  <tr>
+    <td> Basic code completion (the name of any class, method or variable) </td>
+    <td> Ctrl + Space </td> 
+    <td> ⌃ Space  </td>
+  </tr>
+  <tr>
+    <td> Go to declaration (the name of any class, method or variable) </td>
+    <td> Ctrl + B , Ctrl + Click </td> 
+    <td> ⌘ B , ⌘ Click </td>
+  </tr>
+  <tr>
+    <td> Find/Replace </td>
+    <td> Ctrl + F / Ctrl +  </td> 
+    <td> ⌘ F, ⌘ R </td>
+  </tr>
+  <tr>
+    <td> Go to class </td>
+    <td> Ctrl + N </td> 
+    <td> ⌘ O </td>
+  </tr>
+  <tr>
+    <td> Go to line </td>
+    <td> Ctrl + G </td> 
+    <td> ⌘ L </td>
+  </tr>
+</table>
 
 ---
 
@@ -51,9 +83,18 @@ In this part basic functionality of IDE is demonstrated and gone through.
 - concept : [**_PEP8 (style guides)_**](https://www.python.org/dev/peps/pep-0008/#introduction) - is a StyleGuide for Python. A tool that validates code against it goes by the same name. (Python wiki)
 - concept : [**_Pylint (style guides)_**](https://pylint.readthedocs.io/en/latest/intro.html) - iPylint is a tool that checks for errors in Python code, tries to enforce a coding standard and looks for code smells. It can also look for certain type errors, it can recommend suggestions about how particular blocks can be refactored and can offer you details about the code’s complexity. (Pylint wiki)
 
-| Action | Win/Lin keys | Mac keys |
-|:-:    |:-:    |:-:    |
-| Reformat code | Ctrl + Alt + L | ⌘ ⌥ L |
+<table>
+  <tr>
+    <th> Action </th>
+    <th> Win/Lin keys </th> 
+    <th> Mac keys </th>
+  </tr>
+  <tr>
+    <td> Reformat code </td>
+    <td> Ctrl + Alt + L </td> 
+    <td> ⌘ ⌥ L </td>
+  </tr>
+</table>
 
 
 - code analysis : **Code -> Inspect Code**
@@ -65,13 +106,38 @@ In this part basic functionality of IDE is demonstrated and gone through.
 
 ### [Fast and Safe Refactorings](https://www.jetbrains.com/help/pycharm/2016.1/refactoring.html?search=refac) [3]
 
-| Action | Win/Lin keys | Mac keys |
-|:-:    |:-:    |:-:    |
-| Change Signature | Ctrl + F6 | ⌘ F6 |
-| Surround with... | Ctrl + Alt + T	| ⌘ ⌥ T |
-| Extract Constant | Ctrl + Alt + C	| ⌘ ⌥ C |
-| Extract Method | Ctrl + Alt + M | ⌘ ⌥ M |
-| Safe delete | Alt + Enter | ⌘ Delete |
+<table>
+  <tr>
+    <th> Action </th>
+    <th> Win/Lin keys </th> 
+    <th> Mac keys </th>
+  </tr>
+  <tr>
+    <td> Change Signature </td>
+    <td> Ctrl + F6 </td> 
+    <td> ⌘ F6 </td>
+  </tr>
+  <tr>
+    <td> Surround with... </td>
+    <td> Ctrl + Alt + T </td> 
+    <td> ⌘ ⌥ T </td>
+  </tr>
+  <tr>
+    <td> Extract Constant </td>
+    <td> Ctrl + Alt + C </td> 
+    <td> ⌘ ⌥ C </td>
+  </tr>
+  <tr>
+    <td> Extract Method </td>
+    <td> Ctrl + Alt + M </td> 
+    <td> ⌘ ⌥ M </td>
+  </tr>
+  <tr>
+    <td> Safe delete </td>
+    <td> Alt + Enter </td> 
+    <td> ⌘ Delete </td>
+  </tr>
+</table>
 
 ---
 
@@ -85,13 +151,38 @@ In this part basic functionality of IDE is demonstrated and gone through.
 - take a look
 - remove debugging
 
-| Action | Win/Lin keys | Mac keys |
-|:-:    |:-:    |:-:    |
-| Step over/into | F8 / F7 | F8 / F7 |
-| Resume program | F9 | F9 |
-| Step out | Shift + F8 | ⇧ F8 |
-| Evaluate expression | Alt + F8 | ⌥ F8 |
-| View breakpoints | Ctrl + Shift + F8 | ⌘ ⇧ F8 |
+<table>
+  <tr>
+    <th> Action </th>
+    <th> Win/Lin keys </th> 
+    <th> Mac keys </th>
+  </tr>
+  <tr>
+    <td> Resume program </td>
+    <td> F9 </td> 
+    <td> F9 </td>
+  </tr>
+  <tr>
+    <td> Step over/into </td>
+    <td> F8 / F7 </td> 
+    <td> F8 / F7 </td>
+  </tr>
+  <tr>
+    <td> Step out </td>
+    <td> Shift + F8 </td> 
+    <td> ⇧ F8 </td>
+  </tr>
+  <tr>
+    <td> Evaluate expression </td>
+    <td> Alt + F8 </td> 
+    <td> ⌥ F8 </td>
+  </tr>
+  <tr>
+    <td> View breakpoints </td>
+    <td> Ctrl + Shift + F8 </td> 
+    <td> ⌘ ⇧ F8 </td>
+  </tr>
+</table>
 
 
 - set value
@@ -128,9 +219,18 @@ In this part basic functionality of IDE is demonstrated and gone through.
 
 ### [Plugins](https://www.jetbrains.com/help/pycharm/2016.1/plugins.html?search=plugins) [8]
 
-| Action | Win/Lin keys | Mac keys |
-|:-:    |:-:    |:-:    |
-| Open Settings dialog | Ctrl + Alt + S | ⌘ , |
+<table>
+  <tr>
+    <th> Action </th>
+    <th> Win/Lin keys </th> 
+    <th> Mac keys </th>
+  </tr>
+  <tr>
+    <td> Open Settings dialog </td>
+    <td> Ctrl + Alt + S </td> 
+    <td> ⌘ , </td>
+  </tr>
+</table>
 
 
 - Plugins, plugins are everywhere... 

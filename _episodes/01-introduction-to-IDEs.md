@@ -43,7 +43,7 @@ keyword: **INTEGRATED**
 
 ## Conventions
 
-<table style="width:100%">
+<table style="width: 50%; border: 1px solid black;">
   <tr>
     <th> Key combinations </th>
     <th> Win/Lin keys </th> 

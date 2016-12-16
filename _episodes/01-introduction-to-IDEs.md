@@ -43,9 +43,9 @@ keyword: **INTEGRATED**
 
 ## Conventions
 
-| Action | Win/Lin keys | Mac keys |
-|:-:    |:-:    |:-:    |
-| Key combinations | Ctrl + Shift + A | ⌘ ⇧ A |
+| Action           |   | Win/Lin keys     |   | Mac keys |
+| ---------------- | - | ---------------- | - | -------- |
+| Key combinations |   | Ctrl + Shift + A |   | ⌘ ⇧ A    |
 
 - navigation inside software menus : **File -> Open -> ...**
 

@@ -40,7 +40,7 @@ explained main concepts of IDE, learn about its benefits and motivation to start
 - buttons
 - **Run -> ...**
 
-<table style="width=100%;"
+<table style="width=100%;">
   <tr style="text-align: center; border: 1 px solid black; ">
     <th style="text-align: center; border: 1 px solid black; "> Action </th>
     <th style="text-align: center; border: 1 px solid black; "> Win/Lin keys </th> 

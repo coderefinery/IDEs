@@ -31,7 +31,7 @@ In this part basic functionality of IDE is demonstrated and gone through.
 
 ### [Navigation](https://www.jetbrains.com/help/pycharm/2016.1/navigation-in-source-code.html?search=navigation) & [Code completion](https://www.jetbrains.com/help/pycharm/2016.1/code-completion.html?search=code%20comple) [1]
 
-<table style="width=100%;"
+<table style="width=100%;">
   <tr style="text-align: center; border: 1 px solid black; ">
     <th style="text-align: center; border: 1 px solid black; "> Action </th>
     <th style="text-align: center; border: 1 px solid black; "> Win/Lin keys </th> 
@@ -83,7 +83,7 @@ In this part basic functionality of IDE is demonstrated and gone through.
 - concept : [**_PEP8 (style guides)_**](https://www.python.org/dev/peps/pep-0008/#introduction) - is a StyleGuide for Python. A tool that validates code against it goes by the same name. (Python wiki)
 - concept : [**_Pylint (style guides)_**](https://pylint.readthedocs.io/en/latest/intro.html) - iPylint is a tool that checks for errors in Python code, tries to enforce a coding standard and looks for code smells. It can also look for certain type errors, it can recommend suggestions about how particular blocks can be refactored and can offer you details about the code’s complexity. (Pylint wiki)
 
-<table style="width=100%;"
+<table style="width=100%;">
   <tr style="text-align: center; border: 1 px solid black; ">
     <th style="text-align: center; border: 1 px solid black; "> Action </th>
     <th style="text-align: center; border: 1 px solid black; "> Win/Lin keys </th> 
@@ -106,7 +106,7 @@ In this part basic functionality of IDE is demonstrated and gone through.
 
 ### [Fast and Safe Refactorings](https://www.jetbrains.com/help/pycharm/2016.1/refactoring.html?search=refac) [3]
 
-<table style="width=100%;"
+<table style="width=100%;">
   <tr style="text-align: center; border: 1 px solid black; ">
     <th style="text-align: center; border: 1 px solid black; "> Action </th>
     <th style="text-align: center; border: 1 px solid black; "> Win/Lin keys </th> 
@@ -151,7 +151,7 @@ In this part basic functionality of IDE is demonstrated and gone through.
 - take a look
 - remove debugging
 
-<table style="width=100%;"
+<table style="width=100%;">
   <tr style="text-align: center; border: 1 px solid black; ">
     <th style="text-align: center; border: 1 px solid black; "> Action </th>
     <th style="text-align: center; border: 1 px solid black; "> Win/Lin keys </th> 
@@ -219,7 +219,7 @@ In this part basic functionality of IDE is demonstrated and gone through.
 
 ### [Plugins](https://www.jetbrains.com/help/pycharm/2016.1/plugins.html?search=plugins) [8]
 
-<table style="width=100%;"
+<table style="width=100%;">
   <tr style="text-align: center; border: 1 px solid black; ">
     <th style="text-align: center; border: 1 px solid black; "> Action </th>
     <th style="text-align: center; border: 1 px solid black; "> Win/Lin keys </th> 

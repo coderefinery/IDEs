@@ -43,18 +43,20 @@ keyword: **INTEGRATED**
 
 ## Conventions
 
-<table style="width: 50%; border: 1px solid black;">
+<div style="width: 50%; border: 1px solid black;">
+<table>
   <tr>
     <th> Key combinations </th>
     <th> Win/Lin keys </th> 
     <th> Mac keys </th>
   </tr>
-    <tr>
+  <tr>
     <td> Action </td>
     <td> Ctrl + Shift + A </td> 
     <td> ⌘ ⇧ A  </td>
   </tr>
 </table>
+<div>
 
 - navigation inside software menus : **File -> Open -> ...**
 

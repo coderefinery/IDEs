@@ -26,7 +26,7 @@ explained main concepts of IDE, learn about its benefits and motivation to start
 ## Installation and setup
 
 - follow the software installer guide
-- open our exiting project: **File -> Open -> ...** (or download from: https://github.com/coderefinery/csvwrangler )
+- open our exiting project: **File -> Open -> ...** (or download from: https://github.com/coderefinery/IDEs )
 
 <table style="width=100%;">
   <tr>

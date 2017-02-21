@@ -14,22 +14,23 @@ objectives:
 In this part basic functionality of IDE is demonstrated and gone through.
 
 ## Intelligent Coding Assistance
-- Code completion [1]
-- On-the-fly error highlighting [2]
-- Fast and Safe Refactorings [3]
+- Code completion [0]
+- On-the-fly error highlighting [1]
+- Fast and Safe Refactorings [2]
 
 ## Built-in Developer Tools
-- Visual Debugger [4]
-- VCS + Local History [5]
-- Profiler [6]
-- Vagrant [7]
+- Visual Debugger [3]
+- VCS + Local History [4]
+- Profiler [5]
+- Vagrant [6]
+- VirtualEnv [7]
 
 ## Customizable and Cross-platform IDE
-- Plugins [8]
+- Plugins
 
 ## Intelligent Coding Assistance
 
-### [Navigation](https://www.jetbrains.com/help/pycharm/2016.1/navigation-in-source-code.html?search=navigation) & [Code completion](https://www.jetbrains.com/help/pycharm/2016.1/code-completion.html?search=code%20comple) [1]
+### [Navigation](https://www.jetbrains.com/help/pycharm/2016.1/navigation-in-source-code.html?search=navigation) & [Code completion](https://www.jetbrains.com/help/pycharm/2016.1/code-completion.html?search=code%20comple) [0]
 
 <table style="width=100%;">
   <tr>
@@ -58,8 +59,13 @@ In this part basic functionality of IDE is demonstrated and gone through.
     <td style="text-align: center; border: 1px solid black; "> ⌘ B , ⌘ Click </td>
   </tr>
   <tr>
+    <td style="text-align: center; border: 1px solid black; "> Select successively increasing code blocks </td>
+    <td style="text-align: center; border: 1px solid black; "> Ctrl + W </td> 
+    <td style="text-align: center; border: 1px solid black; "> ⌥ ↑ </td>
+  </tr>
+  <tr>
     <td style="text-align: center; border: 1px solid black; "> Find/Replace </td>
-    <td style="text-align: center; border: 1px solid black; "> Ctrl + F / Ctrl +  </td> 
+    <td style="text-align: center; border: 1px solid black; "> Ctrl + F / Ctrl + R </td> 
     <td style="text-align: center; border: 1px solid black; "> ⌘ F, ⌘ R </td>
   </tr>
   <tr>
@@ -78,10 +84,10 @@ In this part basic functionality of IDE is demonstrated and gone through.
 
 ## Intelligent Coding Assistance
 
-### [On-the-fly error highlighting]() [2]
+### [On-the-fly error highlighting]() [1]
 
 - concept : [**_PEP8 (style guides)_**](https://www.python.org/dev/peps/pep-0008/#introduction) - is a StyleGuide for Python. A tool that validates code against it goes by the same name. (Python wiki)
-- concept : [**_Pylint (style guides)_**](https://pylint.readthedocs.io/en/latest/intro.html) - iPylint is a tool that checks for errors in Python code, tries to enforce a coding standard and looks for code smells. It can also look for certain type errors, it can recommend suggestions about how particular blocks can be refactored and can offer you details about the code’s complexity. (Pylint wiki)
+- concept : [**_Pylint (style guides)_**](https://pylint.readthedocs.io/en/latest/intro.html) - Pylint is a tool that checks for errors in Python code, tries to enforce a coding standard and looks for code smells. It can also look for certain type errors, it can recommend suggestions about how particular blocks can be refactored and can offer you details about the code’s complexity. (Pylint wiki)
 
 <table style="width=100%;">
   <tr>
@@ -104,7 +110,7 @@ In this part basic functionality of IDE is demonstrated and gone through.
 
 ## Intelligent Coding Assistance
 
-### [Fast and Safe Refactorings](https://www.jetbrains.com/help/pycharm/2016.1/refactoring.html?search=refac) [3]
+### [Fast and Safe Refactorings](https://www.jetbrains.com/help/pycharm/2016.1/refactoring.html?search=refac) [2]
 
 <table style="width=100%;">
   <tr>
@@ -134,7 +140,7 @@ In this part basic functionality of IDE is demonstrated and gone through.
   </tr>
   <tr>
     <td style="text-align: center; border: 1px solid black; "> Safe delete </td>
-    <td style="text-align: center; border: 1px solid black; "> Alt + Enter </td> 
+    <td style="text-align: center; border: 1px solid black; "> Alt + Delete </td> 
     <td style="text-align: center; border: 1px solid black; "> ⌘ Delete </td>
   </tr>
 </table>
@@ -143,7 +149,7 @@ In this part basic functionality of IDE is demonstrated and gone through.
 
 ## Built-in Developer Tools
 
-### [Visual Debugger](https://www.jetbrains.com/help/pycharm/2016.1/debugger.html?search=debugger) [4]
+### [Visual Debugger](https://www.jetbrains.com/help/pycharm/2016.1/debugger.html?search=debugger) [3]
 
 - concept : [**_breakpoint_**](https://en.wikipedia.org/wiki/Breakpoint) - a breakpoint is an intentional stopping or pausing place in a program, put in place for debugging purposes. (Wikipedia)
 
@@ -183,7 +189,7 @@ In this part basic functionality of IDE is demonstrated and gone through.
     <td style="text-align: center; border: 1px solid black; "> ⌘ ⇧ F8 </td>
   </tr>
 </table>
-
+<br/>
 
 - set value
 
@@ -191,7 +197,7 @@ In this part basic functionality of IDE is demonstrated and gone through.
 
 ## Built-in Developer Tools
 
-### [VCS](https://www.jetbrains.com/help/pycharm/2016.1/version-control-with-pycharm.html) + [Local history](https://www.jetbrains.com/help/pycharm/2016.1/local-history.html?search=local%20history) [5]
+### [VCS](https://www.jetbrains.com/help/pycharm/2016.1/version-control-with-pycharm.html) + [Local history](https://www.jetbrains.com/help/pycharm/2016.1/local-history.html?search=local%20history) [4]
 
 - VCS integration (not limited to Git)
 - Local History
@@ -200,7 +206,7 @@ In this part basic functionality of IDE is demonstrated and gone through.
 
 ## Built-in Developer Tools
 
-### [Profiler](https://www.jetbrains.com/help/pycharm/2016.1/profiler.html) [6]
+### [Profiler](https://www.jetbrains.com/help/pycharm/2016.1/profiler.html) [5]
 
 - run in debug mode : **Run -> Profile '...'**
 - take a look at results
@@ -209,15 +215,19 @@ In this part basic functionality of IDE is demonstrated and gone through.
 
 ## Built-in Developer Tools
 
-### [Vagrant](https://www.jetbrains.com/help/pycharm/2016.1/vagrant.html?search=vagrant) [7]
+### [Vagrant](https://www.jetbrains.com/help/pycharm/2016.1/vagrant.html?search=vagrant) [6]
 
 - demo : **Tools -> Vagrant -> ...** (PyCharm Professional only)
+
+### [VirtualEnv](https://virtualenv.pypa.io/en/stable/) [7]
+
+- creating virtual environments
 
 ---
 
 ## Customizable and Cross-platform IDE
 
-### [Plugins](https://www.jetbrains.com/help/pycharm/2016.1/plugins.html?search=plugins) [8]
+### [Plugins](https://www.jetbrains.com/help/pycharm/2016.1/plugins.html?search=plugins)
 
 <table style="width=100%;">
   <tr>
@@ -231,7 +241,7 @@ In this part basic functionality of IDE is demonstrated and gone through.
     <td style="text-align: center; border: 1px solid black; "> ⌘ , </td>
   </tr>
 </table>
-
+<br/>
 
 - Plugins, plugins are everywhere... 
 

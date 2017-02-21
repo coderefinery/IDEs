@@ -40,9 +40,10 @@ explained main concepts of IDE, learn about its benefits and motivation to start
     <td style="text-align: center; border: 1px solid black; "> ⌘ ⇧ A  </td>
   </tr>
 </table>
+<br/>
 
-- google for "hotkeys pycharm" for Win/Lin: https://resources.jetbrains.com/assets/products/pycharm/PyCharm_ReferenceCard.pdf , 
-- google for "hotkeys pycharm" for Mac: https://resources.jetbrains.com/assets/products/pycharm/PyCharm_ReferenceCard_mac.pdf
+- google for "hotkeys pycharm" for **default** Win/Lin keymap: https://resources.jetbrains.com/assets/products/pycharm/PyCharm_ReferenceCard.pdf , 
+- google for "hotkeys pycharm" for **default** Mac keymap: https://resources.jetbrains.com/assets/products/pycharm/PyCharm_ReferenceCard_mac.pdf
 - latest docs: https://www.jetbrains.com/help/pycharm/2016.3/
 - slide...
 
@@ -52,5 +53,5 @@ explained main concepts of IDE, learn about its benefits and motivation to start
 - **View -> ...**
 - panes
 - buttons
-- **Run -> ...**
+- **Run -> ...** (finalizing setup)
 

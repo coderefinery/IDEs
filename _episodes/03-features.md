@@ -219,9 +219,9 @@ In this part basic functionality of IDE is demonstrated and gone through.
 
 - demo : **Tools -> Vagrant -> ...** (PyCharm Professional only)
 
-### [VirtualEnv](https://virtualenv.pypa.io/en/stable/) [7]
+### [VirtualEnv](https://www.jetbrains.com/help/pycharm/2016.3/creating-virtual-environment.html) [7]
 
-- creating virtual environments
+- creating [virtual environments](https://virtualenv.pypa.io/en/stable/)
 
 ---
 

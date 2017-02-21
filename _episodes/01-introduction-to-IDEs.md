@@ -33,9 +33,10 @@ keyword: **INTEGRATED**
 
 - decreases pain
 - boosts effectiveness
-- "the way big boys do" (best-practice)
+- best-practice
 
 - ±multifunctional
+- ±need to learn new tool
 
 ## Discussion
 

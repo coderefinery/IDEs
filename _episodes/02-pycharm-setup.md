@@ -4,7 +4,7 @@ title: "PyCharm setup"
 teaching: 15
 exercises: 15
 questions:
-  - "Hot to install PyCharm?"
+  - "How to install PyCharm?"
 objectives:
   - "PyCharm is installed."
   - "The project is imported into PyCharm."
@@ -27,18 +27,6 @@ explained main concepts of IDE, learn about its benefits and motivation to start
 
 - follow the software installer guide
 - open our exiting project: **File -> Open -> ...** (or download from: https://github.com/coderefinery/csvwrangler )
-- google for "hotkeys pycharm" for Win/Lin: https://resources.jetbrains.com/assets/products/pycharm/PyCharm_ReferenceCard.pdf , 
-- google for "hotkeys pycharm" for Mac: https://resources.jetbrains.com/assets/products/pycharm/PyCharm_ReferenceCard_mac.pdf
-- latest docs: https://www.jetbrains.com/help/pycharm/2016.3/
-- slide...
-
-## Intro
-
-- dependencies resolution
-- **View -> ...**
-- panes
-- buttons
-- **Run -> ...**
 
 <table style="width=100%;">
   <tr>
@@ -52,3 +40,17 @@ explained main concepts of IDE, learn about its benefits and motivation to start
     <td style="text-align: center; border: 1px solid black; "> ⌘ ⇧ A  </td>
   </tr>
 </table>
+
+- google for "hotkeys pycharm" for Win/Lin: https://resources.jetbrains.com/assets/products/pycharm/PyCharm_ReferenceCard.pdf , 
+- google for "hotkeys pycharm" for Mac: https://resources.jetbrains.com/assets/products/pycharm/PyCharm_ReferenceCard_mac.pdf
+- latest docs: https://www.jetbrains.com/help/pycharm/2016.3/
+- slide...
+
+## Intro
+
+- dependencies resolution
+- **View -> ...**
+- panes
+- buttons
+- **Run -> ...**
+

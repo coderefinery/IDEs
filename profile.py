@@ -2,11 +2,10 @@
 
 
 def factorialOne(n):
-    i   f n == 0:
+    if n == 0:
         return 1
     else:
         return n * factorialOne(n - 1)
-
 
 
 def factorialTwo(n):

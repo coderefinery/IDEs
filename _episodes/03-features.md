@@ -144,7 +144,7 @@ In this part basic functionality of IDE is demonstrated and gone through.
     <td style="text-align: center; border: 1px solid black; "> ⌘ Delete </td>
   </tr>
   <tr>
-    <td style="text-align: center; border: 1px solid black; "> Safe delete </td>
+    <td style="text-align: center; border: 1px solid black; "> Create test </td>
     <td style="text-align: center; border: 1px solid black; "> Ctrl + Shift + T </td> 
     <td style="text-align: center; border: 1px solid black; "> ⌘ ⇧ T </td>
   </tr>

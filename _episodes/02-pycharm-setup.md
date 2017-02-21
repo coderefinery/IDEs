@@ -53,5 +53,6 @@ explained main concepts of IDE, learn about its benefits and motivation to start
 - **View -> ...**
 - panes
 - buttons
+- terminal
 - **Run -> ...** (finalizing setup)
 

@@ -1,23 +1,31 @@
-# this script is here to demo profiling with PyCharm and ...
+# this script is here to demo profiling with PyCharm
+import math
 
-def factorial(n):
-	
-		if n == 0:
+
+def factorialOne(n):
+	if n == 0:
 		return 1
 	else:
-		return n * factorial(n - 1)
+		return n * factorialOne(n - 1)
+
+
+def factorialTwo(n):
+	if n == 0:
+		return 1
+	else:
+		return n * factorialTwo(n - 1)
+
 
 def doubleSqrt(n):
 	return math.sqrt(math.sqrt(n))
 
 
-
 def main():
-	for x in range(0, 100000):
-		fact = factorial(x)
-		print(fact)
-		root = doubleSqrt(x)
-		print(root)
+	for x in range(0, 80000):
+		resultOne = factorialOne(x)
+		print(resultOne)
+		resultTwo = factorialTwo(x)
+		print(resultTwo)
 
 
 if __name__ == "__main__":

@@ -22,7 +22,7 @@ During this lesson the typical IDE installation process is completed. Session ai
 motivation for choosing PyCharm is quite simple: 
 - Python language is more or less familiar to the majority of the workshop's audience
 - PyCharm belongs to JetBrains' IDE product family, which is considered to be one of the best ranges of developer tools existing
-- there are similar IDEs for different technologies: 
+- there are similar IDEs for different technologies:  
 <table style="width:70%;">
   <tr>
     <th style="text-align: center; border: 1px solid black; padding: 3px;"> technology </th>
@@ -46,7 +46,6 @@ motivation for choosing PyCharm is quite simple:
   </tr>
 </table>
 <br/>
-
 PyCharm comes in 3 (three) flavours:
 - community edition (the one we are going to use during the session)
 - educational edition (open source, good for learning purposes)
@@ -87,5 +86,3 @@ as a notice: there is a way to get commercial edition licenses for [open source 
 - buttons
 - terminal
 - **Run -> ...** (finalizing setup)
-
-    padding: 3px;

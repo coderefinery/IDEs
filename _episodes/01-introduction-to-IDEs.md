@@ -2,7 +2,6 @@
 layout: episode
 title: "Introduction to IDEs"
 talking and hand-waving: 15
-
 questions:
   - "What is an IDE?"
   - "Why to use an IDE?"

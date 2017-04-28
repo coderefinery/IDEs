@@ -31,7 +31,7 @@ Some examples of the text editing Universe:
 
 The visual representation of a IDE is close to:
 
-<img src="/img/10-wave-fanned-black-oxide.jpg" style=""width:45%"><img src="/img/10-wave-closed-black-oxide.jpg" style=""width:45%">
+<img src="/img/10-wave-fanned-black-oxide.jpg" style="width:45%"><img src="/img/10-wave-closed-black-oxide.jpg" style="width:45%">
 
 ## Discussion
 

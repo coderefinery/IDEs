@@ -2,5 +2,5 @@
 
 # Lesson on automated IDE (PyCharm)
 
-- [Website](https://coderefinery.github.io/IDEs/)
-- [Credit and license](https://coderefinery.github.io/IDEs/license/)
+- [Website]({{site.baseurl}})
+- [Credit and license]({{site.baseurl}}/license/)

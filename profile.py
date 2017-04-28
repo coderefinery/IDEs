@@ -1,30 +1,66 @@
 # this script is here to demo profiling with PyCharm
 
+class Scientist:
+    def __init__(self, name, age, major):
+        self.name = name
+        self.age = age
+        self.major = major
 
-def factorialOne(n):
-    if n == 0:
-        return 1
-    else:
-        return n * factorialOne(n - 1)
-
-
-def factorialTwo(n):
-    if n == 0:
-        return 1
-    else:
-        return n * factorialTwo(n - 1)
-
-
-def doubleSqrt(n):
-    return math.sqrt(math.sqrt(n))
+    def is_old(self):
+        return self.age > 100
 
 
 def main():
-    for x in range(0, 80000):
-        resultOne = factorialOne(x)
-        print(resultOne)
-        resultTwo = factorialTwo(x)
-        print(resultTwo)
+    s = Scientist('Sea,', 30, None)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 if __name__ == "__main__":

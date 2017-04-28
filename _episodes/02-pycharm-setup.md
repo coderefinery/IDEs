@@ -2,33 +2,64 @@
 layout: episode
 title: "PyCharm setup"
 teaching: 15
-exercises: 15
+practice: 20
 questions:
   - "How to install PyCharm?"
 objectives:
-  - "PyCharm is installed."
+  - "PyCharm installation is verified."
   - "The project is imported into PyCharm."
-  - "The cheat sheet is downloaded."
+  - "Student is aware of the supporting materials locations."
 keypoints:
-  - "It is easy to start with IDE."
+  - "It is easy and fun to start with the IDE."
 ---
 
 # PyCharm setup
 
-In this lesson the typical IDE installation process is completed. This session aims to expose ease of beginning with IDE, point to sources of information.
-explained main concepts of IDE, learn about its benefits and motivation to start using it. The goal is to provide basic understanding of what IDEs are and which functions they contain. You will also get a generic idea about the variety of tools available, in next lesson you will get to know some of the tools a bit better. 
+During this lesson the typical IDE installation process is completed. Session aims to expose ease of beginning with IDE, point to sources of information as well as guide towards having a verified valid installation on a local machine (OS agnostic). 
 
 ## PyCharm
 
-- motivation for choosing PyCharm
-- licencing aspects
+motivation for choosing PyCharm is quite simple: 
+- Python language is more or less familiar to the majority of the workshop's audience
+- PyCharm belongs to JetBrains' IDE product family, which is considered to be one of the best ranges of developer tools existing
+- there are similar IDEs for different technologies: 
+<table style="width=70%;">
+  <tr>
+    <th style="text-align: center; border: 1px solid black; "> technology </th>
+    <th style="text-align: center; border: 1px solid black; "> IDE </th> 
+  </tr>
+  <tr>
+    <td style="text-align: center; border: 1px solid black; "> Python </td>
+    <td style="text-align: center; border: 1px solid black; "> PyCharm / Edu </td> 
+  </tr>  
+  <tr>
+    <td style="text-align: center; border: 1px solid black; "> C / C++ </td>
+    <td style="text-align: center; border: 1px solid black; "> CLion </td> 
+  </tr>
+    <tr>
+    <td style="text-align: center; border: 1px solid black; "> C++ </td>
+    <td style="text-align: center; border: 1px solid black; "> ReSharper C++ as Visual Studio Extension </td> 
+  </tr>
+  <tr>
+    <td style="text-align: center; border: 1px solid black; "> SQL (Databases) </td>
+    <td style="text-align: center; border: 1px solid black; "> DataGrip </td> 
+  </tr>
+</table>
+
+PyCharm comes in 3 (three) flavours:
+- community edition (the one we are going to use during the session)
+- educational edition (open source, good for learning purposes)
+- commercial edition (a tool for serious adventures)
+
+as a notice: there is a way to get commercial edition licenses for [open source projects](https://www.jetbrains.com/buy/opensource/#application-rules) and [students](https://www.jetbrains.com/student/) for free
 
 ## Installation and setup
 
-- follow the software installer guide
+- [download](https://www.jetbrains.com/pycharm/download) the bundle if not done yet
+- start installation and follow the software installer guide
 - open our exiting project: **File -> Open -> ...** (or download from: https://github.com/coderefinery/IDEs )
 
-<table style="width=100%;">
+<table style="width=70%;">
   <tr>
     <th style="text-align: center; border: 1px solid black; "> Action </th>
     <th style="text-align: center; border: 1px solid black; "> Win/Lin keys </th> 

@@ -1,50 +1,55 @@
 ---
 layout: episode
 title: "Introduction to IDEs"
-teaching: 15
-exercises: 5
+talking and hand-waving: 15
+
 questions:
   - "What is an IDE?"
   - "Why to use an IDE?"
 objectives:
-  - "The goal is to get a basic idea of what IDEs are about."
-  - "You should get an idea about how IDEs could benefit you."
+  - "Basic concept of IDE is introduced"
+  - "Main IDE usage benefits explained"
 keypoints:
   - "IDEs are helpful, really..."
 ---
 
 # Introduction to IDEs
 
-In this lesson you will be explained main concepts of IDE, learn about its benefits and motivation to start using it. The goal is to provide basic understanding of what IDEs are and which functions they contain. You will also get a generic idea about the variety of tools available, later on you will get to know some of the tools a bit closer. 
+In this lesson main concepts of IDE will be explained. One will also learn about the benefits and motivation to start using it. The main goal is to provide basic understanding of what IDEs are and which features they might contain, the goal is supported by a IDE-specific hands-on exercises later on.
+Secondary goal is pointing out the variety of the tools available.
 
 ##  What is an IDE?
 
 keyword: **INTEGRATED**
 
-IDE stands for Integrated Development Environment - is a software application that provides comprehensive facilities to computer programmers for software development (Wikipedia). There are plenty of software that are IDEs and alikes.
+IDE stands for "Integrated Development Environment" - is a software application that provides comprehensive facilities to computer programmers for software development (Wikipedia). There are plenty of software that are IDEs and alikes. However, there is [no defined terminator](https://www.linkedin.com/learning/learning-notepad-plus-plus-for-developers/welcome) between a text editor and the IDE. 
 
-So called IDEs: Pyzo, NinjaIDE, Pycharm, VisualStudio, CLion, Multi, RStudio, Eclipse and editors (that with some amount of skills and knowledge might be turned into cool custom IDE-likes software complexes, or not): Emacs, Vim, Sublime, Notepad++ .
+Some examples of the text editing Universe:
+- editors: proudly [Vim](http://www.vim.org/) and the legendary [vi](http://ex-vi.sourceforge.net/), his , no less famous [Emacs](https://www.gnu.org/software/emacs/), [Sublime Text](https://www.sublimetext.com/), [Notepad++](https://notepad-plus-plus.org/) _etc._ that with some amount of skill and knowledge can be turned into cool custom IDE-like software complexes, or not. Their main benefits could be simplicity, extendability and wide use (vi editor is by standard the default text editor for UNIX systems)
 
-![]({{ site.baseurl }}/img/10-wave-fanned-black-oxide.jpg) ![]({{ site.baseurl }}/img/10-wave-closed-black-oxide.jpg)
+- so called IDEs (containing additional to editing functionalities out of box): [Spyder](https://pythonhosted.org/spyder/), [PyCharm](https://www.jetbrains.com/pycharm/), [Ninja-IDE](http://ninja-ide.org/), [Pyzo](http://www.pyzo.org/); [VisualStudio](https://www.visualstudio.com/), [CLion](https://www.jetbrains.com/clion/), [Eclipse](https://eclipse.org/ide/), [RStudio](https://www.rstudio.com/), [MATLAB](https://se.mathworks.com/help/matlab/matlab_external/compiling-engine-applications-in-an-ide.html?requestedDomain=www.mathworks.com)
+
+The visual representation of a IDE is close to:
+
+<img src="/img/10-wave-fanned-black-oxide.jpg" style=""width:45%"><img src="/img/10-wave-closed-black-oxide.jpg" style=""width:45%">
+
+## Discussion
+
+What tools - if any - are you already using? What tools have you heard of?
 
 ##  Why to use and IDE?
 
 keyword: **INTEGRATED**
 
-- decreases pain
-- boosts effectiveness
-- best-practice
+- provides insight on industry best-practices
+- boosts effectiveness by combining industry cutting edge technologies 
 
 - ±multifunctional
 - ±need to learn new tool
 
-## Discussion
-
-- What tools - if any - are you already using? What tools have you heard of?
-
 ## Conventions
 
-<table style="width=100%;">
+<table style="width:70%;">
   <tr>
     <th style="text-align: center; border: 1px solid black; "> Key combinations </th>
     <th style="text-align: center; border: 1px solid black; "> Win/Lin keys </th> 

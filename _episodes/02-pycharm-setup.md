@@ -2,7 +2,7 @@
 layout: episode
 title: "PyCharm setup"
 teaching: 15
-practice: 20
+exercises: 20
 questions:
   - "How to install PyCharm?"
 objectives:
@@ -72,7 +72,6 @@ as a notice: there is a way to get commercial edition licenses for [open source 
   </tr>
 </table>
 <br/>
-
 - google for "hotkeys pycharm" for **default** Win/Lin keymap: https://resources.jetbrains.com/assets/products/pycharm/PyCharm_ReferenceCard.pdf , 
 - google for "hotkeys pycharm" for **default** Mac keymap: https://resources.jetbrains.com/assets/products/pycharm/PyCharm_ReferenceCard_mac.pdf
 - latest docs: https://www.jetbrains.com/help/pycharm/2016.3/

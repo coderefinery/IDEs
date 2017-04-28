@@ -25,26 +25,27 @@ motivation for choosing PyCharm is quite simple:
 - there are similar IDEs for different technologies: 
 <table style="width:70%;">
   <tr>
-    <th style="text-align: center; border: 1px solid black; padding: 5px;"> technology </th>
-    <th style="text-align: center; border: 1px solid black; padding: 5px;"> IDE </th> 
+    <th style="text-align: center; border: 1px solid black; padding: 3px;"> technology </th>
+    <th style="text-align: center; border: 1px solid black; padding: 3px;"> IDE </th> 
   </tr>
   <tr>
-    <td style="text-align: center; border: 1px solid black; padding: 5px;"> Python </td>
-    <td style="text-align: center; border: 1px solid black; padding: 5px;"> PyCharm / Edu </td> 
+    <td style="text-align: center; border: 1px solid black; padding: 3px;"> Python </td>
+    <td style="text-align: center; border: 1px solid black; padding: 3px;"> PyCharm / Edu </td> 
   </tr>  
   <tr>
-    <td style="text-align: center; border: 1px solid black; padding: 5px;"> C / C++ </td>
-    <td style="text-align: center; border: 1px solid black; padding: 5px;"> CLion </td> 
+    <td style="text-align: center; border: 1px solid black; padding: 3px;"> C / C++ </td>
+    <td style="text-align: center; border: 1px solid black; padding: 3px;"> CLion </td> 
   </tr>
     <tr>
-    <td style="text-align: center; border: 1px solid black; padding: 5px;"> C++ </td>
-    <td style="text-align: center; border: 1px solid black; padding: 5px;"> ReSharper C++ as Visual Studio Extension </td> 
+    <td style="text-align: center; border: 1px solid black; padding: 3px;"> C++ </td>
+    <td style="text-align: center; border: 1px solid black; padding: 3px;"> ReSharper C++ as Visual Studio Extension </td> 
   </tr>
   <tr>
-    <td style="text-align: center; border: 1px solid black; padding: 5px;"> SQL (Databases) </td>
-    <td style="text-align: center; border: 1px solid black; padding: 5px;"> DataGrip </td> 
+    <td style="text-align: center; border: 1px solid black; padding: 3px;"> SQL (Databases) </td>
+    <td style="text-align: center; border: 1px solid black; padding: 3px;"> DataGrip </td> 
   </tr>
 </table>
+<br/>
 
 PyCharm comes in 3 (three) flavours:
 - community edition (the one we are going to use during the session)
@@ -61,14 +62,14 @@ as a notice: there is a way to get commercial edition licenses for [open source 
 
 <table style="width:70%;">
   <tr>
-    <th style="text-align: center; border: 1px solid black; padding: 5px;"> Action </th>
-    <th style="text-align: center; border: 1px solid black; padding: 5px;"> Win/Lin keys </th> 
-    <th style="text-align: center; border: 1px solid black; padding: 5px;"> Mac keys </th>
+    <th style="text-align: center; border: 1px solid black; padding: 3px;"> Action </th>
+    <th style="text-align: center; border: 1px solid black; padding: 3px;"> Win/Lin keys </th> 
+    <th style="text-align: center; border: 1px solid black; padding: 3px;"> Mac keys </th>
   </tr>
   <tr>
-    <td style="text-align: center; border: 1px solid black; padding: 5px;"> To find any action inside the IDE use Find Action </td>
-    <td style="text-align: center; border: 1px solid black; padding: 5px;"> Ctrl + Shift + A </td> 
-    <td style="text-align: center; border: 1px solid black; padding: 5px;"> ⌘ ⇧ A  </td>
+    <td style="text-align: center; border: 1px solid black; padding: 3px;"> To find any action inside the IDE use Find Action </td>
+    <td style="text-align: center; border: 1px solid black; padding: 3px;"> Ctrl + Shift + A </td> 
+    <td style="text-align: center; border: 1px solid black; padding: 3px;"> ⌘ ⇧ A  </td>
   </tr>
 </table>
 <br/>
@@ -87,4 +88,4 @@ as a notice: there is a way to get commercial edition licenses for [open source 
 - terminal
 - **Run -> ...** (finalizing setup)
 
-    padding: 5px;
+    padding: 3px;

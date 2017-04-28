@@ -29,7 +29,7 @@ Some examples of the text editing Universe:
 
 - so called IDEs (containing additional to editing functionalities out of box): [Spyder](https://pythonhosted.org/spyder/), [PyCharm](https://www.jetbrains.com/pycharm/), [Ninja-IDE](http://ninja-ide.org/), [Pyzo](http://www.pyzo.org/); [VisualStudio](https://www.visualstudio.com/), [CLion](https://www.jetbrains.com/clion/), [Eclipse](https://eclipse.org/ide/), [RStudio](https://www.rstudio.com/), [MATLAB](https://se.mathworks.com/help/matlab/matlab_external/compiling-engine-applications-in-an-ide.html?requestedDomain=www.mathworks.com)
 
-The visual representation of a IDE is close to:
+**The visual representation of a IDE is close to:**
 
 <img src="{{site.baseurl}}/img/10-wave-fanned-black-oxide.jpg" style="width:45%"><img src="{{site.baseurl}}/img/10-wave-closed-black-oxide.jpg" style="width:45%">
 
@@ -49,23 +49,22 @@ keyword: **INTEGRATED**
 
 ## Conventions
 
-<table style="width:70%;">
+<table style="width:100%;">
   <tr>
-    <th style="text-align: center; border: 1px solid black; "> Key combinations </th>
-    <th style="text-align: center; border: 1px solid black; "> Win/Lin keys </th> 
-    <th style="text-align: center; border: 1px solid black; "> Mac keys </th>
+    <th style="text-align: center; border: 1px solid black; padding: 3px;"> Key combinations </th>
+    <th style="text-align: center; border: 1px solid black; padding: 3px;"> Win/Lin keys </th> 
+    <th style="text-align: center; border: 1px solid black; padding: 3px;"> Mac keys </th>
   </tr>
   <tr>
-    <td style="text-align: center; border: 1px solid black; "> Action </td>
-    <td style="text-align: center; border: 1px solid black; "> Ctrl + Shift + A </td> 
-    <td style="text-align: center; border: 1px solid black; "> ⌘ ⇧ A  </td>
+    <td style="text-align: center; border: 1px solid black; padding: 3px;"> Action </td>
+    <td style="text-align: center; border: 1px solid black; padding: 3px;"> Ctrl + Shift + A </td> 
+    <td style="text-align: center; border: 1px solid black; padding: 3px;"> ⌘ ⇧ A  </td>
   </tr>
 </table>
+<br/>
 
 - navigation inside software menus : **File -> Open -> ...**
-
 - concept : [**_breakpoint_**](https://en.wikipedia.org/wiki/Breakpoint) - a breakpoint is an intentional stopping or pausing place in a program, put in place for debugging purposes. (Wikipedia)
-
 - reference : (Wikipedia)
 
 ___ 

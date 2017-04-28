@@ -34,49 +34,49 @@ In this part basic functionality of IDE is demonstrated and gone through.
 
 <table style="width:70%;">
   <tr>
-    <th style="text-align: center; border: 1px solid black; "> Action </th>
-    <th style="text-align: center; border: 1px solid black; "> Win/Lin keys </th> 
-    <th style="text-align: center; border: 1px solid black; "> Mac keys </th>
+    <th style="text-align: center; border: 1px solid black; padding: 3px;"> Action </th>
+    <th style="text-align: center; border: 1px solid black; padding: 3px;"> Win/Lin keys </th> 
+    <th style="text-align: center; border: 1px solid black; padding: 3px;"> Mac keys </th>
   </tr>
   <tr>
-    <td style="text-align: center; border: 1px solid black; "> To find any action inside the IDE use Find Action </td>
-    <td style="text-align: center; border: 1px solid black; "> Ctrl + Shift + A </td> 
-    <td style="text-align: center; border: 1px solid black; "> ⌘ ⇧ A  </td>
+    <td style="text-align: center; border: 1px solid black; padding: 3px;"> To find any action inside the IDE use Find Action </td>
+    <td style="text-align: center; border: 1px solid black; padding: 3px;"> Ctrl + Shift + A </td> 
+    <td style="text-align: center; border: 1px solid black; padding: 3px;"> ⌘ ⇧ A  </td>
   </tr>
     <tr>
-    <td style="text-align: center; border: 1px solid black; "> Show intention actions and quick-fixes </td>
-    <td style="text-align: center; border: 1px solid black; "> Alt + Enter </td> 
-    <td style="text-align: center; border: 1px solid black; "> ⌥ Enter </td>
+    <td style="text-align: center; border: 1px solid black; padding: 3px;"> Show intention actions and quick-fixes </td>
+    <td style="text-align: center; border: 1px solid black; padding: 3px;"> Alt + Enter </td> 
+    <td style="text-align: center; border: 1px solid black; padding: 3px;"> ⌥ Enter </td>
   </tr>
   <tr>
-    <td style="text-align: center; border: 1px solid black; "> Basic code completion (the name of any class, method or variable) </td>
-    <td style="text-align: center; border: 1px solid black; "> Ctrl + Space </td> 
-    <td style="text-align: center; border: 1px solid black; "> ⌃ Space  </td>
+    <td style="text-align: center; border: 1px solid black; padding: 3px;"> Basic code completion (the name of any class, method or variable) </td>
+    <td style="text-align: center; border: 1px solid black; padding: 3px;"> Ctrl + Space </td> 
+    <td style="text-align: center; border: 1px solid black; padding: 3px;"> ⌃ Space  </td>
   </tr>
   <tr>
-    <td style="text-align: center; border: 1px solid black; "> Go to declaration (the name of any class, method or variable) </td>
-    <td style="text-align: center; border: 1px solid black; "> Ctrl + B , Ctrl + Click </td> 
-    <td style="text-align: center; border: 1px solid black; "> ⌘ B , ⌘ Click </td>
+    <td style="text-align: center; border: 1px solid black; padding: 3px;"> Go to declaration (the name of any class, method or variable) </td>
+    <td style="text-align: center; border: 1px solid black; padding: 3px;"> Ctrl + B , Ctrl + Click </td> 
+    <td style="text-align: center; border: 1px solid black; padding: 3px;"> ⌘ B , ⌘ Click </td>
   </tr>
   <tr>
-    <td style="text-align: center; border: 1px solid black; "> Select successively increasing code blocks </td>
-    <td style="text-align: center; border: 1px solid black; "> Ctrl + W </td> 
-    <td style="text-align: center; border: 1px solid black; "> ⌥ ↑ </td>
+    <td style="text-align: center; border: 1px solid black; padding: 3px;"> Select successively increasing code blocks </td>
+    <td style="text-align: center; border: 1px solid black; padding: 3px;"> Ctrl + W </td> 
+    <td style="text-align: center; border: 1px solid black; padding: 3px;"> ⌥ ↑ </td>
   </tr>
   <tr>
-    <td style="text-align: center; border: 1px solid black; "> Find/Replace </td>
-    <td style="text-align: center; border: 1px solid black; "> Ctrl + F / Ctrl + R </td> 
-    <td style="text-align: center; border: 1px solid black; "> ⌘ F, ⌘ R </td>
+    <td style="text-align: center; border: 1px solid black; padding: 3px;"> Find/Replace </td>
+    <td style="text-align: center; border: 1px solid black; padding: 3px;"> Ctrl + F / Ctrl + R </td> 
+    <td style="text-align: center; border: 1px solid black; padding: 3px;"> ⌘ F, ⌘ R </td>
   </tr>
   <tr>
-    <td style="text-align: center; border: 1px solid black; "> Go to class </td>
-    <td style="text-align: center; border: 1px solid black; "> Ctrl + N </td> 
-    <td style="text-align: center; border: 1px solid black; "> ⌘ O </td>
+    <td style="text-align: center; border: 1px solid black; padding: 3px;"> Go to class </td>
+    <td style="text-align: center; border: 1px solid black; padding: 3px;"> Ctrl + N </td> 
+    <td style="text-align: center; border: 1px solid black; padding: 3px;"> ⌘ O </td>
   </tr>
   <tr>
-    <td style="text-align: center; border: 1px solid black; "> Go to line </td>
-    <td style="text-align: center; border: 1px solid black; "> Ctrl + G </td> 
-    <td style="text-align: center; border: 1px solid black; "> ⌘ L </td>
+    <td style="text-align: center; border: 1px solid black; padding: 3px;"> Go to line </td>
+    <td style="text-align: center; border: 1px solid black; padding: 3px;"> Ctrl + G </td> 
+    <td style="text-align: center; border: 1px solid black; padding: 3px;"> ⌘ L </td>
   </tr>
 </table>
 
@@ -91,14 +91,14 @@ In this part basic functionality of IDE is demonstrated and gone through.
 
 <table style="width:70%;">
   <tr>
-    <th style="text-align: center; border: 1px solid black; "> Action </th>
-    <th style="text-align: center; border: 1px solid black; "> Win/Lin keys </th> 
-    <th style="text-align: center; border: 1px solid black; "> Mac keys </th>
+    <th style="text-align: center; border: 1px solid black; padding: 3px;"> Action </th>
+    <th style="text-align: center; border: 1px solid black; padding: 3px;"> Win/Lin keys </th> 
+    <th style="text-align: center; border: 1px solid black; padding: 3px;"> Mac keys </th>
   </tr>
   <tr>
-    <td style="text-align: center; border: 1px solid black; "> Reformat code </td>
-    <td style="text-align: center; border: 1px solid black; "> Ctrl + Alt + L </td> 
-    <td style="text-align: center; border: 1px solid black; "> ⌘ ⌥ L </td>
+    <td style="text-align: center; border: 1px solid black; padding: 3px;"> Reformat code </td>
+    <td style="text-align: center; border: 1px solid black; padding: 3px;"> Ctrl + Alt + L </td> 
+    <td style="text-align: center; border: 1px solid black; padding: 3px;"> ⌘ ⌥ L </td>
   </tr>
 </table>
 
@@ -114,39 +114,39 @@ In this part basic functionality of IDE is demonstrated and gone through.
 
 <table style="width:70%;">
   <tr>
-    <th style="text-align: center; border: 1px solid black; "> Action </th>
-    <th style="text-align: center; border: 1px solid black; "> Win/Lin keys </th> 
-    <th style="text-align: center; border: 1px solid black; "> Mac keys </th>
+    <th style="text-align: center; border: 1px solid black; padding: 3px;"> Action </th>
+    <th style="text-align: center; border: 1px solid black; padding: 3px;"> Win/Lin keys </th> 
+    <th style="text-align: center; border: 1px solid black; padding: 3px;"> Mac keys </th>
   </tr>
   <tr>
-    <td style="text-align: center; border: 1px solid black; "> Change Signature </td>
-    <td style="text-align: center; border: 1px solid black; "> Ctrl + F6 </td> 
-    <td style="text-align: center; border: 1px solid black; "> ⌘ F6 </td>
+    <td style="text-align: center; border: 1px solid black; padding: 3px;"> Change Signature </td>
+    <td style="text-align: center; border: 1px solid black; padding: 3px;"> Ctrl + F6 </td> 
+    <td style="text-align: center; border: 1px solid black; padding: 3px;"> ⌘ F6 </td>
   </tr>
   <tr>
-    <td style="text-align: center; border: 1px solid black; "> Surround with... </td>
-    <td style="text-align: center; border: 1px solid black; "> Ctrl + Alt + T </td> 
-    <td style="text-align: center; border: 1px solid black; "> ⌘ ⌥ T </td>
+    <td style="text-align: center; border: 1px solid black; padding: 3px;"> Surround with... </td>
+    <td style="text-align: center; border: 1px solid black; padding: 3px;"> Ctrl + Alt + T </td> 
+    <td style="text-align: center; border: 1px solid black; padding: 3px;"> ⌘ ⌥ T </td>
   </tr>
   <tr>
-    <td style="text-align: center; border: 1px solid black; "> Extract Constant </td>
-    <td style="text-align: center; border: 1px solid black; "> Ctrl + Alt + C </td> 
-    <td style="text-align: center; border: 1px solid black; "> ⌘ ⌥ C </td>
+    <td style="text-align: center; border: 1px solid black; padding: 3px;"> Extract Constant </td>
+    <td style="text-align: center; border: 1px solid black; padding: 3px;"> Ctrl + Alt + C </td> 
+    <td style="text-align: center; border: 1px solid black; padding: 3px;"> ⌘ ⌥ C </td>
   </tr>
   <tr>
-    <td style="text-align: center; border: 1px solid black; "> Extract Method </td>
-    <td style="text-align: center; border: 1px solid black; "> Ctrl + Alt + M </td> 
-    <td style="text-align: center; border: 1px solid black; "> ⌘ ⌥ M </td>
+    <td style="text-align: center; border: 1px solid black; padding: 3px;"> Extract Method </td>
+    <td style="text-align: center; border: 1px solid black; padding: 3px;"> Ctrl + Alt + M </td> 
+    <td style="text-align: center; border: 1px solid black; padding: 3px;"> ⌘ ⌥ M </td>
   </tr>
   <tr>
-    <td style="text-align: center; border: 1px solid black; "> Safe delete </td>
-    <td style="text-align: center; border: 1px solid black; "> Alt + Delete </td> 
-    <td style="text-align: center; border: 1px solid black; "> ⌘ Delete </td>
+    <td style="text-align: center; border: 1px solid black; padding: 3px;"> Safe delete </td>
+    <td style="text-align: center; border: 1px solid black; padding: 3px;"> Alt + Delete </td> 
+    <td style="text-align: center; border: 1px solid black; padding: 3px;"> ⌘ Delete </td>
   </tr>
   <tr>
-    <td style="text-align: center; border: 1px solid black; "> Create test </td>
-    <td style="text-align: center; border: 1px solid black; "> Ctrl + Shift + T </td> 
-    <td style="text-align: center; border: 1px solid black; "> ⌘ ⇧ T </td>
+    <td style="text-align: center; border: 1px solid black; padding: 3px;"> Create test </td>
+    <td style="text-align: center; border: 1px solid black; padding: 3px;"> Ctrl + Shift + T </td> 
+    <td style="text-align: center; border: 1px solid black; padding: 3px;"> ⌘ ⇧ T </td>
   </tr>
 </table>
 
@@ -164,34 +164,34 @@ In this part basic functionality of IDE is demonstrated and gone through.
 
 <table style="width:70%;">
   <tr>
-    <th style="text-align: center; border: 1px solid black; "> Action </th>
-    <th style="text-align: center; border: 1px solid black; "> Win/Lin keys </th> 
-    <th style="text-align: center; border: 1px solid black; "> Mac keys </th>
+    <th style="text-align: center; border: 1px solid black; padding: 3px;"> Action </th>
+    <th style="text-align: center; border: 1px solid black; padding: 3px;"> Win/Lin keys </th> 
+    <th style="text-align: center; border: 1px solid black; padding: 3px;"> Mac keys </th>
   </tr>
   <tr>
-    <td style="text-align: center; border: 1px solid black; "> Resume program </td>
-    <td style="text-align: center; border: 1px solid black; "> F9 </td> 
-    <td style="text-align: center; border: 1px solid black; "> F9 </td>
+    <td style="text-align: center; border: 1px solid black; padding: 3px;"> Resume program </td>
+    <td style="text-align: center; border: 1px solid black; padding: 3px;"> F9 </td> 
+    <td style="text-align: center; border: 1px solid black; padding: 3px;"> F9 </td>
   </tr>
   <tr>
-    <td style="text-align: center; border: 1px solid black; "> Step over/into </td>
-    <td style="text-align: center; border: 1px solid black; "> F8 / F7 </td> 
-    <td style="text-align: center; border: 1px solid black; "> F8 / F7 </td>
+    <td style="text-align: center; border: 1px solid black; padding: 3px;"> Step over/into </td>
+    <td style="text-align: center; border: 1px solid black; padding: 3px;"> F8 / F7 </td> 
+    <td style="text-align: center; border: 1px solid black; padding: 3px;"> F8 / F7 </td>
   </tr>
   <tr>
-    <td style="text-align: center; border: 1px solid black; "> Step out </td>
-    <td style="text-align: center; border: 1px solid black; "> Shift + F8 </td> 
-    <td style="text-align: center; border: 1px solid black; "> ⇧ F8 </td>
+    <td style="text-align: center; border: 1px solid black; padding: 3px;"> Step out </td>
+    <td style="text-align: center; border: 1px solid black; padding: 3px;"> Shift + F8 </td> 
+    <td style="text-align: center; border: 1px solid black; padding: 3px;"> ⇧ F8 </td>
   </tr>
   <tr>
-    <td style="text-align: center; border: 1px solid black; "> Evaluate expression </td>
-    <td style="text-align: center; border: 1px solid black; "> Alt + F8 </td> 
-    <td style="text-align: center; border: 1px solid black; "> ⌥ F8 </td>
+    <td style="text-align: center; border: 1px solid black; padding: 3px;"> Evaluate expression </td>
+    <td style="text-align: center; border: 1px solid black; padding: 3px;"> Alt + F8 </td> 
+    <td style="text-align: center; border: 1px solid black; padding: 3px;"> ⌥ F8 </td>
   </tr>
   <tr>
-    <td style="text-align: center; border: 1px solid black; "> View breakpoints </td>
-    <td style="text-align: center; border: 1px solid black; "> Ctrl + Shift + F8 </td> 
-    <td style="text-align: center; border: 1px solid black; "> ⌘ ⇧ F8 </td>
+    <td style="text-align: center; border: 1px solid black; padding: 3px;"> View breakpoints </td>
+    <td style="text-align: center; border: 1px solid black; padding: 3px;"> Ctrl + Shift + F8 </td> 
+    <td style="text-align: center; border: 1px solid black; padding: 3px;"> ⌘ ⇧ F8 </td>
   </tr>
 </table>
 <br/>
@@ -236,14 +236,14 @@ In this part basic functionality of IDE is demonstrated and gone through.
 
 <table style="width:70%;">
   <tr>
-    <th style="text-align: center; border: 1px solid black; "> Action </th>
-    <th style="text-align: center; border: 1px solid black; "> Win/Lin keys </th> 
-    <th style="text-align: center; border: 1px solid black; "> Mac keys </th>
+    <th style="text-align: center; border: 1px solid black; padding: 3px;"> Action </th>
+    <th style="text-align: center; border: 1px solid black; padding: 3px;"> Win/Lin keys </th> 
+    <th style="text-align: center; border: 1px solid black; padding: 3px;"> Mac keys </th>
   </tr>
   <tr>
-    <td style="text-align: center; border: 1px solid black; "> Open Settings dialog </td>
-    <td style="text-align: center; border: 1px solid black; "> Ctrl + Alt + S </td> 
-    <td style="text-align: center; border: 1px solid black; "> ⌘ , </td>
+    <td style="text-align: center; border: 1px solid black; padding: 3px;"> Open Settings dialog </td>
+    <td style="text-align: center; border: 1px solid black; padding: 3px;"> Ctrl + Alt + S </td> 
+    <td style="text-align: center; border: 1px solid black; padding: 3px;"> ⌘ , </td>
   </tr>
 </table>
 <br/>

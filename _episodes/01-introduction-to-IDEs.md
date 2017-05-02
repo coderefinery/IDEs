@@ -23,7 +23,8 @@ keyword: **INTEGRATED**
 
 IDE stands for "Integrated Development Environment" - is a software application that provides comprehensive facilities to computer programmers for software development (Wikipedia). There are plenty of software that are IDEs and alikes. However, there is [no defined terminator](https://www.linkedin.com/learning/learning-notepad-plus-plus-for-developers/welcome) between a text editor and the IDE.
 
-</br><div>
+<br/>
+<div>
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Icon-Vim.svg/256px-Icon-Vim.svg.png" style="width:6%">
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Antu_emacs.svg/2000px-Antu_emacs.svg.png" style="width:6%">
 <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Sublime_text_logo.png" style="width:6%">
@@ -36,7 +37,8 @@ IDE stands for "Integrated Development Environment" - is a software application 
 <img src="https://upload.wikimedia.org/wikipedia/commons/c/cf/Eclipse-SVG.svg" style="width:6%">
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Antu_rstudio.svg/600px-Antu_rstudio.svg.png" style="width:6%">
 <img src="https://upload.wikimedia.org/wikipedia/commons/2/21/Matlab_Logo.png" style="width:6%">
-</div></br>
+</div>
+<br/>
 
 Some examples of the text editing Universe:
 - editors: proudly [Vim](http://www.vim.org/) and the legendary [vi](http://ex-vi.sourceforge.net/), no less famous [Emacs](https://www.gnu.org/software/emacs/), [Sublime Text](https://www.sublimetext.com/), [Notepad++](https://notepad-plus-plus.org/) _etc._ these with some amount of skill and knowledge can be turned into cool custom IDE-like software complexes, or not. The main benefits could be simplicity, extendability and wide use (vi editor is by standard the default text editor for UNIX systems)

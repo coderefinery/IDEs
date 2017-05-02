@@ -6,11 +6,11 @@ exercises: 20
 questions:
   - "How to install PyCharm?"
 objectives:
-  - "PyCharm installation is verified."
-  - "The project is imported into PyCharm."
-  - "Student is aware of the supporting materials locations."
+  - "PyCharm installation is verified"
+  - "The project is imported into PyCharm"
+  - "Student is aware of the supporting materials locations"
 keypoints:
-  - "It is easy and fun to start with the IDE."
+  - "It is easy and fun to start with the IDE"
 ---
 
 # PyCharm setup
@@ -22,7 +22,8 @@ During this lesson the typical IDE installation process is completed. Session ai
 motivation for choosing PyCharm is quite simple: 
 - Python language is more or less familiar to the majority of the workshop's audience
 - PyCharm belongs to JetBrains' IDE product family, which is considered to be one of the best ranges of developer tools existing
-- there are similar IDEs for different technologies:  
+- there are similar IDEs for different technologies:
+  <br/>
 <table style="width:70%;">
   <tr>
     <th style="text-align: center; border: 1px solid black; padding: 3px;"> technology </th>
@@ -53,11 +54,15 @@ PyCharm comes in 3 (three) flavours:
 
 as a notice: there is a way to get commercial edition licenses for [open source projects](https://www.jetbrains.com/buy/opensource/#application-rules) and [students](https://www.jetbrains.com/student/) for free
 
-## Installation and setup
+## Installation and support
 
 - [download](https://www.jetbrains.com/pycharm/download) the bundle if not done yet
 - start installation and follow the software installer guide
-- open our exiting project: **File -> Open -> ...** (or download from: https://github.com/coderefinery/IDEs )
+
+while the installer is running, let's take a look at support materials:
+- [video tutorials](https://www.youtube.com/playlist?list=PLQ176FUIyIUZ1mwB-uImQE-gmkwzjNLjP)
+- [latest docs](https://www.jetbrains.com/help/pycharm/2017.1/meet-pycharm.html)
+- [Mac default keymap](https://resources.jetbrains.com/storage/products/pycharm/docs/PyCharm_ReferenceCard_mac.pdf) / [generic default keymap (Win/Linux)](https://resources.jetbrains.com/storage/products/pycharm/docs/PyCharm_ReferenceCard_mac.pdf)
 
 <table style="width:70%;">
   <tr>
@@ -71,16 +76,20 @@ as a notice: there is a way to get commercial edition licenses for [open source 
     <td style="text-align: center; border: 1px solid black; padding: 3px;"> ⌘ ⇧ A  </td>
   </tr>
 </table>
-<br/>
-- google for "hotkeys pycharm" for **default** Win/Lin keymap: https://resources.jetbrains.com/assets/products/pycharm/PyCharm_ReferenceCard.pdf , 
-- google for "hotkeys pycharm" for **default** Mac keymap: https://resources.jetbrains.com/assets/products/pycharm/PyCharm_ReferenceCard_mac.pdf
-- latest docs: https://www.jetbrains.com/help/pycharm/2016.3/
-- slide...
 
-## Intro
+## Setup & intro
 
-- dependencies resolution
+```shell
+$ git clone https://github.com/coderefinery/IDEs.git
+```
+- now press key combination "Ctrl + Shift + A" / "⌘ ⇧ A", and start typing "Open", find and import pulled project
+
+once the project is loaded, let's look around:
 - **View -> ...**
+
+* do "Ctrl + Shift + S" / "⌘ ," and type size, among the results, find and adjust "Console font size" and check "Change font size (Zoom) with Ctrl+Mouse Wheel"
+* next thing, lets create a virtual environment for our project
+
 - panes
 - buttons
 - terminal

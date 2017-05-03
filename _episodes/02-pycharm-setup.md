@@ -144,11 +144,6 @@ now lets finalize the setup by running a test script [verification script]({{sit
 
 > ## Environment
 > If You want to preserve Your existing environment by creating a separate VirtEnv, please take a look [here]({{site.baseurl}}/03-features/#virtualenv-7) for guindance. And "Yes", it is also embedded into PyCharm.
->{: .environment :}
-
-
-> ## Challenge
-> What commands did you use?
 >
 > {: .solution }
 {: .challenge :}

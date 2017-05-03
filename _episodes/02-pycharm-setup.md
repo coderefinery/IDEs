@@ -142,7 +142,22 @@ now lets finalize the setup by running a test script [verification script]({{sit
 - **Run -> ...** or **Find Action** + **Run** or right click on the file tab and select **Run**
 (if asked by **Run/Debug** configuration dialog, then select the Script location and )
 
-> ## Environment
+>! ## Environment
 > If You want to preserve Your existing environment by creating a separate VirtEnv, please take a look [here]({{site.baseurl}}/03-features/#virtualenv-7) for guindance. And "Yes", it is also embedded into PyCharm.
 >
 {: .environment :}
+
+
+> ## Challenge
+> What commands did you use?
+>
+> > ## Solution
+> > ```
+> > $ git branch feature2
+> > $ git checkout feature2
+> > [something to edit the file]
+> > $ git add hello.py
+> > $ git commit -m "changed hello string"
+> > ```
+> {: .solution }
+{: .challenge :}

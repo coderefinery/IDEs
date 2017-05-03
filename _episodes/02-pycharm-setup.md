@@ -96,7 +96,7 @@ now press key combination:
     <td style="text-align: center; border: 1px solid black; padding: 3px;"> ⌘ ⇧ A  </td>
   </tr>
 </table>
-
+<br/>
 and start typing **Open**, find and import pulled project. Once the project is loaded let's look around, there are several working areas of the window or panes:
 
 - project 
@@ -116,11 +116,13 @@ and start typing **Open**, find and import pulled project. Once the project is l
         <td style="text-align: center; border: 1px solid black; padding: 3px;"> ⌘ 0 ... ⌘ 9 </td>
   </tr>
 </table>
+<br/>
 tools can be also called by **Find Action** key combination, just start typing in the pane/tool name. another useful part of the UI is the buttons ribbon, let's extend the default a little:
 
 - select **View -> ...** and check all the options in the section starting with **Toolbar**, or alternatively use the **Find Action** approach
 
 before we complete this part, let's tune the look and feel too, do: 
+<br/>
 <table style="width:70%;">
   <tr>
     <th style="text-align: center; border: 1px solid black; padding: 3px;"> Action </th>
@@ -128,19 +130,19 @@ before we complete this part, let's tune the look and feel too, do:
     <th style="text-align: center; border: 1px solid black; padding: 3px;"> Mac keys </th>
   </tr>
   <tr>
-    </tr>
     <td style="text-align: center; border: 1px solid black; padding: 3px;"> Open Settings Dialog </td>
     <td style="text-align: center; border: 1px solid black; padding: 3px;"> Ctrl + Alt + S </td> 
     <td style="text-align: center; border: 1px solid black; padding: 3px;"> ⌘ , </td>
   </tr>
 </table>
+<br/>
 and type word **Size** into the serach field, among the results, find and adjust **Console font size** and check **Change font size (Zoom) with Ctrl+Mouse Wheel**
 
-now lets finalize the setup by running a test script [verification script](/verify.py)
+now lets finalize the setup by running a test script [verification script]({{site.baseurl}}/verify.py)
 - **Run -> ...** or **Find Action** + **Run** or right click on the file tab and select **Run**
 (if asked by **Run/Debug** configuration dialog, then select the Script location and )
 
 > ## Environment
-> If You want to preserve Your existing environment by creating a separate VirtEnv, please take a look [here]({{site.baseurl}}/IDEs/03-features/#virtualenv-7) for guindance. And "Yes", it is also embedded into PyCharm.
+> If You want to preserve Your existing environment by creating a separate VirtEnv, please take a look [here]({{site.baseurl}}/03-features/#virtualenv-7) for guindance. And "Yes", it is also embedded into PyCharm.
 >
 {: .environment :}

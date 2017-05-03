@@ -83,6 +83,7 @@ while the installer is running, let's take a look at support materials:
 $ git clone https://github.com/coderefinery/IDEs.git
 ```
 now press key combination:
+
 <table style="width:70%;">
   <tr>
     <th style="text-align: center; border: 1px solid black; padding: 3px;"> Action </th>
@@ -95,12 +96,14 @@ now press key combination:
     <td style="text-align: center; border: 1px solid black; padding: 3px;"> ⌘ ⇧ A  </td>
   </tr>
 </table>
+
 and start typing **Open**, find and import pulled project. Once the project is loaded let's look around, there are several working areas of the window or panes:
 
-* project 
-* code
-* control menus and buttons
-* tool windows like terminal and VCS, run/debug panes _etc._, try switching between the tabs with 
+- project 
+- code
+- control menus and buttons
+- tool windows like terminal and VCS, run/debug panes _etc._, try switching between the tabs with 
+
 <table style="width:70%;">
   <tr>
     <th style="text-align: center; border: 1px solid black; padding: 3px;"> Action </th>

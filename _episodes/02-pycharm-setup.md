@@ -62,7 +62,7 @@ as a notice: there is a way to get commercial edition licenses for [open source 
 while the installer is running, let's take a look at support materials:
 - [video tutorials](https://www.youtube.com/playlist?list=PLQ176FUIyIUZ1mwB-uImQE-gmkwzjNLjP)
 - [latest docs](https://www.jetbrains.com/help/pycharm/2017.1/meet-pycharm.html)
-- [Mac default keymap](https://resources.jetbrains.com/storage/products/pycharm/docs/PyCharm_ReferenceCard_mac.pdf) / [generic default keymap (Win/Linux)](https://resources.jetbrains.com/storage/products/pycharm/docs/PyCharm_ReferenceCard_mac.pdf)
+- [Mac default keymap](https://resources.jetbrains.com/storage/products/pycharm/docs/PyCharm_ReferenceCard_mac.pdf) / [generic default keymap (Win/Linux)](https://resources.jetbrains.com/storage/products/pycharm/docs/PyCharm_ReferenceCard.pdf)
 
 <table style="width:70%;">
   <tr>
@@ -82,15 +82,62 @@ while the installer is running, let's take a look at support materials:
 ```shell
 $ git clone https://github.com/coderefinery/IDEs.git
 ```
-- now press key combination "Ctrl + Shift + A" / "⌘ ⇧ A", and start typing "Open", find and import pulled project
+now press key combination:
+<table style="width:70%;">
+  <tr>
+    <th style="text-align: center; border: 1px solid black; padding: 3px;"> Action </th>
+    <th style="text-align: center; border: 1px solid black; padding: 3px;"> Win/Lin keys </th> 
+    <th style="text-align: center; border: 1px solid black; padding: 3px;"> Mac keys </th>
+  </tr>
+  <tr>
+    <td style="text-align: center; border: 1px solid black; padding: 3px;"> To find any action inside the IDE use Find Action </td>
+    <td style="text-align: center; border: 1px solid black; padding: 3px;"> Ctrl + Shift + A </td> 
+    <td style="text-align: center; border: 1px solid black; padding: 3px;"> ⌘ ⇧ A  </td>
+  </tr>
+</table>
+and start typing **Open**, find and import pulled project. Once the project is loaded let's look around, there are several working areas of the window or panes:
 
-once the project is loaded, let's look around:
-- **View -> ...**
+* project 
+* code
+* control menus and buttons
+* tool windows like terminal and VCS, run/debug panes _etc._, try switching between the tabs with 
+<table style="width:70%;">
+  <tr>
+    <th style="text-align: center; border: 1px solid black; padding: 3px;"> Action </th>
+    <th style="text-align: center; border: 1px solid black; padding: 3px;"> Win/Lin keys </th> 
+    <th style="text-align: center; border: 1px solid black; padding: 3px;"> Mac keys </th>
+  </tr>
+  <tr>
+    <td style="text-align: center; border: 1px solid black; padding: 3px;"> To find any action inside the IDE use Find Action </td>
+        <td style="text-align: center; border: 1px solid black; padding: 3px;"> Alt + #[0-9] </td>
+        <td style="text-align: center; border: 1px solid black; padding: 3px;"> ⌘ 0 ... ⌘ 9 </td>
+  </tr>
+</table>
+tools can be also called by **Find Action** key combination, just start typing in the pane/tool name. another useful part of the UI is the buttons ribbon, let's extend the default a little:
 
-* do "Ctrl + Shift + S" / "⌘ ," and type size, among the results, find and adjust "Console font size" and check "Change font size (Zoom) with Ctrl+Mouse Wheel"
-* next thing, lets create a virtual environment for our project
+- select **View -> ...** and check all the options in the section starting with **Toolbar**, or alternatively use the **Find Action** approach
 
-- panes
-- buttons
-- terminal
-- **Run -> ...** (finalizing setup)
+before we complete this part, let's tune the look and feel too, do: 
+<table style="width:70%;">
+  <tr>
+    <th style="text-align: center; border: 1px solid black; padding: 3px;"> Action </th>
+    <th style="text-align: center; border: 1px solid black; padding: 3px;"> Win/Lin keys </th> 
+    <th style="text-align: center; border: 1px solid black; padding: 3px;"> Mac keys </th>
+  </tr>
+  <tr>
+    </tr>
+    <td style="text-align: center; border: 1px solid black; padding: 3px;"> Open Settings Dialog </td>
+    <td style="text-align: center; border: 1px solid black; padding: 3px;"> Ctrl + Alt + S </td> 
+    <td style="text-align: center; border: 1px solid black; padding: 3px;"> ⌘ , </td>
+  </tr>
+</table>
+and type word **Size** into the serach field, among the results, find and adjust **Console font size** and check **Change font size (Zoom) with Ctrl+Mouse Wheel**
+
+now lets finalize the setup by running a test script [verification script](/verify.py)
+- **Run -> ...** or **Find Action** + **Run** or right click on the file tab and select **Run**
+(if asked by **Run/Debug** configuration dialog, then select the Script location and )
+
+> ## Environment
+> If You want to preserve Your existing environment by creating a separate VirtEnv, please take a look [here]({{site.baseurl}}/IDEs/03-features/#virtualenv-7) for guindance. And "Yes", it is also embedded into PyCharm.
+>
+{: .environment :}

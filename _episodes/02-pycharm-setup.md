@@ -150,13 +150,5 @@ now lets finalize the setup by running a test script [verification script]({{sit
 > ## Challenge
 > What commands did you use?
 >
-> > ## Solution
-> > ```
-> > $ git branch feature2
-> > $ git checkout feature2
-> > [something to edit the file]
-> > $ git add hello.py
-> > $ git commit -m "changed hello string"
-> > ```
 > {: .solution }
 {: .challenge :}

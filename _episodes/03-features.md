@@ -21,9 +21,9 @@ In this part basic functionality of IDE is demonstrated and gone through.
 
 ## Built-in Developer Tools
 - [Visual Debugger [3]]({{site.baseurl}}/03-features/#visual-debugger-3) 
-- [VCS + Local History [4]]({{site.baseurl}}/03-features/#virtualenv-7) 
-- [Profiler [5]]({{site.baseurl}}/03-features/#virtualenv-7) 
-- [Vagrant [6]]({{site.baseurl}}/03-features/#virtualenv-7) 
+- [VCS + Local History [4]]({{site.baseurl}}/03-features/#vcs--local-history-4) 
+- [Profiler [5]]({{site.baseurl}}/03-features/#profiler-5) 
+- [Vagrant [6]]({{site.baseurl}}/03-features/#vagrant-6) 
 - [VirtualEnv [7]]({{site.baseurl}}/03-features/#virtualenv-7) 
 
 ## Customizable and Cross-platform IDE
@@ -366,25 +366,61 @@ The following snippet will help with exploring debug functionality (mind the bre
 
 ### [VCS](https://www.jetbrains.com/help/pycharm/2017.1/version-control-with-pycharm.html) + [Local history](https://www.jetbrains.com/help/pycharm/2017.1/local-history.html?search=local%20history) [4]
 
-- VCS integration (not limited to Git)
-- Local History
+- VCS integration with all major systems (not limited to Git)
+
+<table style="width:100%;">
+  <tr>
+    <th style="text-align: center; border: 1px solid black; padding: 3px; width:50%;"> Action </th>
+    <th style="text-align: center; border: 1px solid black; padding: 3px; width:25%;"> Win/Lin keys </th> 
+    <th style="text-align: center; border: 1px solid black; padding: 3px; width:25%;"> Mac keys </th>
+  </tr>  
+  <tr>
+    <td style="text-align: center; border: 1px solid black; padding: 3px;"> Open VCS tool window </td>
+        <td style="text-align: center; border: 1px solid black; padding: 3px;"> Alt + 9 </td>
+        <td style="text-align: center; border: 1px solid black; padding: 3px;"> ⌘ 9 </td>
+  </tr>
+</table>
+
+and switch between tabs (**Log** / **Console** ...)
+ 
+- Local History, to view do: **VCS -> Local History -> Show Local History**
 
 ---
 
-## Built-in Developer Tools
+## Built-in Developer Tools*
 
 ### [Profiler](https://www.jetbrains.com/help/pycharm/2017.1/profiler.html) [5]
 
-- run in debug mode : **Run -> Profile '...'**
-- take a look at results
+- run in debug mode : **Run -> Profile '...'**, give it some time, then:
+
+<table style="width:100%;">
+  <tr>
+    <th style="text-align: center; border: 1px solid black; padding: 3px; width:50%;"> Action </th>
+    <th style="text-align: center; border: 1px solid black; padding: 3px; width:25%;"> Win/Lin keys </th> 
+    <th style="text-align: center; border: 1px solid black; padding: 3px; width:25%;"> Mac keys </th>
+  </tr>  
+  <tr>
+    <td style="text-align: center; border: 1px solid black; padding: 3px;"> Close Active Editor Tab </td>
+        <td style="text-align: center; border: 1px solid black; padding: 3px;"> Ctrl + F4 </td>
+        <td style="text-align: center; border: 1px solid black; padding: 3px;"> ⌘ W </td>
+  </tr>
+</table>
+
+inspect the results:
+
+<img src="{{site.baseurl}}/img/profiler.png" style="width:60%">
 
 ---
 
-## Built-in Developer Tools
+## Built-in Developer Tools*
 
 ### [Vagrant](https://www.jetbrains.com/help/pycharm/2017.1/vagrant.html?search=vagrant) [6]
 
-- demo : **Tools -> Vagrant -> ...** (PyCharm Professional only)
+- demo : **Tools -> Vagrant -> ...**
+
+---
+
+## Built-in Developer Tools*
 
 ### [VirtualEnv](https://www.jetbrains.com/help/pycharm/2016.3/creating-virtual-environment.html) [7]
 
@@ -417,3 +453,5 @@ ___
 1. Python Wiki - http://python.wikia.com/wiki/PEP8
 2. Wikipedia - https://en.wikipedia.org/wiki/Breakpoint
 3. Pylint - https://pylint.readthedocs.io/en/latest/intro.html
+
+**\* - PyCharm professional only**

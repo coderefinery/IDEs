@@ -24,10 +24,10 @@ motivation for choosing PyCharm is quite simple:
 - PyCharm belongs to JetBrains' IDE product family, which is considered to be one of the best ranges of developer tools existing
 - there are similar IDEs for different technologies:
   <br/>
-<table style="width:70%;">
+<table style="width:100%;">
   <tr>
-    <th style="text-align: center; border: 1px solid black; padding: 3px;"> technology </th>
-    <th style="text-align: center; border: 1px solid black; padding: 3px;"> IDE </th> 
+    <th style="text-align: center; border: 1px solid black; padding: 3px; width:50%"> technology </th>
+    <th style="text-align: center; border: 1px solid black; padding: 3px; width:50%"> IDE </th> 
   </tr>
   <tr>
     <td style="text-align: center; border: 1px solid black; padding: 3px;"> Python </td>
@@ -48,7 +48,7 @@ motivation for choosing PyCharm is quite simple:
 </table>
 <br/>
 PyCharm comes in 3 (three) flavours:
-- community edition (the one we are going to use during the session)
+- community edition (the one we are going to mainly use during the session)
 - educational edition (open source, good for learning purposes)
 - commercial edition (a tool for serious adventures)
 
@@ -65,11 +65,11 @@ while the installer is running, let's take a look at support materials:
 - [Mac default keymap](https://resources.jetbrains.com/storage/products/pycharm/docs/PyCharm_ReferenceCard_mac.pdf) / [generic default keymap (Win/Linux)](https://resources.jetbrains.com/storage/products/pycharm/docs/PyCharm_ReferenceCard.pdf)
 
 try using the following key combination to find the function desired:
-<table style="width:70%;">
+<table style="width:100%;">
   <tr>
-    <th style="text-align: center; border: 1px solid black; padding: 3px;"> Action </th>
-    <th style="text-align: center; border: 1px solid black; padding: 3px;"> Win/Lin keys </th> 
-    <th style="text-align: center; border: 1px solid black; padding: 3px;"> Mac keys </th>
+    <th style="text-align: center; border: 1px solid black; padding: 3px; width:50%"> Action </th>
+    <th style="text-align: center; border: 1px solid black; padding: 3px; width:25%"> Win/Lin keys </th> 
+    <th style="text-align: center; border: 1px solid black; padding: 3px; width:25%"> Mac keys </th>
   </tr>
   <tr>
     <td style="text-align: center; border: 1px solid black; padding: 3px;"> To find any action inside the IDE use Find Action </td>
@@ -85,11 +85,11 @@ $ git clone https://github.com/coderefinery/IDEs.git
 ```
 now press key combination:
 
-<table style="width:70%;">
+<table style="width:100%;">
   <tr>
-    <th style="text-align: center; border: 1px solid black; padding: 3px;"> Action </th>
-    <th style="text-align: center; border: 1px solid black; padding: 3px;"> Win/Lin keys </th> 
-    <th style="text-align: center; border: 1px solid black; padding: 3px;"> Mac keys </th>
+    <th style="text-align: center; border: 1px solid black; padding: 3px; width:50%"> Action </th>
+    <th style="text-align: center; border: 1px solid black; padding: 3px; width:25%"> Win/Lin keys </th> 
+    <th style="text-align: center; border: 1px solid black; padding: 3px; width:25%"> Mac keys </th>
   </tr>
   <tr>
     <td style="text-align: center; border: 1px solid black; padding: 3px;"> To find any action inside the IDE use Find Action </td>
@@ -105,14 +105,14 @@ and start typing **Open**, find and import pulled project. Once the project is l
 - control menus and buttons
 - tool windows like terminal and VCS, run/debug panes _etc._, try switching between the tabs with 
 
-<table style="width:70%;">
+<table style="width:100%;">
   <tr>
-    <th style="text-align: center; border: 1px solid black; padding: 3px;"> Action </th>
-    <th style="text-align: center; border: 1px solid black; padding: 3px;"> Win/Lin keys </th> 
-    <th style="text-align: center; border: 1px solid black; padding: 3px;"> Mac keys </th>
+    <th style="text-align: center; border: 1px solid black; padding: 3px; width:50%"> Action </th>
+    <th style="text-align: center; border: 1px solid black; padding: 3px; width:25%"> Win/Lin keys </th> 
+    <th style="text-align: center; border: 1px solid black; padding: 3px; width:25%"> Mac keys </th>
   </tr>
   <tr>
-    <td style="text-align: center; border: 1px solid black; padding: 3px;"> To find any action inside the IDE use Find Action </td>
+    <td style="text-align: center; border: 1px solid black; padding: 3px;"> Open corresponding tool window </td>
         <td style="text-align: center; border: 1px solid black; padding: 3px;"> Alt + #[0-9] </td>
         <td style="text-align: center; border: 1px solid black; padding: 3px;"> ⌘ 0 ... ⌘ 9 </td>
   </tr>
@@ -124,11 +124,11 @@ tools can be also called by **Find Action** key combination, just start typing i
 
 before we complete this part, let's tune the look and feel too, do: 
 <br/>
-<table style="width:70%;">
+<table style="width:100%;">
   <tr>
-    <th style="text-align: center; border: 1px solid black; padding: 3px;"> Action </th>
-    <th style="text-align: center; border: 1px solid black; padding: 3px;"> Win/Lin keys </th> 
-    <th style="text-align: center; border: 1px solid black; padding: 3px;"> Mac keys </th>
+    <th style="text-align: center; border: 1px solid black; padding: 3px; width:50%"> Action </th>
+    <th style="text-align: center; border: 1px solid black; padding: 3px; width:25%"> Win/Lin keys </th> 
+    <th style="text-align: center; border: 1px solid black; padding: 3px; width:25%"> Mac keys </th>
   </tr>
   <tr>
     <td style="text-align: center; border: 1px solid black; padding: 3px;"> Open Settings Dialog </td>

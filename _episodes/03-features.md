@@ -23,7 +23,7 @@ In this part basic functionality of IDE is demonstrated and gone through.
 - [Visual Debugger [3]]({{site.baseurl}}/03-features/#visual-debugger-3) 
 - [VCS + Local History [4]]({{site.baseurl}}/03-features/#vcs--local-history-4) 
 - [Profiler [5]]({{site.baseurl}}/03-features/#profiler-5) 
-- [Vagrant [6]]({{site.baseurl}}/03-features/#vagrant-6) 
+- [Notebook [6]]({{site.baseurl}}/03-features/#notebook-6) 
 - [VirtualEnv [7]]({{site.baseurl}}/03-features/#virtualenv-7) 
 
 ## Customizable and Cross-platform IDE
@@ -170,7 +170,7 @@ Some more useful key combinations to navigate around:
 ### [On-the-fly error highlighting]() [1]
 
 - concept : [**_PEP8 (style guides)_**](https://www.python.org/dev/peps/pep-0008/#introduction) - is a StyleGuide for Python. A tool that validates code against it goes by the same name. (Python wiki)
-- concept : [**_Pylint (style guides)_**](https://pylint.readthedocs.io/en/latest/intro.html) - Pylint is a tool that checks for errors in Python code, tries to enforce a coding standard and looks for code smells. It can also look for certain type errors, it can recommend suggestions about how particular blocks can be refactored and can offer you details about the code’s complexity. (Pylint wiki)
+- concept : [**_PYLINT (style guides)_**](https://pylint.readthedocs.io/en/latest/intro.html) - Pylint is a tool that checks for errors in Python code, tries to enforce a coding standard and looks for code smells. It can also look for certain type errors, it can recommend suggestions about how particular blocks can be refactored and can offer you details about the code’s complexity. (Pylint wiki)
 
 Sometimes code does contain minor errors, like syntax mismatch with style guides, like in the following example:
 
@@ -408,13 +408,13 @@ and switch between tabs (**Log** / **Console** ...)
 
 inspect the results:
 
-<img src="{{site.baseurl}}/img/profiler.png" style="width:60%">
+<img src="{{site.baseurl}}/img/profiler.png" style="width:100%">
 
 ---
 
 ## Built-in Developer Tools*
 
-### [Vagrant](https://www.jetbrains.com/help/pycharm/2017.1/vagrant.html?search=vagrant) [6]
+### [Notebook](https://www.jetbrains.com/help/pycharm/2017.1/using-ipython-jupyter-notebook-with-pycharm.html) [6]
 
 - demo : **Tools -> Vagrant -> ...**
 

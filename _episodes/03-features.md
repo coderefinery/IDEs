@@ -252,7 +252,7 @@ give it a name, say an explicitly meaningless **_printher_**. however, the name 
   
   to provide a new one. the approximate result is like:
   
-   ```python
+```python
 def main():
     printer()
 
@@ -265,7 +265,7 @@ if __name__ == '__main__':
     main()
 ```
   
-Constants (variables, fields) are extracted in a similar manner, try extracting **_"Hello World!"_** and adding **_if_** statement before the function call in **_main()_**:
+Constants (variables, fields) are extracted in a similar manner, try extracting **_"Hello World!"_** and adding **_while_** statement before the function call in **_main()_**:
 <table style="width:100%;">
   <tr>
     <th style="text-align: center; border: 1px solid black; padding: 3px; width:50%;"> Action </th>
@@ -283,6 +283,23 @@ Constants (variables, fields) are extracted in a similar manner, try extracting 
     <td style="text-align: center; border: 1px solid black; padding: 3px;"> ⌘ ⌥ T </td>
   </tr>
   </table>
+  
+```python
+HELLO_WORLD = "Hello World!"
+
+
+def main():
+    while True:
+        printer()
+
+
+def printer():
+    print(HELLO_WORLD)
+
+
+if __name__ == '__main__':
+    main()
+```
   
   To finalize this subchapter create a test for **_printer()_** function:
   
@@ -332,16 +349,25 @@ magical error highlighter (btw, it does have a name... Hector-the-Inspector) wil
 
 - concept : [**_breakpoint_**](https://en.wikipedia.org/wiki/Breakpoint) - a breakpoint is an intentional stopping or pausing place in a program, put in place for debugging purposes. (Wikipedia)
 
-- run in debug mode : **Run -> Debug '...'**
-- take a look
-- remove debugging
+The following snippet will help with exploring debug functionality (mind the breakpoint):
 
-<table style="width:70%;">
+<img src="{{site.baseurl}}/img/debug.png" style="width:60%">
+
+- run in debug mode : **Run -> Debug '...'** 
+- take a look
+- set value
+- remote debugging (yet not shown, however very powerful issue)
+
+<table style="width:100%;">
   <tr>
-    <th style="text-align: center; border: 1px solid black; padding: 3px;"> Action </th>
-    <th style="text-align: center; border: 1px solid black; padding: 3px;"> Win/Lin keys </th> 
-    <th style="text-align: center; border: 1px solid black; padding: 3px;"> Mac keys </th>
+    <th style="text-align: center; border: 1px solid black; padding: 3px; width:50%;"> Action </th>
+    <th style="text-align: center; border: 1px solid black; padding: 3px; width:25%;"> Win/Lin keys </th> 
+    <th style="text-align: center; border: 1px solid black; padding: 3px; width:25%;"> Mac keys </th>
   </tr>
+    <tr>
+    <td style="text-align: center; border: 1px solid black; padding: 3px;"> Debug </td>
+    <td style="text-align: center; border: 1px solid black; padding: 3px;"> Shift + F9 </td> 
+    <td style="text-align: center; border: 1px solid black; padding: 3px;"> ⇧F9 </td>
   <tr>
     <td style="text-align: center; border: 1px solid black; padding: 3px;"> Resume program </td>
     <td style="text-align: center; border: 1px solid black; padding: 3px;"> F9 </td> 
@@ -362,6 +388,11 @@ magical error highlighter (btw, it does have a name... Hector-the-Inspector) wil
     <td style="text-align: center; border: 1px solid black; padding: 3px;"> Alt + F8 </td> 
     <td style="text-align: center; border: 1px solid black; padding: 3px;"> ⌥ F8 </td>
   </tr>
+    <tr>
+    <td style="text-align: center; border: 1px solid black; padding: 3px;"> Set Value </td>
+    <td style="text-align: center; border: 1px solid black; padding: 3px;"> F2 </td> 
+    <td style="text-align: center; border: 1px solid black; padding: 3px;"> ⌥ F2 </td>
+  </tr>
   <tr>
     <td style="text-align: center; border: 1px solid black; padding: 3px;"> View breakpoints </td>
     <td style="text-align: center; border: 1px solid black; padding: 3px;"> Ctrl + Shift + F8 </td> 
@@ -369,8 +400,6 @@ magical error highlighter (btw, it does have a name... Hector-the-Inspector) wil
   </tr>
 </table>
 <br/>
-
-- set value
 
 ---
 

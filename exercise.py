@@ -2,7 +2,11 @@ HELLO_WORLD = "Hello World!"
 
 
 def main():
-    printer()
+    counter = 1
+
+    while True:
+        printer()
+        counter += 1
 
 
 def printer():

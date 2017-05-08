@@ -364,7 +364,7 @@ The following snippet will help with exploring debug functionality (mind the bre
     <th style="text-align: center; border: 1px solid black; padding: 3px; width:25%;"> Win/Lin keys </th> 
     <th style="text-align: center; border: 1px solid black; padding: 3px; width:25%;"> Mac keys </th>
   </tr>
-    <tr>
+  <tr>
     <td style="text-align: center; border: 1px solid black; padding: 3px;"> Debug </td>
     <td style="text-align: center; border: 1px solid black; padding: 3px;"> Shift + F9 </td> 
     <td style="text-align: center; border: 1px solid black; padding: 3px;"> ⇧F9 </td>
@@ -388,7 +388,7 @@ The following snippet will help with exploring debug functionality (mind the bre
     <td style="text-align: center; border: 1px solid black; padding: 3px;"> Alt + F8 </td> 
     <td style="text-align: center; border: 1px solid black; padding: 3px;"> ⌥ F8 </td>
   </tr>
-    <tr>
+  <tr>
     <td style="text-align: center; border: 1px solid black; padding: 3px;"> Set Value </td>
     <td style="text-align: center; border: 1px solid black; padding: 3px;"> F2 </td> 
     <td style="text-align: center; border: 1px solid black; padding: 3px;"> ⌥ F2 </td>
@@ -400,6 +400,7 @@ The following snippet will help with exploring debug functionality (mind the bre
   </tr>
 </table>
 <br/>
+
 
 
 ---

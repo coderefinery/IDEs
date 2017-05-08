@@ -138,7 +138,6 @@ if __name__ == '__main__':
    
 The navigation part won't be complete unless we try one more feature... Put the cursor on **_print()_** and press key combination for **Go to declaration**, observe the outcome.
 
-
 Some more useful key combinations to navigate around:
 
 <table style="width:100%;"> 
@@ -400,7 +399,6 @@ The following snippet will help with exploring debug functionality (mind the bre
     <td style="text-align: center; border: 1px solid black; padding: 3px;"> Ctrl + Shift + F8 </td> 
     <td style="text-align: center; border: 1px solid black; padding: 3px;"> ⌘ ⇧ F8 </td>
   </tr>
-<br/>
 
 ---
 
@@ -438,11 +436,11 @@ The following snippet will help with exploring debug functionality (mind the bre
 
 ### [Plugins](https://www.jetbrains.com/help/pycharm/2017.1/plugins.html?search=plugins)
 
-<table style="width:70%;">
-  <tr>
-    <th style="text-align: center; border: 1px solid black; padding: 3px;"> Action </th>
-    <th style="text-align: center; border: 1px solid black; padding: 3px;"> Win/Lin keys </th> 
-    <th style="text-align: center; border: 1px solid black; padding: 3px;"> Mac keys </th>
+<table style="width:100%;">
+ <tr>
+    <th style="text-align: center; border: 1px solid black; padding: 3px; width:50%;"> Action </th>
+    <th style="text-align: center; border: 1px solid black; padding: 3px; width:25%;"> Win/Lin keys </th> 
+    <th style="text-align: center; border: 1px solid black; padding: 3px; width:25%;"> Mac keys </th>
   </tr>
   <tr>
     <td style="text-align: center; border: 1px solid black; padding: 3px;"> Open Settings dialog </td>

@@ -359,6 +359,20 @@ The following snippet will help with exploring debug functionality (mind the bre
 - set value
 - remote debugging (yet not shown, however very powerful issue)
 
+
+<table style="width:100%;">
+  <tr>
+    <th style="text-align: center; border: 1px solid black; padding: 3px; width:50%;"> Action </th>
+    <th style="text-align: center; border: 1px solid black; padding: 3px; width:25%;"> Win/Lin keys </th> 
+    <th style="text-align: center; border: 1px solid black; padding: 3px; width:25%;"> Mac keys </th>
+  </tr>  
+  <tr>
+    <td style="text-align: center; border: 1px solid black; padding: 3px;"> Show intention actions and quick-fixes </td>
+    <td style="text-align: center; border: 1px solid black; padding: 3px;"> Alt + Enter </td> 
+    <td style="text-align: center; border: 1px solid black; padding: 3px;"> ⌥ Enter </td>
+  </tr>
+</table>
+
 ---
 
 ## Built-in Developer Tools

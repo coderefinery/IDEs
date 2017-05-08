@@ -6,8 +6,8 @@ exercises: 20
 questions:
   - "How to install PyCharm?"
 objectives:
-  - "PyCharm installation is verified"
   - "The project is imported into PyCharm"
+  - "PyCharm installation is verified"
   - "Student is aware of the supporting materials locations"
 keypoints:
   - "It is easy and fun to start with the IDE"
@@ -64,6 +64,7 @@ while the installer is running, let's take a look at support materials:
 - [latest docs](https://www.jetbrains.com/help/pycharm/2017.1/meet-pycharm.html)
 - [Mac default keymap](https://resources.jetbrains.com/storage/products/pycharm/docs/PyCharm_ReferenceCard_mac.pdf) / [generic default keymap (Win/Linux)](https://resources.jetbrains.com/storage/products/pycharm/docs/PyCharm_ReferenceCard.pdf)
 
+try using the following key combination to find the function desired:
 <table style="width:70%;">
   <tr>
     <th style="text-align: center; border: 1px solid black; padding: 3px;"> Action </th>
@@ -97,7 +98,7 @@ now press key combination:
   </tr>
 </table>
 <br/>
-and start typing **Open**, find and import pulled project. Once the project is loaded let's look around, there are several working areas of the window or panes:
+and start typing **Open**, find and import pulled project. Once the project is loaded let's look around, there are several working areas of the window or panes (list of them can also be found by **View -> Tool Windows -> ...**):
 
 - project 
 - code
@@ -140,7 +141,7 @@ and type word **Size** into the serach field, among the results, find and adjust
 
 now lets finalize the setup by running a test script [verification script]({{site.baseurl}}/verify.py)
 - **Run -> ...** or **Find Action** + **Run** or right click on the file tab and select **Run**
-(if asked by **Run/Debug** configuration dialog, then select the Script location and )
+(if asked by **Run/Debug** configuration dialog, then select the script location and other option as like python version and more...)
 
 > ## Environment
 > If You want to preserve Your existing environment by creating a separate VirtEnv, please take a look [here]({{site.baseurl}}/03-features/#virtualenv-7) for guindance. And "Yes", it is also embedded into PyCharm.

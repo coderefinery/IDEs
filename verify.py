@@ -1,7 +1,9 @@
 # function for verifying installation
 
+
+# todo verify the installation
 def main():
-    print("I Print, therefore I Am.")
+    print("I print, therefore I am.")
 
 
 if __name__ == "__main__":

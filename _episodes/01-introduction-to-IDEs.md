@@ -65,7 +65,7 @@ keyword: **INTEGRATED**
 
 ## Conventions
 
-<table style="width:100%;">
+<table style="width:70%;">
   <tr>
     <th style="text-align: center; border: 1px solid black; padding: 3px;"> Key combinations </th>
     <th style="text-align: center; border: 1px solid black; padding: 3px;"> Win/Lin keys </th> 
@@ -82,7 +82,6 @@ keyword: **INTEGRATED**
 - navigation inside software menus : **File -> Open -> ...**
 - concept : [**_breakpoint_**](https://en.wikipedia.org/wiki/Breakpoint) - a breakpoint is an intentional stopping or pausing place in a program, put in place for debugging purposes. (Wikipedia)
 - reference : (Wikipedia)
-
 ___ 
 
 1. Wikipedia - https://en.wikipedia.org/wiki/Integrated_development_environment

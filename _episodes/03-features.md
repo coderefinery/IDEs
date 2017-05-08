@@ -359,6 +359,7 @@ The following snippet will help with exploring debug functionality (mind the bre
 - set value
 - remote debugging (yet not shown, however very powerful issue)
 
+
 <table style="width:100%;">
   <tr>
     <th style="text-align: center; border: 1px solid black; padding: 3px; width:50%;"> Action </th>
@@ -399,6 +400,7 @@ The following snippet will help with exploring debug functionality (mind the bre
     <td style="text-align: center; border: 1px solid black; padding: 3px;"> Ctrl + Shift + F8 </td> 
     <td style="text-align: center; border: 1px solid black; padding: 3px;"> ⌘ ⇧ F8 </td>
   </tr>
+</table>
 
 ---
 

@@ -15,16 +15,16 @@ In this part basic functionality of IDE is demonstrated and gone through.
 
 
 ## Intelligent Coding Assistance
-- Code completion [0]
-- On-the-fly error highlighting [1]
-- Fast and Safe Refactorings [2]
+- [Code completion [0]]({{site.baseurl}}/03-features/#navigation--code-completion-0) 
+- [On-the-fly error highlighting [1]]({{site.baseurl}}/03-features/#on-the-fly-error-highlighting-1) 
+- [Fast and Safe Refactorings [2]]({{site.baseurl}}/03-features/#fast-and-safe-refactorings-2) 
 
 ## Built-in Developer Tools
-- Visual Debugger [3]
-- VCS + Local History [4]
-- Profiler [5]
-- Vagrant [6]
-- VirtualEnv [7]
+- [Visual Debugger [3]]({{site.baseurl}}/03-features/#visual-debugger-3) 
+- [VCS + Local History [4]]({{site.baseurl}}/03-features/#virtualenv-7) 
+- [Profiler [5]]({{site.baseurl}}/03-features/#virtualenv-7) 
+- [Vagrant [6]]({{site.baseurl}}/03-features/#virtualenv-7) 
+- [VirtualEnv [7]]({{site.baseurl}}/03-features/#virtualenv-7) 
 
 ## Customizable and Cross-platform IDE
 - Plugins
@@ -400,6 +400,7 @@ The following snippet will help with exploring debug functionality (mind the bre
   </tr>
 </table>
 <br/>
+
 
 ---
 

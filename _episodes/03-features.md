@@ -46,7 +46,7 @@ Let's start by finding the example exercise for this part. In the IDE do:
     <td style="text-align: center; border: 1px solid black; padding: 3px;"> Ctrl + Shift + A </td> 
     <td style="text-align: center; border: 1px solid black; padding: 3px;"> ⌘ ⇧ A  </td>
   </tr>
-  </table>
+</table>
   
   and find **Go To Class**. Once the key combination is known, use it to open the [exercise script]({{site.baseurl}}/exercise.py). Is' almost empty, so let's create a simple _main()_ function... start typing **_mai_**
   
@@ -63,8 +63,8 @@ if __name__ == '__main__':
 
 we are now missing the function itself. instead of manually typing it in, put a cursor on underlined in red word _main()_ and **Show intention actions ... ** and select **create function _main()_**.
   
-  <table style="width:100%;">
-    <tr>
+<table style="width:100%;">
+  <tr>
     <th style="text-align: center; border: 1px solid black; padding: 3px; width: 50%"> Action </th>
     <th style="text-align: center; border: 1px solid black; padding: 3px; width: 25%"> Win/Lin keys </th> 
     <th style="text-align: center; border: 1px solid black; padding: 3px; width: 25%"> Mac keys </th>
@@ -74,12 +74,12 @@ we are now missing the function itself. instead of manually typing it in, put a 
     <td style="text-align: center; border: 1px solid black; padding: 3px;"> Ctrl + N </td> 
     <td style="text-align: center; border: 1px solid black; padding: 3px;"> ⌘ O </td>
   </tr>
-     <tr>
+  <tr>
     <td style="text-align: center; border: 1px solid black; padding: 3px;"> Show intention actions and quick-fixes </td>
     <td style="text-align: center; border: 1px solid black; padding: 3px;"> Alt + Enter </td> 
     <td style="text-align: center; border: 1px solid black; padding: 3px;"> ⌥ Enter </td>
   </tr>
-    </table>
+</table>
     
 the approximate results are:
     
@@ -108,7 +108,7 @@ if __name__ == '__main__':
 keep the cursor at the end of the command and do **Basic code completion**:
     
 <table style="width:100%;">
-    <tr>
+  <tr>
     <th style="text-align: center; border: 1px solid black; padding: 3px; width: 50%"> Action </th>
     <th style="text-align: center; border: 1px solid black; padding: 3px; width: 25%"> Win/Lin keys </th> 
     <th style="text-align: center; border: 1px solid black; padding: 3px; width: 25%"> Mac keys </th>
@@ -123,7 +123,7 @@ keep the cursor at the end of the command and do **Basic code completion**:
     <td style="text-align: center; border: 1px solid black; padding: 3px;"> Ctrl + B , Ctrl + Click </td> 
     <td style="text-align: center; border: 1px solid black; padding: 3px;"> ⌘ B , ⌘ Click </td>
   </tr>
-    </table>
+</table>
     
 when the syntax s autocompleted, add the desired content, so the result is something like:   
  
@@ -141,13 +141,13 @@ The navigation part won't be complete unless we try one more feature... Put the 
 
 Some more useful key combinations to navigate around:
 
-  <table> 
-      <tr>
+<table style="width:100%;"> 
+    <tr>
     <th style="text-align: center; border: 1px solid black; padding: 3px; width: 50%"> Action </th>
     <th style="text-align: center; border: 1px solid black; padding: 3px; width: 25%"> Win/Lin keys </th> 
     <th style="text-align: center; border: 1px solid black; padding: 3px; width: 25%"> Mac keys </th>
   </tr>
-    <tr>
+  <tr>
     <td style="text-align: center; border: 1px solid black; padding: 3px;"> Select successively increasing code blocks </td>
     <td style="text-align: center; border: 1px solid black; padding: 3px;"> Ctrl + W </td> 
     <td style="text-align: center; border: 1px solid black; padding: 3px;"> ⌥ ↑ </td>
@@ -183,8 +183,9 @@ if __name__ == '__main__':
 ```
 
 Try next combination to improve the formatting a bit:
+
 <table style="width:100%;">
-      <tr>
+  <tr>
     <th style="text-align: center; border: 1px solid black; padding: 3px; width: 50%"> Action </th>
     <th style="text-align: center; border: 1px solid black; padding: 3px; width: 25%"> Win/Lin keys </th> 
     <th style="text-align: center; border: 1px solid black; padding: 3px; width: 25%"> Mac keys </th>
@@ -233,7 +234,7 @@ put a cursor on line that prints a greeting and do:
     <td style="text-align: center; border: 1px solid black; padding: 3px;"> Ctrl + Alt + M </td> 
     <td style="text-align: center; border: 1px solid black; padding: 3px;"> ⌘ ⌥ M </td>
   </tr>
-  </table>
+</table>
   
 give it a name, say an explicitly meaningless **_printher_**. however, the name is not exactly we wanted, put a cursor on a mistyped name (in any place of the file) and press:
 
@@ -248,7 +249,7 @@ give it a name, say an explicitly meaningless **_printher_**. however, the name 
     <td style="text-align: center; border: 1px solid black; padding: 3px;"> Ctrl + F6 </td> 
     <td style="text-align: center; border: 1px solid black; padding: 3px;"> ⌘ F6 </td>
   </tr>
-  </table>
+</table>
   
   to provide a new one. the approximate result is like:
   
@@ -266,13 +267,14 @@ if __name__ == '__main__':
 ```
   
 Constants (variables, fields) are extracted in a similar manner, try extracting **_"Hello World!"_** and adding **_while_** statement before the function call in **_main()_**:
+
 <table style="width:100%;">
   <tr>
     <th style="text-align: center; border: 1px solid black; padding: 3px; width:50%;"> Action </th>
     <th style="text-align: center; border: 1px solid black; padding: 3px; width:25%;"> Win/Lin keys </th> 
     <th style="text-align: center; border: 1px solid black; padding: 3px; width:25%;"> Mac keys </th>
   </tr>  
-    <tr>
+  <tr>
     <td style="text-align: center; border: 1px solid black; padding: 3px;"> Extract Constant </td>
     <td style="text-align: center; border: 1px solid black; padding: 3px;"> Ctrl + Alt + C </td> 
     <td style="text-align: center; border: 1px solid black; padding: 3px;"> ⌘ ⌥ C </td>
@@ -282,7 +284,7 @@ Constants (variables, fields) are extracted in a similar manner, try extracting 
     <td style="text-align: center; border: 1px solid black; padding: 3px;"> Ctrl + Alt + T </td> 
     <td style="text-align: center; border: 1px solid black; padding: 3px;"> ⌘ ⌥ T </td>
   </tr>
-  </table>
+</table>
   
 ```python
 HELLO_WORLD = "Hello World!"
@@ -303,7 +305,7 @@ if __name__ == '__main__':
   
   To finalize this subchapter create a test for **_printer()_** function:
   
-  <table style="width:100%;">
+<table style="width:100%;">
   <tr>
     <th style="text-align: center; border: 1px solid black; padding: 3px; width:50%;"> Action </th>
     <th style="text-align: center; border: 1px solid black; padding: 3px; width:25%;"> Win/Lin keys </th> 
@@ -328,13 +330,13 @@ class TestPrinter(TestCase):
 magical error highlighter (btw, it does have a name... Hector-the-Inspector) will happily notify, that **_reference is unresolved_**, resolve with (**_Import..._** ):
 
 
-  <table style="width:100%;">
+<table style="width:100%;">
   <tr>
     <th style="text-align: center; border: 1px solid black; padding: 3px; width:50%;"> Action </th>
     <th style="text-align: center; border: 1px solid black; padding: 3px; width:25%;"> Win/Lin keys </th> 
     <th style="text-align: center; border: 1px solid black; padding: 3px; width:25%;"> Mac keys </th>
   </tr>  
-    <tr>
+  <tr>
     <td style="text-align: center; border: 1px solid black; padding: 3px;"> Show intention actions and quick-fixes </td>
     <td style="text-align: center; border: 1px solid black; padding: 3px;"> Alt + Enter </td> 
     <td style="text-align: center; border: 1px solid black; padding: 3px;"> ⌥ Enter </td>
@@ -400,8 +402,6 @@ The following snippet will help with exploring debug functionality (mind the bre
   </tr>
 </table>
 <br/>
-
-
 
 ---
 

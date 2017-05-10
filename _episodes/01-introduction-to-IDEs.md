@@ -25,18 +25,18 @@ IDE stands for "Integrated Development Environment" - is a software application 
 
 <br/>
 <div>
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Icon-Vim.svg/256px-Icon-Vim.svg.png" style="width:6%">
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Antu_emacs.svg/2000px-Antu_emacs.svg.png" style="width:6%">
-<img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Sublime_text_logo.png" style="width:6%">
-<img src="https://upload.wikimedia.org/wikipedia/commons/0/0f/Notepad%2B%2B_Logo.png" style="width:6%">
-<img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Spyder_logo.svg" style="width:6%">
-<img src="https://upload.wikimedia.org/wikipedia/commons/a/a1/PyCharm_Logo.svg" style="width:6%">
-<img src="https://upload.wikimedia.org/wikipedia/commons/d/d7/Ninja-ide-logo.png" style="width:6%">
-<img src="https://upload.wikimedia.org/wikipedia/commons/6/61/Visual_Studio_2017_logo_and_wordmark.svg" style="width:20%">
-<img src="{{site.baseurl}}/img/icon_CLion.png" style="width:6%">
-<img src="https://upload.wikimedia.org/wikipedia/commons/c/cf/Eclipse-SVG.svg" style="width:6%">
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Antu_rstudio.svg/600px-Antu_rstudio.svg.png" style="width:6%">
-<img src="https://upload.wikimedia.org/wikipedia/commons/2/21/Matlab_Logo.png" style="width:6%">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Icon-Vim.svg/256px-Icon-Vim.svg.png" style="width:6%">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Antu_emacs.svg/2000px-Antu_emacs.svg.png" style="width:6%">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Sublime_text_logo.png" style="width:6%">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/0/0f/Notepad%2B%2B_Logo.png" style="width:6%">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Spyder_logo.svg" style="width:6%">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/a/a1/PyCharm_Logo.svg" style="width:6%">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/d/d7/Ninja-ide-logo.png" style="width:6%">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/Visual_Studio_2017_logo_and_wordmark.svg" style="width:20%">
+    <img src="{{site.baseurl}}/img/icon_CLion.png" style="width:6%">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/c/cf/Eclipse-SVG.svg" style="width:6%">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Antu_rstudio.svg/600px-Antu_rstudio.svg.png" style="width:6%">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/2/21/Matlab_Logo.png" style="width:6%">
 </div>
 <br/>
 
@@ -72,7 +72,7 @@ keyword: **INTEGRATED**
     <th style="text-align: center; border: 1px solid black; padding: 3px; width:25%"> Mac keys </th>
   </tr>
   <tr>
-    <td style="text-align: center; border: 1px solid black; padding: 3px;"> Action </td>
+    <td style="text-align: center; border: 1px solid black; padding: 3px;"> Find Action </td>
     <td style="text-align: center; border: 1px solid black; padding: 3px;"> Ctrl + Shift + A </td> 
     <td style="text-align: center; border: 1px solid black; padding: 3px;"> ⌘ ⇧ A  </td>
   </tr>

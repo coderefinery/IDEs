@@ -2,7 +2,7 @@
 layout: episode
 title: "PyCharm features"
 teaching: 15
-exercises: 30
+exercises: 40
 questions:
   - "How to ease Your life?"
 objectives:
@@ -420,7 +420,7 @@ inspect the results:
 
 ---
 
-## Built-in Developer Tools*
+## Built-in Developer Tools
 
 ### [Notebook](https://www.jetbrains.com/help/pycharm/2017.1/using-ipython-jupyter-notebook-with-pycharm.html) [6]
 

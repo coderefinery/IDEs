@@ -72,7 +72,7 @@ keyword: **INTEGRATED**
     <th style="text-align: center; border: 1px solid black; padding: 3px; width:25%"> Mac keys </th>
   </tr>
   <tr>
-    <td style="text-align: center; border: 1px solid black; padding: 3px;"> Action </td>
+    <td style="text-align: center; border: 1px solid black; padding: 3px;"> Find Action </td>
     <td style="text-align: center; border: 1px solid black; padding: 3px;"> Ctrl + Shift + A </td> 
     <td style="text-align: center; border: 1px solid black; padding: 3px;"> ⌘ ⇧ A  </td>
   </tr>

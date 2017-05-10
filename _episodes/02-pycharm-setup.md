@@ -21,7 +21,7 @@ During this lesson the typical IDE installation process is completed. Session ai
 
 motivation for choosing PyCharm is quite simple: 
 - Python language is more or less familiar to the majority of the workshop's audience
-- PyCharm belongs to JetBrains' IDE product family, which is considered to be one of the best ranges of developer tools existing
+- PyCharm belongs to JetBrains' IDE product family, which is considered to be one of the best ranges of developer tools exists
 - PyCharm has a commercial version
 - there are similar IDEs for different technologies:
   <br/>
@@ -140,7 +140,7 @@ before we complete this part, let's tune the look and feel too, do:
 <br/>
 and type word **Size** into the serach field, among the results, find and adjust **Console font size** and check **Change font size (Zoom) with Ctrl+Mouse Wheel**
 
-now lets finalize the setup by running a test script [verification script]({{site.baseurl}}/verify.py)
+now lets finalize the setup by running a test script [verification script](https://github.com/coderefinery/IDEs/blob/gh-pages/verify.py)
 - **Run -> ...** or **Find Action** + **Run** or right click on the file tab and select **Run**
 (if asked by **Run/Debug** configuration dialog, then select the script location and other option as like python version and more...)
 

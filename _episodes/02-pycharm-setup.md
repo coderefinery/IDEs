@@ -38,7 +38,7 @@ motivation for choosing PyCharm is quite simple:
     <td style="text-align: center; border: 1px solid black; padding: 3px;"> C / C++ </td>
     <td style="text-align: center; border: 1px solid black; padding: 3px;"> CLion </td> 
   </tr>
-    <tr>
+  <tr>
     <td style="text-align: center; border: 1px solid black; padding: 3px;"> C++ </td>
     <td style="text-align: center; border: 1px solid black; padding: 3px;"> ReSharper C++ as Visual Studio Extension </td> 
   </tr>
@@ -48,6 +48,7 @@ motivation for choosing PyCharm is quite simple:
   </tr>
 </table>
 <br/>
+
 PyCharm comes in 3 (three) flavours:
 - community edition (the one we are going to mainly use during the session)
 - educational edition (open source, good for learning purposes)
@@ -66,6 +67,7 @@ while the installer is running, let's take a look at support materials:
 - [Mac default keymap](https://resources.jetbrains.com/storage/products/pycharm/docs/PyCharm_ReferenceCard_mac.pdf) / [generic default keymap (Win/Linux)](https://resources.jetbrains.com/storage/products/pycharm/docs/PyCharm_ReferenceCard.pdf)
 
 try using the following key combination to find the function desired:
+
 <table style="width:100%;">
   <tr>
     <th style="text-align: center; border: 1px solid black; padding: 3px; width:50%"> Action </th>
@@ -99,6 +101,7 @@ now press key combination:
   </tr>
 </table>
 <br/>
+
 and start typing **Open**, find and import pulled project. Once the project is loaded let's look around, there are several working areas of the window or panes (list of them can also be found by **View -> Tool Windows -> ...**):
 
 - project 
@@ -114,16 +117,18 @@ and start typing **Open**, find and import pulled project. Once the project is l
   </tr>
   <tr>
     <td style="text-align: center; border: 1px solid black; padding: 3px;"> Open corresponding tool window </td>
-        <td style="text-align: center; border: 1px solid black; padding: 3px;"> Alt + #[0-9] </td>
-        <td style="text-align: center; border: 1px solid black; padding: 3px;"> ⌘ 0 ... ⌘ 9 </td>
+    <td style="text-align: center; border: 1px solid black; padding: 3px;"> Alt + #[0-9] </td>
+    <td style="text-align: center; border: 1px solid black; padding: 3px;"> ⌘ 0 ... ⌘ 9 </td>
   </tr>
 </table>
 <br/>
+
 tools can be also called by **Find Action** key combination, just start typing in the pane/tool name. another useful part of the UI is the buttons ribbon, let's extend the default a little:
 
 - select **View -> ...** and check all the options in the section starting with **Toolbar**, or alternatively use the **Find Action** approach
 
 before we complete this part, let's tune the look and feel too, do: 
+
 <br/>
 <table style="width:100%;">
   <tr>
@@ -138,6 +143,7 @@ before we complete this part, let's tune the look and feel too, do:
   </tr>
 </table>
 <br/>
+
 and type word **Size** into the serach field, among the results, find and adjust **Console font size** and check **Change font size (Zoom) with Ctrl+Mouse Wheel**
 
 now lets finalize the setup by running a test script [verification script](https://github.com/coderefinery/IDEs/blob/gh-pages/verify.py)

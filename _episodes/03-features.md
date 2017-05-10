@@ -7,6 +7,8 @@ questions:
   - "How to ease Your life?"
 objectives:
   - "Some of the main features of PyCharm are introduced."
+keypoints:
+  - "Know Your tools"
 ---
 
 # PyCharm setup
@@ -317,7 +319,8 @@ if __name__ == '__main__':
   </tr>
 </table>
 
-once the stub is generated, let's populate it with some content: 
+once the stub is generated, let's populate it with some content:
+
 ```python
 from unittest import TestCase
 
@@ -383,7 +386,7 @@ The following snippet will help with exploring debug functionality (mind the bre
 
 and switch between tabs (**Log** / **Console** ...)
  
-- Local History, to view do: **VCS -> Local History -> Show Local History**
+- Local History, to view do: **VCS -> Local History -> Show Local History** (another name for the feature could be "continuous staging")
 
 ---
 
@@ -416,7 +419,41 @@ inspect the results:
 
 ### [Notebook](https://www.jetbrains.com/help/pycharm/2017.1/using-ipython-jupyter-notebook-with-pycharm.html) [6]
 
-- demo : **Tools -> Vagrant -> ...**
+- if prerequisites are isntalled, craeting a notebook is as easy as making a new file:
+
+<table style="width:100%;">
+  <tr>
+    <th style="text-align: center; border: 1px solid black; padding: 3px; width: 50%"> Action </th>
+    <th style="text-align: center; border: 1px solid black; padding: 3px; width: 25%"> Win/Lin keys </th> 
+    <th style="text-align: center; border: 1px solid black; padding: 3px; width: 25%"> Mac keys </th>
+  </tr>
+  <tr>
+    <td style="text-align: center; border: 1px solid black; padding: 3px;"> To find any action inside the IDE use Find Action </td>
+    <td style="text-align: center; border: 1px solid black; padding: 3px;"> Ctrl + Shift + A </td> 
+    <td style="text-align: center; border: 1px solid black; padding: 3px;"> ⌘ ⇧ A  </td>
+  </tr>
+</table>
+
+and look for **New**. or right-click in **Project Area** and simply create a new **Jupyter Notebook** file:
+
+<img src="{{site.baseurl}}/img/notebook.png" style="width:100%">
+
+let's verify it by some [basic magics](https://github.com/coderefinery/jupyter/blob/master/lesson_1.ipynb):
+ 
+```
+%%bash
+echo "Hello Magic!"
+```
+
+```
+%matplotlib inline
+import numpy as np
+import matplotlib.pyplot as plt
+x = np.linspace(0,2*np.pi,100)
+y = np.sin(x)
+plt.plot(x,y, 'r-')
+plt.show()
+```
 
 ---
 

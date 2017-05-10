@@ -38,10 +38,9 @@ IDE stands for "Integrated Development Environment" - is a software application 
     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Antu_rstudio.svg/600px-Antu_rstudio.svg.png" style="width:6%">
     <img src="https://upload.wikimedia.org/wikipedia/commons/2/21/Matlab_Logo.png" style="width:6%">
 </div>
-<br/>
 
-Some examples of the text editing Universe:
-- editors: proudly [Vim](http://www.vim.org/) and the legendary [vi](http://ex-vi.sourceforge.net/), no less famous [Emacs](https://www.gnu.org/software/emacs/), [Sublime Text](https://www.sublimetext.com/), [Notepad++](https://notepad-plus-plus.org/) _etc._ these with some amount of skill and knowledge can be turned into cool custom IDE-like software complexes, or not. The main benefits could be simplicity, extendability and wide use (vi editor is by standard the default text editor for UNIX systems)
+Some examples of the code editing Universe:
+- editors: proudly [Vim](http://www.vim.org/) and the legendary [vi](http://ex-vi.sourceforge.net/), no less famous [Emacs](https://www.gnu.org/software/emacs/), [Sublime Text](https://www.sublimetext.com/), [Notepad++](https://notepad-plus-plus.org/) _etc._ these, with some amount of skill and knowledge can be turned into cool custom IDE-like software complexes, or not. The main benefits could be simplicity, extendability and wide use (vi editor is by standard the default text editor for UNIX systems)
 
 - so called IDEs (containing additional to editing functionalities out of box): [Spyder](https://pythonhosted.org/spyder/), [PyCharm](https://www.jetbrains.com/pycharm/), [Ninja-IDE](http://ninja-ide.org/); [VisualStudio](https://www.visualstudio.com/), [CLion](https://www.jetbrains.com/clion/), [Eclipse](https://eclipse.org/ide/), [RStudio](https://www.rstudio.com/), [MATLAB](https://se.mathworks.com/help/matlab/matlab_external/compiling-engine-applications-in-an-ide.html?requestedDomain=www.mathworks.com)
 
@@ -72,16 +71,15 @@ keyword: **INTEGRATED**
     <th style="text-align: center; border: 1px solid black; padding: 3px; width:25%"> Mac keys </th>
   </tr>
   <tr>
-    <td style="text-align: center; border: 1px solid black; padding: 3px;"> Find Action </td>
+    <td style="text-align: center; border: 1px solid black; padding: 3px;"> To find any action inside the IDE use Find Action </td>
     <td style="text-align: center; border: 1px solid black; padding: 3px;"> Ctrl + Shift + A </td> 
     <td style="text-align: center; border: 1px solid black; padding: 3px;"> ⌘ ⇧ A  </td>
   </tr>
 </table>
-<br/>
 
-- navigation inside software menus : **File -> Open -> ...**
+- navigation inside the menus : **File -> Open -> ...**
 - code : **_main()_**
-- concept : [**_BREAKPOINT_**](https://en.wikipedia.org/wiki/Breakpoint) - a breakpoint is an intentional stopping or pausing place in a program, put in place for debugging purposes. (Wikipedia)
+- concept : [**_BREAKPOINT_**](https://en.wikipedia.org/wiki/Breakpoint) - a breakpoint is an intentional stopping or pausing place in a program, put in place for debugging purposes (Wikipedia).
 - reference : (Wikipedia)
 
 ___ 

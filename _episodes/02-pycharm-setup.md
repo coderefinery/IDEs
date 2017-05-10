@@ -22,9 +22,9 @@ During this lesson the typical IDE installation process is completed. Session ai
 motivation for choosing PyCharm is quite simple: 
 - Python language is more or less familiar to the majority of the workshop's audience
 - PyCharm belongs to JetBrains' IDE product family, which is considered to be one of the best ranges of developer tools exists
-- PyCharm has a commercial version
 - there are similar IDEs for different technologies:
-  <br/>
+
+<br/>
 <table style="width:100%;">
   <tr>
     <th style="text-align: center; border: 1px solid black; padding: 3px; width:50%"> technology </th>
@@ -47,7 +47,6 @@ motivation for choosing PyCharm is quite simple:
     <td style="text-align: center; border: 1px solid black; padding: 3px;"> DataGrip </td> 
   </tr>
 </table>
-<br/>
 
 PyCharm comes in 3 (three) flavours:
 - community edition (the one we are going to mainly use during the session)
@@ -75,7 +74,7 @@ try using the following key combination to find the function desired:
     <th style="text-align: center; border: 1px solid black; padding: 3px; width:25%"> Mac keys </th>
   </tr>
   <tr>
-    <td style="text-align: center; border: 1px solid black; padding: 3px;"> To find any action inside the IDE use Find Action </td>
+    <td style="text-align: center; border: 1px solid black; padding: 3px;"> Find Action </td>
     <td style="text-align: center; border: 1px solid black; padding: 3px;"> Ctrl + Shift + A </td> 
     <td style="text-align: center; border: 1px solid black; padding: 3px;"> ⌘ ⇧ A  </td>
   </tr>
@@ -95,12 +94,11 @@ now press key combination:
     <th style="text-align: center; border: 1px solid black; padding: 3px; width:25%"> Mac keys </th>
   </tr>
   <tr>
-    <td style="text-align: center; border: 1px solid black; padding: 3px;"> To find any action inside the IDE use Find Action </td>
+    <td style="text-align: center; border: 1px solid black; padding: 3px;"> Find Action </td>
     <td style="text-align: center; border: 1px solid black; padding: 3px;"> Ctrl + Shift + A </td> 
     <td style="text-align: center; border: 1px solid black; padding: 3px;"> ⌘ ⇧ A  </td>
   </tr>
 </table>
-<br/>
 
 and start typing **Open**, find and import pulled project. Once the project is loaded let's look around, there are several working areas of the window or panes (list of them can also be found by **View -> Tool Windows -> ...**):
 
@@ -116,12 +114,11 @@ and start typing **Open**, find and import pulled project. Once the project is l
     <th style="text-align: center; border: 1px solid black; padding: 3px; width:25%"> Mac keys </th>
   </tr>
   <tr>
-    <td style="text-align: center; border: 1px solid black; padding: 3px;"> Open corresponding tool window </td>
+    <td style="text-align: center; border: 1px solid black; padding: 3px;"> Open Corresponding Tool Window </td>
     <td style="text-align: center; border: 1px solid black; padding: 3px;"> Alt + #[0-9] </td>
     <td style="text-align: center; border: 1px solid black; padding: 3px;"> ⌘ 0 ... ⌘ 9 </td>
   </tr>
 </table>
-<br/>
 
 tools can be also called by **Find Action** key combination, just start typing in the pane/tool name. another useful part of the UI is the buttons ribbon, let's extend the default a little:
 
@@ -142,13 +139,12 @@ before we complete this part, let's tune the look and feel too, do:
     <td style="text-align: center; border: 1px solid black; padding: 3px;"> ⌘ , </td>
   </tr>
 </table>
-<br/>
 
-and type word **Size** into the serach field, among the results, find and adjust **Console font size** and check **Change font size (Zoom) with Ctrl+Mouse Wheel**
+and type word **Size** into the search field, among the results, find and adjust **Console font size** and check **Change font size (Zoom) with Ctrl+Mouse Wheel**
 
 now lets finalize the setup by running a test script [verification script](https://github.com/coderefinery/IDEs/blob/gh-pages/verify.py)
 - **Run -> ...** or **Find Action** + **Run** or right click on the file tab and select **Run**
-(if asked by **Run/Debug** configuration dialog, then select the script location and other option as like python version and more...)
+(if asked by **Run/Debug** configuration dialog, then select the script location and other option as like python version and more... (anaconda package is advisable))
 
 > ## Environment
 > If You want to preserve Your existing environment by creating a separate VirtEnv, please take a look [here]({{site.baseurl}}/03-features/#virtualenv-7) for guindance. And "Yes", it is also embedded into PyCharm.

@@ -55,15 +55,19 @@ Let's start by finding the example exercise for this part. In the IDE do:
 ```python
 mai
 ```
-  
-PyCharm will instantly offer options to autocomplete the function, agree on suggested. Following add the _main_ function, so the result is:
+    
+PyCharm will instantly offer options to autocomplete the function, agree on suggested:
+
+<img src="{{site.baseurl}}/img/autocomplete.png" style="width:100%">
+
+Following add the **_main_** function, so the result is:
 
 ```python
 if __name__ == '__main__':
     main()
 ```
 
-we are now missing the function itself. instead of manually typing it in, put a cursor on underlined in red word _main()_ and **Show intention actions ... ** and select **create function _main()_**.
+we are now missing the function itself. instead of manually typing it in, put a cursor on underlined in red word _main()_ and **Show intention actions ...** and select **create function _main()_**.
   
 <table style="width:100%;">
   <tr>
@@ -326,6 +330,7 @@ from unittest import TestCase
 
 
 class TestPrinter(TestCase):
+    def test_printer(self):
     printer()
 ```
 
@@ -351,7 +356,7 @@ magical error highlighter (btw, it does have a name... Hector-the-Inspector) wil
 
 ### [Visual Debugger](https://www.jetbrains.com/help/pycharm/2017.1/debugger.html?search=debugger) [3]
 
-- concept : [**_breakpoint_**](https://en.wikipedia.org/wiki/Breakpoint) - a breakpoint is an intentional stopping or pausing place in a program, put in place for debugging purposes. (Wikipedia)
+- concept : [**_BREAKPOINT_**](https://en.wikipedia.org/wiki/Breakpoint) - a breakpoint is an intentional stopping or pausing place in a program, put in place for debugging purposes. (Wikipedia)
 
 The following snippet will help with exploring debug functionality (mind the breakpoint):
 
@@ -359,7 +364,7 @@ The following snippet will help with exploring debug functionality (mind the bre
 
 - run in debug mode : **Run -> Debug '...'** 
 - take a look
-- set value
+- **Set Value**
 - remote debugging (yet not shown, however very powerful issue)
 
 
@@ -384,9 +389,9 @@ The following snippet will help with exploring debug functionality (mind the bre
   </tr>
 </table>
 
-and switch between tabs (**Log** / **Console** ...)
+and switch between tabs (**Log** / **Local Changes** ...)
  
-- Local History, to view do: **VCS -> Local History -> Show Local History** (another name for the feature could be "continuous staging")
+- Local History, to view do: **VCS -> Local History -> Show Local History** (from git perspective another name for the feature could be "continuous staging")
 
 ---
 
@@ -419,7 +424,7 @@ inspect the results:
 
 ### [Notebook](https://www.jetbrains.com/help/pycharm/2017.1/using-ipython-jupyter-notebook-with-pycharm.html) [6]
 
-- if prerequisites are isntalled, craeting a notebook is as easy as making a new file:
+- if prerequisites are intsalled, crateing a Notebook is as easy as making a new file:
 
 <table style="width:100%;">
   <tr>
@@ -434,11 +439,11 @@ inspect the results:
   </tr>
 </table>
 
-and look for **New**. or right-click in **Project Area** and simply create a new **Jupyter Notebook** file:
+and look for **New** or right-click in **Project Area** and simply create a new **Jupyter Notebook** file:
 
 <img src="{{site.baseurl}}/img/notebook.png" style="width:100%">
 
-let's verify it by some [basic magics](https://github.com/coderefinery/jupyter/blob/master/lesson_1.ipynb):
+let's verify it with some [basic magics](https://github.com/coderefinery/jupyter/blob/master/lesson_1.ipynb):
  
 ```
 %%bash
@@ -457,11 +462,13 @@ plt.show()
 
 ---
 
-## Built-in Developer Tools*
+## Built-in Developer Tools
 
-### [VirtualEnv](https://www.jetbrains.com/help/pycharm/2016.3/creating-virtual-environment.html) [7]
+### [VirtualEnv](https://www.jetbrains.com/help/pycharm/2017.1/creating-virtual-environment.html) [7]
 
-- creating [virtual environments](https://virtualenv.pypa.io/en/stable/)
+- creating [virtual environments](https://virtualenv.pypa.io/en/stable/) - a self-contained directory tree that contains a Python installation for a particular version of Python, plus a number of additional packages. (Python Docs)
+
+Let's see the how-to from the [PyCharm docs](https://www.jetbrains.com/help/pycharm/2017.1/creating-virtual-environment.html).
 
 ---
 
@@ -483,12 +490,13 @@ plt.show()
 </table>
 <br/>
 
-- Plugins, plugins are everywhere... 
+- Plugins, plugins are everywhere... (Vim, LaTeX, YAML)
 
 ___
 
 1. Python Wiki - http://python.wikia.com/wiki/PEP8
 2. Wikipedia - https://en.wikipedia.org/wiki/Breakpoint
 3. Pylint - https://pylint.readthedocs.io/en/latest/intro.html
+4. Pythom Docs - https://docs.python.org/3/tutorial/venv.html
 
 **\* - PyCharm professional only**

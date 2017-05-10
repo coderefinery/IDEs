@@ -22,6 +22,7 @@ During this lesson the typical IDE installation process is completed. Session ai
 motivation for choosing PyCharm is quite simple: 
 - Python language is more or less familiar to the majority of the workshop's audience
 - PyCharm belongs to JetBrains' IDE product family, which is considered to be one of the best ranges of developer tools existing
+- PyCharm has a commercial version
 - there are similar IDEs for different technologies:
   <br/>
 <table style="width:100%;">

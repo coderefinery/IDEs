@@ -147,7 +147,7 @@ now lets finalize the setup by running a test script [verification script](https
 (if asked by **Run/Debug** configuration dialog, then select the script location and other option as like python version and more... (anaconda package is advisable))
 
 > ## Environment
-> If You want to preserve Your existing environment by creating a separate VirtEnv, please take a look [here]({{site.baseurl}}/03-features/#virtualenv-7) for guindance. And "Yes", it is also embedded into PyCharm.
+> If You want to preserve Your existing environment by creating a separate VirtualEnv, please take a look [here]({{site.baseurl}}/03-features/#virtualenv-7) for guindance. And "Yes", it is also embedded into PyCharm.
 >
 > {: .solution }
 {: .challenge :}

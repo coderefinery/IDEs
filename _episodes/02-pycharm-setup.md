@@ -126,7 +126,6 @@ tools can be also called by **Find Action** key combination, just start typing i
 
 before we complete this part, let's tune the look and feel too, do: 
 
-<br/>
 <table style="width:100%;">
   <tr>
     <th style="text-align: center; border: 1px solid black; padding: 3px; width:50%"> Action </th>

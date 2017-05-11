@@ -38,6 +38,7 @@ IDE stands for "Integrated Development Environment" - is a software application 
     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Antu_rstudio.svg/600px-Antu_rstudio.svg.png" style="width:6%">
     <img src="https://upload.wikimedia.org/wikipedia/commons/2/21/Matlab_Logo.png" style="width:6%">
 </div>
+</br>
 
 Some examples of the code editing Universe:
 - editors: proudly [Vim](http://www.vim.org/) and the legendary [vi](http://ex-vi.sourceforge.net/), no less famous [Emacs](https://www.gnu.org/software/emacs/), [Sublime Text](https://www.sublimetext.com/), [Notepad++](https://notepad-plus-plus.org/) _etc._ these, with some amount of skill and knowledge can be turned into cool custom IDE-like software complexes, or not. The main benefits could be simplicity, extendability and wide use (vi editor is by standard the default text editor for UNIX systems)

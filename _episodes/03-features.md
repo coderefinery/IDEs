@@ -47,7 +47,7 @@ Let's start by finding the example exercise for this part. In the IDE do:
     <td style="text-align: center; border: 1px solid black; padding: 3px;"> To find any action inside the IDE use Find Action </td>
     <td style="text-align: center; border: 1px solid black; padding: 3px;"> Ctrl + Shift + A </td> 
     <td style="text-align: center; border: 1px solid black; padding: 3px;"> ⌘ ⇧ A  </td>
- **** </tr>
+  </tr>
 </table>
   
 and find **Go To Class**. Once the key combination is known, use it to open the [exercise script]({{site.baseurl}}/exercise.py). It's almost empty, so let's create a simple **_main()_** function... start typing **_mai_**
@@ -67,7 +67,7 @@ if __name__ == '__main__':
     main()
 ```
 
-we are now missing the function itself. instead of manually typing it in, put a cursor on underlined in red word **_main()_** and **Show intention actions ...** select **create function _main()_** from the options
+we are now missing the function itself. instead of manually typing it in, put a cursor on underlined in red word **_main()_** and **Show Intention Actions ...** select **create function _main()_** from the options
   
 <table style="width:100%;">
   <tr>
@@ -109,7 +109,7 @@ if __name__ == '__main__':
     main()
 ```
 
-keep the cursor at the end of the command and do **Basic code completion**:
+keep the cursor at the end of the command and do **Basic Completion**:
     
 <table style="width:100%;">
   <tr>
@@ -140,7 +140,7 @@ if __name__ == '__main__':
     main()
 ```
    
-The navigation part won't be complete unless we try one more feature... Put the cursor on **_print()_** and press key combination for **Go to declaration**, observe the outcome.
+The navigation part won't be complete unless we try one more feature... Put the cursor on **_print()_** and press key combination for **Goto Declaration**, observe the outcome.
 
 Some more useful key combinations to navigate around:
 

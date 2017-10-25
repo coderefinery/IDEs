@@ -17,6 +17,9 @@ keypoints:
 
 During this lesson the typical IDE installation process is completed. Session aims to expose ease of beginning with IDE, point to sources of information as well as guide towards having a verified valid installation on a local machine (OS agnostic). 
 
+
+## Installation and setup
+=======
 ## PyCharm
 
 motivation for choosing PyCharm is quite simple: 
@@ -47,6 +50,7 @@ motivation for choosing PyCharm is quite simple:
     <td style="text-align: center; border: 1px solid black; padding: 3px;"> DataGrip </td> 
   </tr>
 </table>
+
 
 PyCharm comes in 3 (three) flavours:
 - community edition (the one we are going to mainly use during the session)
@@ -139,6 +143,62 @@ before we complete this part, let's tune the look and feel too, do:
   </tr>
 </table>
 
+
+
+## Clone a repository with PyCharm
+
+- The repository to clone:  https://github.com/kjam/wswp
+- Add a new if statement on line 39 in the file advanced_link_crawler.py
+- Revert change
+- Create branch && checkout branch
+- Add the if statment
+- Commit the change
+
+## Start new project
+- Create a simple program (main)
+- Create class
+- Create class.method
+- Import package and look at documentation
+
+## Change appearance and PEP8 warnings
+- Import old Python file
+
+## Debugging
+The code we will use (taken from Jet Brains Help pages)
+
+
+```python
+import math
+
+class Solver:
+
+    def demo(self, a, b, c):
+        d = b ** 2 - 4 * a * c
+        if d > 0:
+            disc = math.sqrt(d)
+            root1 = (-b + disc) / (2 * a)
+            root2 = (-b - disc) / (2 * a)
+            return root1, root2
+        elif d == 0:
+            return -b / ( 2 * a )
+        else:
+            return "This equation has no roots"
+
+if __name__ == '__main__':
+    solver = Solver()
+
+while True:
+    a = int(input("a: "))
+    b = int(input("b: "))
+    c = int(input("c: "))
+    result = solver.demo(a,b,c)
+    print(result)
+
+```
+
+- Add breakpoints
+- Inspect variables
+=======
 and type word **Size** into the search field, among the results, find and adjust **Console font size** and check **Change font size (Zoom) with Ctrl+Mouse Wheel**
 
 now lets finalize the setup by running a test script [verification script](https://github.com/coderefinery/IDEs/blob/gh-pages/verify.py)
@@ -150,3 +210,4 @@ now lets finalize the setup by running a test script [verification script](https
 >
 > {: .solution }
 {: .challenge :}
+

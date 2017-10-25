@@ -40,6 +40,10 @@ IDE stands for "Integrated Development Environment" - is a software application 
 </div>
 </br>
 
+
+## Everything integrated...
+![]({{ site.baseurl }}/img/10-wave-fanned-black-oxide.jpg) ![]({{ site.baseurl }}/img/10-wave-closed-black-oxide.jpg)
+=======
 Some examples of the code editing Universe:
 - editors: proudly [Vim](http://www.vim.org/) and the legendary [vi](http://ex-vi.sourceforge.net/), no less famous [Emacs](https://www.gnu.org/software/emacs/), [Sublime Text](https://www.sublimetext.com/), [Notepad++](https://notepad-plus-plus.org/) _etc._ these, with some amount of skill and knowledge can be turned into cool custom IDE-like software complexes, or not. The main benefits could be simplicity, extendability and wide use (vi editor is by standard the default text editor for UNIX systems)
 
@@ -53,15 +57,52 @@ Some examples of the code editing Universe:
 
 What tools - if any - are you already using? What tools have you heard of?
 
+
+## ..even more
+![]({{ site.baseurl }}/img/kenwood_major.jpg) ![]({{ site.baseurl }}/img/stove.jpg)
+
 ##  Why to use and IDE?
 
-keyword: **INTEGRATED**
+The keyword is: **INTEGRATED**
+ 
+###  Bjarne Stroustrup writing about Development and Design (The Programming Language C++, edition 3)
+  - Design and programming are iterative activities
+  - The systems we construct tend to be at the limit of the complexity that  we and our tools can handle
+  - There are no "cookbook" methods that can replace intelligence,experience, and good taste in design and programming  
+  - Successful software development is a long-term activity
+  - The most important single aspect of software development is to be clear about what you are trying to build
+  - The different phases of a software project, such as design, programming, and testing, cannot be strictly separated
+  - Programming and design cannot be considered without also considering the management of these activites.
 
+"It is easy - typically expensive - to underestimate any of these points. It is hard to transform the abstract ideas they embody into practice. The need for experience should be noted. Like boat building, bicycling, and programming, design is not a skill that can be mastered through theoretical study alone."
+
+
+Remember, you never see the scaffolding!!
+
+### You should use an IDE because...
+it alleviates the process of instantiating your abstract ideas:
+- decreases pain
+- boosts effectiveness
+- best-practice
+
+- ±multifunctional
+- ±need to learn new tool
+ 
+## Discussion
+- Do you agree to the statements above or do you have an different your experience?
+- What tools - if any - are you already using? What tools have you heard of?
+
+## Our Choice...
+Coderefinery use PyCharm from Jet Brains:
+- [PyCharm Educational  Edition](https://www.jetbrains.com/pycharm/) - A tool for learning Python
+- [PyCharm Community Edition](https://www.jetbrains.com/pycharm/) - A tool for doing Scientific software development
+=======
 - provides insight on industry best-practices
 - boosts effectiveness by combining industry cutting edge technologies 
 
 - ±multifunctional
 - ±need to learn new tool
+
 
 ## Conventions
 

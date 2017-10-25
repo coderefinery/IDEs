@@ -18,11 +18,6 @@ keypoints:
 In this lesson the typical IDE installation process is completed. This session aims to expose ease of beginning with IDE, point to sources of information.
 explained main concepts of IDE, learn about its benefits and motivation to start using it. The goal is to provide basic understanding of what IDEs are and which functions they contain. You will also get a generic idea about the variety of tools available, in next lesson you will get to know some of the tools a bit better. 
 
-## PyCharm
-
-- motivation for choosing PyCharm
-- licencing aspects
-
 ## Installation and setup
 
 - follow the software installer guide
@@ -47,12 +42,57 @@ explained main concepts of IDE, learn about its benefits and motivation to start
 - latest docs: https://www.jetbrains.com/help/pycharm/2016.3/
 - slide...
 
-## Intro
 
-- dependencies resolution
-- **View -> ...**
-- panes
-- buttons
-- terminal
-- **Run -> ...** (finalizing setup)
+## Clone a repository with PyCharm
 
+- The repository to clone:  https://github.com/kjam/wswp
+- Add a new if statement on line 39 in the file advanced_link_crawler.py
+- Revert change
+- Create branch && checkout branch
+- Add the if statment
+- Commit the change
+
+## Start new project
+- Create a simple program (main)
+- Create class
+- Create class.method
+- Import package and look at documentation
+
+## Change appearance and PEP8 warnings
+- Import old Python file
+
+## Debugging
+The code we will use (taken from Jet Brains Help pages)
+
+
+```python
+import math
+
+class Solver:
+
+    def demo(self, a, b, c):
+        d = b ** 2 - 4 * a * c
+        if d > 0:
+            disc = math.sqrt(d)
+            root1 = (-b + disc) / (2 * a)
+            root2 = (-b - disc) / (2 * a)
+            return root1, root2
+        elif d == 0:
+            return -b / ( 2 * a )
+        else:
+            return "This equation has no roots"
+
+if __name__ == '__main__':
+    solver = Solver()
+
+while True:
+    a = int(input("a: "))
+    b = int(input("b: "))
+    c = int(input("c: "))
+    result = solver.demo(a,b,c)
+    print(result)
+
+```
+
+- Add breakpoints
+- Inspect variables

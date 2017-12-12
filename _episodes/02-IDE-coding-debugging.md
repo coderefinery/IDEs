@@ -1,6 +1,6 @@
 ---
 layout: episode
-title: "PyCharm features"
+title: "PyCharm Coding and Debugging"
 teaching: 30
 exercises: 
 questions:

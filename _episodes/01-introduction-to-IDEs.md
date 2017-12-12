@@ -28,7 +28,7 @@ We start by downloading a project.
 - Give the project directory a appropriate name
 
 ### PyCharm environment
-The screen is divided in a project area and a grey canvas. The project shows our files and
+The screen is divided in a project area and a gray canvas. The project shows our files and
 Python Interpreter PyCharm has selected for us.
 
 Note, if you want to remove a view select the "Black&&White"-vertical bar, for a vertical view,
@@ -36,11 +36,11 @@ and the same but horizontal symbol for a horizontal view.
 
 ### The Project Interpreter
 We will change the Project Interpreter.
-Select "PyCharm->Preferences->Project:<projectname>->ProjectInterpreter"
-Here we can select our prefered  Python Environment.
+Select "PyCharm->Preferences->Project:<project-name>->ProjectInterpreter"
+Here we can select our preferred  Python Environment.
 
 We create a new Python virtual environment, and this is established in our project area under
-the venv subdirectory:
+the venv sub-directory:
 
 ```shell
 dhcp-86-124:calculate_pi171212 bjorn$ ls
@@ -63,8 +63,8 @@ We will change the preferences such that PEP8 warnings get more pronounced.
 Select "PyCharm"->"Preferences". Search for PEP8. Select "PEP8 coding style violation" and change
 it from "Weak Warning" to "Warning" (Yellow color). Do the same for "PEP8 naming convention".
 
-Select a warning-> select the light buble -> Rename element -> Rename all occurences
-Select expression with parenthesis -> Remove redunant parenthesis
+Select a warning-> select the light bulb -> Rename element -> Rename all occurrences
+Select expression with parenthesis -> Remove redundant parenthesis
 
 
 ### PyCharm integrates many Version Control Systems
@@ -83,7 +83,7 @@ The keyword is: **INTEGRATED**
   - Successful software development is a long-term activity
   - The most important single aspect of software development is to be clear about what you are trying to build
   - **The different phases of a software project, such as design, programming, and testing, cannot be strictly separated**
-  - Programming and design cannot be considered without also considering the management of these activites.
+  - Programming and design cannot be considered without also considering the management of these activities.
 
 "It is easy - typically expensive - to underestimate any of these points. It is hard to transform the abstract ideas they embody into practice. The need for experience should be noted. Like boat building, bicycling, and programming, design is not a skill that can be mastered through theoretical study alone."
 
@@ -96,6 +96,6 @@ it alleviates the process of instantiating your abstract ideas:
 - boosts effectiveness
 - best-practice
 
-- ±multifunctional
+- ±multi functional
 - ±need to learn new tool
  

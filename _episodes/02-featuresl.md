@@ -1,19 +1,16 @@
 ---
 layout: episode
 title: "PyCharm features"
-teaching: 15
-exercises: 40
+teaching: 30
+exercises: 
 questions:
-  - "How to ease Your life?"
+  - "Does an IDE actually help me?"
 objectives:
-  - "Some of the main features of PyCharm are introduced."
+  - "How can I debug?"
 keypoints:
-  - "Know Your tools"
 ---
 
-# PyCharm setup
-
-In this part basic functionality of IDE is demonstrated and gone through.
+# PyCharm Codeing
 
 
 ## Intelligent Coding Assistance

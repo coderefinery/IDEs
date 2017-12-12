@@ -1,7 +1,7 @@
 ---
 layout: episode
-title: "Introduction to IDEs"
-teaching: 15
+title: "Getting to know PyCharm"
+teaching: 30
 exercises: 0
 questions:
   - "What is an IDE?"
@@ -13,53 +13,64 @@ keypoints:
   - "IDEs are helpful, really..."
 ---
 
-# Introduction to IDEs
+# Introduction to PyCharm
 
 In this lesson main concepts of IDE are explained. One will learn about the benefits and motivation to start using it.
 
-##  What is an IDE?
+We start by downloading a project.
+ - Start PyCharm
+ - In the dialog "Welcome to PyCharm", choose "Checkout from Version Control"
+ - Select Github
+ - Use the following for "Git Repository URL":
+ ```shell
+ https://source.coderefinery.org/bjornlin/calculate_pi.git
+```
+- Give the project directory a appropriate name
 
-keyword: **INTEGRATED**
+### PyCharm environment
+The screen is divided in a project area and a grey canvas. The project shows our files and
+Python Interpreter PyCharm has selected for us.
 
-IDE stands for "Integrated Development Environment" - is a software application that provides comprehensive facilities to computer programmers for software development (Wikipedia). There are plenty of software that are IDEs and alikes. However, there is [no defined terminator](https://www.linkedin.com/learning/learning-notepad-plus-plus-for-developers/welcome) between a text editor and the IDE.
+Note, if you want to remove a view select the "Black&&White"-vertical bar, for a vertical view,
+and the same but horizontal symbol for a horizontal view.
 
-<br/>
-<div>
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Icon-Vim.svg/256px-Icon-Vim.svg.png" style="width:6%">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Antu_emacs.svg/2000px-Antu_emacs.svg.png" style="width:6%">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Sublime_text_logo.png" style="width:6%">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/0/0f/Notepad%2B%2B_Logo.png" style="width:6%">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Spyder_logo.svg" style="width:6%">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/a/a1/PyCharm_Logo.svg" style="width:6%">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/d/d7/Ninja-ide-logo.png" style="width:6%">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/Visual_Studio_2017_logo_and_wordmark.svg" style="width:20%">
-    <img src="{{site.baseurl}}/img/icon_CLion.png" style="width:6%">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/c/cf/Eclipse-SVG.svg" style="width:6%">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Antu_rstudio.svg/600px-Antu_rstudio.svg.png" style="width:6%">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/2/21/Matlab_Logo.png" style="width:6%">
-</div>
-</br>
+### The Project Interpreter
+We will change the Project Interpreter.
+Select "PyCharm->Preferences->Project:<projectname>->ProjectInterpreter"
+Here we can select our prefered  Python Environment.
+
+We create a new Python virtual environment, and this is established in our project area under
+the venv subdirectory:
+
+```shell
+dhcp-86-124:calculate_pi171212 bjorn$ ls
+calcpi.py                       requirements.txt                venv
+calculate_pi_functions.py       test_pi_functions.py
+dhcp-86-124:calculate_pi171212 bjorn$
+```
+
+### Requirements.txt
+
+### Installing and upgrade numpy
+
+### Running Pytest
+
+### Code Inspection
+Select "Code"->"Code Inspection". As we see, there is a lot of PEP8 code warnings. On right side
+of the source code, the PEP-8 warnings are shown.
+
+We will change the preferences such that PEP8 warnings get more pronounced.
+Select "PyCharm"->"Preferences". Search for PEP8. Select "PEP8 coding style violation" and change
+it from "Weak Warning" to "Warning" (Yellow color). Do the same for "PEP8 naming convention".
+
+Select a warning-> select the light buble -> Rename element -> Rename all occurences
+Select expression with parenthesis -> Remove redunant parenthesis
 
 
-## Everything integrated...
-![]({{ site.baseurl }}/img/10-wave-fanned-black-oxide.jpg) ![]({{ site.baseurl }}/img/10-wave-closed-black-oxide.jpg)
-=======
-Some examples of the code editing Universe:
-- editors: proudly [Vim](http://www.vim.org/) and the legendary [vi](http://ex-vi.sourceforge.net/), no less famous [Emacs](https://www.gnu.org/software/emacs/), [Sublime Text](https://www.sublimetext.com/), [Notepad++](https://notepad-plus-plus.org/) _etc._ these, with some amount of skill and knowledge can be turned into cool custom IDE-like software complexes, or not. The main benefits could be simplicity, extendability and wide use (vi editor is by standard the default text editor for UNIX systems)
+### PyCharm integrates many Version Control Systems
+This exampled is enabled with Git and we can browse the commit log.
 
-- so called IDEs (containing additional to editing functionalities out of box): [Spyder](https://pythonhosted.org/spyder/), [PyCharm](https://www.jetbrains.com/pycharm/), [Ninja-IDE](http://ninja-ide.org/); [VisualStudio](https://www.visualstudio.com/), [CLion](https://www.jetbrains.com/clion/), [Eclipse](https://eclipse.org/ide/), [RStudio](https://www.rstudio.com/), [MATLAB](https://se.mathworks.com/help/matlab/matlab_external/compiling-engine-applications-in-an-ide.html?requestedDomain=www.mathworks.com)
-
-**The visual representation of an IDE is close to:**
-
-<img src="{{site.baseurl}}/img/10-wave-fanned-black-oxide.jpg" style="width:45%"><img src="{{site.baseurl}}/img/10-wave-closed-black-oxide.jpg" style="width:45%">
-
-## Discussion
-
-What tools - if any - are you already using? What tools have you heard of?
-
-
-## ..even more
-![]({{ site.baseurl }}/img/kenwood_major.jpg) ![]({{ site.baseurl }}/img/stove.jpg)
+Define a new remote and push the code.
 
 ##  Why to use and IDE?
 
@@ -71,7 +82,7 @@ The keyword is: **INTEGRATED**
   - There are no "cookbook" methods that can replace intelligence,experience, and good taste in design and programming  
   - Successful software development is a long-term activity
   - The most important single aspect of software development is to be clear about what you are trying to build
-  - The different phases of a software project, such as design, programming, and testing, cannot be strictly separated
+  - **The different phases of a software project, such as design, programming, and testing, cannot be strictly separated**
   - Programming and design cannot be considered without also considering the management of these activites.
 
 "It is easy - typically expensive - to underestimate any of these points. It is hard to transform the abstract ideas they embody into practice. The need for experience should be noted. Like boat building, bicycling, and programming, design is not a skill that can be mastered through theoretical study alone."

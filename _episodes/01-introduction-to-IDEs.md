@@ -9,32 +9,64 @@ questions:
 objectives:
   - "Basic concept of IDE is introduced"
   - "Main IDE usage benefits explained"
+  - "Managing Virtaul Environments with PyCharm"
+  - "Getting support for coding standards (PEP-8)"
 keypoints:
   - "IDEs are helpful, really..."
 ---
 
 # Introduction to PyCharm
 
-In this lesson main concepts of IDE are explained. One will learn about the benefits and motivation to start using it.
+In this we will go through the main parts of PyCharm. We have selected PyCharm as the tool to demonstrate,
+and at the same time motivating the use of Integrated Development Environments. We want to show you why
+IDEs are useful.
 
-We start by downloading a project.
+We start by creating a project.
  - Start PyCharm
- - In the dialog "Welcome to PyCharm", choose "Checkout from Version Control"
- - Select Github
- - Use the following for "Git Repository URL":
- ```shell
- https://source.coderefinery.org/bjornlin/calculate_pi.git
-```
-- Give the project directory a appropriate name
+ - In the dialog "Welcome to PyCharm", choose "Create New Project"
+-  Give the project directory a appropriate name, like "IDEpreparation"
+
+![PyCharm Project Dialog](../img/PyC_proj_dialog.png)
 
 ### PyCharm environment
-The screen is divided in a project area and a gray canvas. The project shows our files and
+The screen is divided in a project area and a gray canvas. The project shows our files and the
 Python Interpreter PyCharm has selected for us.
+![PyCharm Project Area](../img/PyC_project_area.png)
 
-Note, if you want to remove a view select the "Black&&White"-vertical bar, for a vertical view,
-and the same but horizontal symbol for a horizontal view.
+This is currently an empty project. It contains the default setup for a project with a Python Interpreter.
+If you double click on "External Libraries", you will see your Python Environment.
+
+![PyCharm Interpreter Expanded](../img/PyC_py_expand.png)
+
+Note, if you want to remove a view select the "Black&&White"-vertical bar. For a horizontal view,
+there will be a corresonding horizontal bar.
+
+### Executing a Python File
+Create a python file by selecting a "File"->"New"->"Python File". Call the file `hello`, and add the following
+code to the file:
+
+```python
+print 'Hello World!'
+```
+The file can be excuted by selecting "Run"->"Run". The output from the execution will disappear
+by select the "Red X".
+
+![](../img/PyC_run.png)
+
+It is also possible to execute the code in a terminal which is part of PyCharm.
+
+![](../img/PyC_hw.png)
+
 
 ### The Project Interpreter
+Under "Preferences->Project:IDEprep->Project Interpreter-> "Add local" (the mechanical wheel) is it possible
+to configure your interpreter environment. Once you select "Add local", you get a dialog where you can
+select type of interpreter and type of package manager you want to use (if you have both a regular Python 
+and Python from Anaconda.org installed)
+![](../img/PyC_local_py_interpreter.png)
+#### Create environment
+![](../img/PyC_cr_conda_env.png)
+
 We will change the Project Interpreter.
 Select "PyCharm->Preferences->Project:<project-name>->ProjectInterpreter"
 Here we can select our preferred  Python Environment.
@@ -42,17 +74,21 @@ Here we can select our preferred  Python Environment.
 We create a new Python virtual environment, and this is established in our project area under
 the venv sub-directory:
 
-```shell
-dhcp-86-124:calculate_pi171212 bjorn$ ls
-calcpi.py                       requirements.txt                venv
-calculate_pi_functions.py       test_pi_functions.py
-dhcp-86-124:calculate_pi171212 bjorn$
+### Requirements.txt
+Python Code often comes with a list of required modules which is installed with pip. Here we show you
+how you can install necessary modules listed in the file requirements.txt. (The pip installation tool
+uses requirements.txt as example file in its documetation).
+![](img/PyC_integrated_tools.png)
+```txt
+numpy
+scipy
+matplotlib
+pandas
+scikit-learn
 ```
 
-### Requirements.txt
-
 ### Installing and upgrade numpy
-
+![](../img/PyC_eventlog_env.png)
 ### Running Pytest
 
 ### Code Inspection

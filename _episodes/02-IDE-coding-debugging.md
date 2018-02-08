@@ -58,21 +58,77 @@ Close project. The state of the project is preserved.
 
 
 ### Debugging
-Select ```calcpi.py```. Scroll down to line 84. On the left side of the source, push the mouse
-such that you get a red bullet point. This a break point at line 84.
+We will demonstrate PyCharm's debugger. Here is some code which takes terminal input (integers)
+and calculate the roots of a quadratic equation:
+$ ax^2 + bx + c = 0$
+When we execute this program, we are asked to specify a, b and c.
 
-Select "Run"->"Debug". Make sure it is calcpi.py which is executed by the debugger. The program
-is now executed until the break point.
+```python
+import math
 
-On the left you see the current call stack with each stack frame. In middle you see the state of
-the variables, and on left there is the state of the watch points. Currently there is no watch
-points set
+
+class Solver:
+
+    def demo(self, a, b, c):
+        d = b ** 2 - 4 * a * c
+        if d > 0:
+            disc = math.sqrt(d)
+            root1 = (-b + disc) / (2 * a)
+            root2 = (-b - disc) / (2 * a)
+            return root1, root2
+        elif d == 0:
+            return -b / (2 * a)
+        else:
+            return "This equation has no roots"
+
+
+if __name__ == '__main__':
+    solver = Solver()
+
+    while True:
+        a = int(input("a: "))
+        b = int(input("b: "))
+        c = int(input("c: "))
+        result = solver.demo(a, b, c)
+        print result
+```
+
+Paste code in a new file named quadratic_formula.py. Set breakpoints in the program by pushing,
+the left mouse button at line number 9 and 26. Execution is stop at these points when the code
+is executed in the debugger.
+
+First run the program normally, to experience its behavior. The program asks for input.
+![](../img/PyC_dbx_qfinput.png)
+The breakpoints do not influence the execution of the program. Once it as calculated a result,
+select the "Red Square" to stop the execution. "The Red X" remove the session.
+
+Next, execute the program under the control of the debugger. Select "Run"->"Debug". Note, that
+there is two "Debug". First time you run something in the debugger, you need to need to select
+the lower one in the dialog.
+![](../img/PyC_dbx_dbxselect.png)
+
+The debugger will execute the program until it hits a break point. At the break point it is
+possible to inspect the state of the program. The debugger present this to us:
+![](../img/PyC_dbx_inline.png)
+
+In the code, the state of the variables are printed. PyCharm call this inline debugging and it
+is a replacement for your print statements, which you would otherwise add to the code for
+getting the state of different variables.
+
+On left, in the debugger view is the different call frames. The ones in light yellow background are from the debugger.
+The one(s) without any background is from our code. In middle are the variables in the current
+scope. The variable result has not come into existence yet.
+
+It possible to inspect the program from a Python Console, by select the fan "Console" and the
+graphical figure with a prompt (>_).
+![](../img/PyC_dbx_pyprompt.png)
+
+By selecting the green "Play"-button, the code will execute to the next break point. 
 
 #### Stepping
-By pressing "Step into my code", we can step through the code and watch the state of the
-variables. When a function is being called, the call stack increases with a new stack frame.
-The set of variables we watch is the variables which lives in the new function scope.
-
+It is possible to step through the code. The view provides several stepping "buttons", use the
+one with a red line through it, "Step into my code".  See how the variables are updated inline.
+Note that the frame view has increased since the code called demo().
 
 #### TODOs
 At bottom we have a TODO list. Select #FIXME.

@@ -23,7 +23,7 @@ IDEs are useful.
 We start by creating a project.
  - Start PyCharm
  - In the dialog "Welcome to PyCharm", choose "Create New Project"
--  Give the project directory a appropriate name, like "Introduction_to_IDE"
+ -  Give the project directory a appropriate name, like "Introduction_to_IDE"
 
 ![PyCharm Project Dialog](../img/PyC_proj_dialog.png)
 
@@ -60,9 +60,20 @@ When you start a new project Version Control, you must enable your preferred Ver
 You do this by selecting "VCS"->"Enable Version Control Integration". Here you can select Git.
 ![](../img/PyC-vc_enable.png)
 
-Notice how the colors of the file name in project view changes from black to red. Files with red filenames
-are not under version control, files with green filenames are under version control but modified,
-and files with black filenames are under version control but unmodified.
+Notice how the colors of the file name in project view changes from black to red:
+ - Files with red filenames are not under version control
+ - Files with green filenames are under version control but are modified
+ - Files with black filenames are under version control but are unmodified.
+
+The version control dialogs let you add and commit the files, similar to git on the command line. To commit
+`hello.py` select "VCS -> Git -> Add" and then "VCS->Commit":
+![](../img/PyC_commit.png)
+
+There is a short-cut to the version control log at the bottom edge of the PyCharm Window. The log is also
+accessible from "VCS"->"Git"->"Show History"
+
+#### Checking out a project from GitHub
+
 
 ### The Project Interpreter
 Under "Preferences->Project:IDEprep->Project Interpreter-> "Add local" (the mechanical wheel) is it possible

@@ -57,6 +57,14 @@ It is also possible to execute the code in a terminal which is part of PyCharm.
 
 ![](../img/PyC_hw.png)
 
+### Enabling Version Control
+When you start a new project Version Control, you must enable your preferred Version Control system.
+You do this by selecting "VCS"->"Enable Version Control Integration". Here you can select Git.
+![](../img/PyC-vc_enable.png)
+
+Notice how the colors of the file name in project view changes from black to red. Files with red file-
+names are not under version control, files with green filenames are under version control but modified,
+and files with black filenames are under version control but unmodified.
 
 ### The Project Interpreter
 Under "Preferences->Project:IDEprep->Project Interpreter-> "Add local" (the mechanical wheel) is it possible
@@ -78,7 +86,7 @@ the venv sub-directory:
 Python Code often comes with a list of required modules which is installed with pip. Here we show you
 how you can install necessary modules listed in the file requirements.txt. (The pip installation tool
 uses requirements.txt as example file in its documetation).
-![](img/PyC_integrated_tools.png)
+![](../img/PyC_integrated_tools.png)
 ```txt
 numpy
 scipy

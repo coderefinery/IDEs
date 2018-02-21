@@ -9,28 +9,26 @@ questions:
 objectives:
   - "Basic concept of IDE is introduced"
   - "Main IDE usage benefits explained"
-  - "Managing Virtaul Environments with PyCharm"
-  - "Getting support for coding standards (PEP-8)"
+  - "Managing Virtual Environments with PyCharm"
 keypoints:
   - "IDEs are helpful, really..."
 ---
 
 # Introduction to PyCharm
 
-In this we will go through the main parts of PyCharm. We have selected PyCharm as the tool to demonstrate,
+We will go through the main parts of PyCharm. We have selected PyCharm as the tool to demonstrate,
 and at the same time motivating the use of Integrated Development Environments. We want to show you why
 IDEs are useful.
 
 We start by creating a project.
  - Start PyCharm
  - In the dialog "Welcome to PyCharm", choose "Create New Project"
--  Give the project directory a appropriate name, like "IDEpreparation"
+-  Give the project directory a appropriate name, like "Introduction_to_IDE"
 
 ![PyCharm Project Dialog](../img/PyC_proj_dialog.png)
 
 ### PyCharm environment
-The screen is divided in a project area and a gray canvas. The project shows our files and the
-Python Interpreter PyCharm has selected for us.
+The screen is divided in a project area and a gray canvas.
 ![PyCharm Project Area](../img/PyC_project_area.png)
 
 This is currently an empty project. It contains the default setup for a project with a Python Interpreter.
@@ -62,8 +60,8 @@ When you start a new project Version Control, you must enable your preferred Ver
 You do this by selecting "VCS"->"Enable Version Control Integration". Here you can select Git.
 ![](../img/PyC-vc_enable.png)
 
-Notice how the colors of the file name in project view changes from black to red. Files with red file-
-names are not under version control, files with green filenames are under version control but modified,
+Notice how the colors of the file name in project view changes from black to red. Files with red filenames
+are not under version control, files with green filenames are under version control but modified,
 and files with black filenames are under version control but unmodified.
 
 ### The Project Interpreter

@@ -13,8 +13,34 @@ objectives:
 keypoints:
   - "IDEs are helpful, really..."
 ---
+# What is an Integrated Development Environment (IDE)
+![](../img/PYC_IDE.png)
 
-# Introduction to PyCharm
+An Integrated Development Environment (IDE) brings you "everything" you need to be a productive software
+developer to your finger tips. Does this make sense in when working with research software? Take a look
+at Bjarne Stroustrup's general statements about Software Development and Design. 
+
+###  Bjarne Stroustrup writing about Development and Design (The Programming Language C++, edition 3)
+  - Design and programming are iterative activities
+  - The systems we construct tend to be at the limit of the complexity that  we and our tools can handle
+  - There are no "cookbook" methods that can replace intelligence,experience, and good taste in design and programming  
+  - Successful software development is a long-term activity
+  - The most important single aspect of software development is to be clear about what you are trying to build
+  - **The different phases of a software project, such as design, programming, and testing, cannot be strictly separated**
+  - Programming and design cannot be considered without also considering the management of these activities.
+
+The value proposition of an IDE is to make this process more efficient.
+![](../img/PyC_process.png)
+
+The plausibility of this value proposition very much depend upon your line of work;
+ - How much software development you do?
+ - How large code base you depend upon?
+ - Do you share code with others and so on.
+
+The pro is that an IDE really integrates features you need. The cons is that you need to learn the in-and-outs of the IDE,
+especially the keyboard shortcuts, to reap the benefits.    
+
+## Introduction to PyCharm
 
 We will go through the main parts of PyCharm. We have selected PyCharm as the tool to demonstrate,
 and at the same time motivating the use of Integrated Development Environments. We want to show you why
@@ -65,15 +91,66 @@ Notice how the colors of the file name in project view changes from black to red
  - Files with green filenames are under version control but are modified
  - Files with black filenames are under version control but are unmodified.
 
-The version control dialogs let you add and commit the files, similar to git on the command line. To commit
+The version control dialog let you add and commit the files, similar to git on the command line. To commit
 `hello.py` select "VCS -> Git -> Add" and then "VCS->Commit":
 ![](../img/PyC_commit.png)
 
 There is a short-cut to the version control log at the bottom edge of the PyCharm Window. The log is also
 accessible from "VCS"->"Git"->"Show History"
 
-#### Checking out a project from GitHub
+#### Checking out a project from GitHub or another public Git Repository
+From the "VCS" menu it also possible to check-out source code from Github or other repositories. Here is an
+example, choose "VCS"->"Checkout from Version Control"->"Github". You will get an dialog look like:
+![](../img/PyC_clone_repo.png)
 
+The address to the repository is
+
+```
+https://source.coderefinery.org/bjornlin/RomanNumberConverter.git
+```
+
+Choose a project name for the cloned source. PyCharm opens the cloned repository as a separate project.
+This project is just one file which defines a class and some test cases. Based on the naming it seems
+that this is class which can convert Roman Numbers to integers. The different tests supports also this.
+
+The tests are written with pytest. To run this tests you will need pytest installed. You can check the
+python packages installed under "Preferences->Project:<your project name>"->Project Interpreter.
+
+If you do not find pytest in your package listing, select "Plus" and search for pytest in the new Dialog.
+
+PyCharm will recognize the tests as written according to pytest. If you select "Run"->"Run", you will have
+"py.test in RomanNumberConverter.py" as one execution option.
+
+![](../img/PyC_runpytest.png)
+
+After executing the pytest, you should get a result like this, all test passed.
+![](../img/PyC_testresult.png)
+
+How will it look if test fails? Add the following code at the bottom of the source code.
+
+```python
+def test_parsing_one():
+    value = RomanNumeralConverter("I")
+    assert value.convert_to_decimal() == 2
+```
+You get a red result. Select "test_parsing_one" and the view shows you what went wrong with this one test.
+![](../img/PyC_testred.png)
+
+### Code Inspection
+We will do Code Inspection to see how well this code  adheres to the [PEP8 Style Guide for Python code](https://www.python.org/dev/peps/pep-0008/).
+By default PyCharm have set violations of the PEP8 Style Guide to 'weak warning'. We will modify
+the setting such that violations of the PEP 8 Style Guide is more pronounced.
+
+Open "PyCharm"->"Preferences" and search for `pep8`. Change the severity regarding violation of PEP8
+coding style and naming convention from `weak warning` to `warning`.
+![](../img/PyC_pep8warn.png)
+
+Having done that, do the code inspection by selecting "Code"->"Code Inspection". PyCharm produce 
+a view with the individual violations. The source code is also colored in areas where the 
+violations happen.
+![](../img/PyC_codeinspect.png)
+
+You can select the each warning and reformat the file, removing the PEP8-violations. 
 
 ### The Project Interpreter
 Under "Preferences->Project:IDEprep->Project Interpreter-> "Add local" (the mechanical wheel) is it possible
@@ -99,49 +176,10 @@ uses requirements.txt as example file in its documetation).
 ```txt
 numpy
 scipy
-matplotlib
 pandas
-scikit-learn
 ```
-
-### Installing and upgrade numpy
+The event log will state that the installation of the packages where succesfully.
 ![](../img/PyC_eventlog_env.png)
-### Running Pytest
-
-### Code Inspection
-Select "Code"->"Code Inspection". As we see, there is a lot of PEP8 code warnings. On right side
-of the source code, the PEP-8 warnings are shown.
-
-We will change the preferences such that PEP8 warnings get more pronounced.
-Select "PyCharm"->"Preferences". Search for PEP8. Select "PEP8 coding style violation" and change
-it from "Weak Warning" to "Warning" (Yellow color). Do the same for "PEP8 naming convention".
-
-Select a warning-> select the light bulb -> Rename element -> Rename all occurrences
-Select expression with parenthesis -> Remove redundant parenthesis
-
-
-### PyCharm integrates many Version Control Systems
-This exampled is enabled with Git and we can browse the commit log.
-
-Define a new remote and push the code.
-
-##  Why to use and IDE?
-
-The keyword is: **INTEGRATED**
- 
-###  Bjarne Stroustrup writing about Development and Design (The Programming Language C++, edition 3)
-  - Design and programming are iterative activities
-  - The systems we construct tend to be at the limit of the complexity that  we and our tools can handle
-  - There are no "cookbook" methods that can replace intelligence,experience, and good taste in design and programming  
-  - Successful software development is a long-term activity
-  - The most important single aspect of software development is to be clear about what you are trying to build
-  - **The different phases of a software project, such as design, programming, and testing, cannot be strictly separated**
-  - Programming and design cannot be considered without also considering the management of these activities.
-
-"It is easy - typically expensive - to underestimate any of these points. It is hard to transform the abstract ideas they embody into practice. The need for experience should be noted. Like boat building, bicycling, and programming, design is not a skill that can be mastered through theoretical study alone."
-
-
-Remember, you never see the scaffolding!!
 
 ### You should use an IDE because...
 it alleviates the process of instantiating your abstract ideas:

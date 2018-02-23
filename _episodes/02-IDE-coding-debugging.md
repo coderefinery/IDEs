@@ -37,9 +37,10 @@ Code to type (from the matplotlib gallery):
 
 ```
 Create new file. As we type, we get support from PyCharm - it completes quite a few of our intentions.
- - ```import``` help with what to import (Most frequent first?)
+ - ```import``` help with what to import, show most frequent used first
  - Quick documentation for functions
- - External documentation available, and you can add your own through "Preferences" (Search doc)
+ ![](../img/PyC_quickdoc.png)
+ - External documentation is available, and you can add your own through "Preferences" (Search doc)
  - Help you with regular expressions. Test this code in a new file
  
  ``` python
@@ -47,14 +48,8 @@ import re
 
 p=re.compile('[A-Za-z0-9._%+-].+@[A-Za-z0-9.-]+\.[A-Za-z]{3,4}')
 ```
-#### Enabling Version Control
-Select "VCS" -> "Version Control Integration...". Select Git from the list. Note that the colors
-of the file names changed from black to red.
-Add files to version control, and colors change to green.
-Commit the files. Colors change from green to black. These colors changes applies also to the
-project area.
-
-Close project. The state of the project is preserved.
+By clicking on the light buble, you can select checking of the regular expression.
+![](../img/PyC_regexp.png)
 
 
 ### Debugging
@@ -126,14 +121,9 @@ graphical figure with a prompt (>_).
 By selecting the green "Play"-button, the code will execute to the next break point. 
 
 #### Stepping
-It is possible to step through the code. The view provides several stepping "buttons", use the
+The view provides several stepping "buttons", use the
 one with a red line through it, "Step into my code".  See how the variables are updated inline.
 Note that the frame view has increased since the code called demo().
 
-#### TODOs
-At bottom we have a TODO list. Select #FIXME.
-Go to circsq() and add a comment ```#TODO: Replace circsq() with Radovan's Fortran implementation.```
 
-Add your own Todo comment in the Preferences.
-Select "Preferences"->Search for ToDo-> Add ```\bdeprecated\b```
 

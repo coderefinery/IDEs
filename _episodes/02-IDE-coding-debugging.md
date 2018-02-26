@@ -48,7 +48,7 @@ import re
 
 p=re.compile('[A-Za-z0-9._%+-].+@[A-Za-z0-9.-]+\.[A-Za-z]{3,4}')
 ```
-By clicking on the light buble, you can select checking of the regular expression.
+By clicking on the light bubble, you can select checking of the regular expression.
 ![](../img/PyC_regexp.png)
 
 
@@ -62,35 +62,31 @@ When we execute this program, we are asked to specify a, b and c.
 import math
 
 
-class Solver:
-
-    def demo(self, a, b, c):
-        d = b ** 2 - 4 * a * c
-        if d > 0:
-            disc = math.sqrt(d)
-            root1 = (-b + disc) / (2 * a)
-            root2 = (-b - disc) / (2 * a)
-            return root1, root2
-        elif d == 0:
-            return -b / (2 * a)
-        else:
-            return "This equation has no roots"
+def demo(a, b, c):
+    d = b ** 2 - 4 * a * c
+    if d > 0:
+        disc = math.sqrt(d)
+        root1 = (-b + disc) / (2 * a)
+        root2 = (-b - disc) / (2 * a)
+        return root1, root2
+    elif d == 0:
+        return -b / (2 * a)
+    else:
+        return "This equation has no roots"
 
 
 if __name__ == '__main__':
-    solver = Solver()
-
     while True:
         a = int(input("a: "))
         b = int(input("b: "))
         c = int(input("c: "))
-        result = solver.demo(a, b, c)
+        result = demo(a, b, c)
         print result
 ```
 
-Paste code in a new file named quadratic_formula.py. Set breakpoints in the program by pushing,
-the left mouse button at line number 9 and 26. Execution is stop at these points when the code
-is executed in the debugger.
+Paste code in a new file named quadratic_formula.py. Set breakpoints in the program by pointing
+the mouse between line 7 and push the mouse button. Do this once more at line 22.
+Execution is stop at these points when the code is executed in the debugger.
 
 First run the program normally, to experience its behavior. The program asks for input.
 ![](../img/PyC_dbx_qfinput.png)

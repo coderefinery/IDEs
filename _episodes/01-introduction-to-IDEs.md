@@ -66,16 +66,13 @@ Note, if you want to remove a view select the "Black&&White"-vertical bar. For a
 there will be a corresonding horizontal bar.
 
 ### Executing a Python File
+
 Create a python file by selecting a "File"->"New"->"Python File". Call the file `hello`, and add the following
-Python2 or Python3 code to the file:
+Python code to the file:
 
 ```python
-# python2
-print 'Hello World!'
-```
+from __future__ import print_function
 
-```python
-# python3
 print('Hello World!')
 ```
 

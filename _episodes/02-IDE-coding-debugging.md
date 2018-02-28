@@ -59,8 +59,8 @@ $ ax^2 + bx + c = 0$
 When we execute this program, we are asked to specify a, b and c.
 
 ```python
-import math
 from __future__ import print_function
+import math
 
 
 def demo(a, b, c):

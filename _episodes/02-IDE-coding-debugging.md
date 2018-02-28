@@ -86,7 +86,7 @@ if __name__ == '__main__':
 ```
 
 Paste code in a new file named quadratic_formula.py. Set breakpoints in the program by pointing
-the mouse between line 7 and push the mouse button. Do this once more at line 22.
+the mouse between line 8 and push the mouse button. Do this once more at line 23.
 Execution is stop at these points when the code is executed in the debugger.
 
 First run the program normally, to experience its behavior. The program asks for input.

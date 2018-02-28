@@ -67,11 +67,18 @@ there will be a corresonding horizontal bar.
 
 ### Executing a Python File
 Create a python file by selecting a "File"->"New"->"Python File". Call the file `hello`, and add the following
-code to the file:
+Python2 or Python3 code to the file:
 
 ```python
+# python2
 print 'Hello World!'
 ```
+
+```python
+# python3
+print('Hello World!')
+```
+
 The file can be excuted by selecting "Run"->"Run". The output from the execution will disappear
 by select the "Red X".
 

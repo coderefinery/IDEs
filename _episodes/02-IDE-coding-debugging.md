@@ -81,7 +81,8 @@ if __name__ == '__main__':
         b = int(input("b: "))
         c = int(input("c: "))
         result = demo(a, b, c)
-        print result
+        print result       # Comment if you have python 3
+	# print(result)    # Uncomment if you have python 3
 ```
 
 Paste code in a new file named quadratic_formula.py. Set breakpoints in the program by pointing

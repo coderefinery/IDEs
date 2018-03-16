@@ -1,8 +1,8 @@
 ---
 layout: episode
 title: "Getting to know PyCharm"
-teaching: 30
-exercises: 0
+teaching: 20
+exercises: 10
 questions:
   - "What is an IDE?"
   - "Why to use an IDE?"
@@ -16,8 +16,7 @@ keypoints:
 # What is an Integrated Development Environment (IDE)
 ![](../img/PYC_IDE.png)
 
-An Integrated Development Environment (IDE) brings you "everything" you need to be a productive software
-developer to your finger tips. Does this make sense in when working with research software? Take a look
+An Integrated Development Environment (IDE) brings you "everything" you need to be a productive programmer to your finger tips. Does this make sense in when working with research software? Take a look
 at Bjarne Stroustrup's general statements about Software Development and Design. 
 
 ###  Bjarne Stroustrup writing about Development and Design (The Programming Language C++, edition 3)
@@ -49,9 +48,11 @@ IDEs are useful.
 We start by creating a project.
  - Start PyCharm
  - In the dialog "Welcome to PyCharm", choose "Create New Project"
- -  Give the project directory a appropriate name, like "Introduction_to_IDE"
-
+ - Give the project directory an appropriate name, like "Introduction_to_IDE"
+ - Note: You can configure line separators between functions, line numbers, white spaces via (configure -> editor -> general -> appearance)
 ![PyCharm Project Dialog](../img/PyC_proj_dialog.png)
+
+
 
 ### PyCharm environment
 The screen is divided in a project area and a gray canvas.
@@ -85,6 +86,49 @@ It is also possible to execute the code in a terminal which is part of PyCharm.
 
 ![](../img/PyC_hw.png)
 
+### Creating tasks and tracking unfinished work
+- How do you track tasks that require feedback/attention from other researchers?
+- Use `#TODO` or `#FIXME` to track unfinshed work
+- The TODO tool window lists all the tasks marked as TODO or FIXME (case insensitive)
+- For example, add TODO: add documentation 
+- You can add a custom pattern via (configure -> editor -> TODO)
+
+
+### The Project Interpreter
+Under "Preferences->Project:IDEprep->Project Interpreter-> "Add local" (the mechanical wheel) it is possible
+to configure your interpreter environment. Once you select "Add local", you get a dialog where you can
+select type of interpreter and type of package manager you want to use (if you have both a regular Python 
+and Python from Anaconda.org installed)
+![](../img/PyC_local_py_interpreter.png)
+#### Create environment
+![](../img/PyC_cr_conda_env.png)
+
+We will change the Project Interpreter.
+Select "PyCharm->Preferences->Project:<project-name>->ProjectInterpreter"
+Here we can select our preferred Python Environment.
+
+We create a new Python virtual environment, and this is established in our project area under
+the venv sub-directory:
+
+### Manage dependencies
+Python Code often comes with a list of required modules which is installed with pip. Here we show you
+how you can install necessary modules. In python, requirements.txt is commonly used for managing dependencies. 
+
+#### Create requirements.txt file in the root directory of the project
+
+To configure this as default requirements file
+![](../img/PyC_integrated_tools.png)
+
+Now add some requirements to `requirements.txt`
+```txt
+numpy
+scipy
+```
+If you look at the python files, you will see notifications about requirements that has to be installed.
+The event log will state that the installation of the packages where succesfully.
+![](../img/PyC_eventlog_env.png)
+
+
 ### Enabling Version Control
 When you start a new project Version Control, you must enable your preferred Version Control system.
 You do this by selecting "VCS"->"Enable Version Control Integration". Here you can select Git.
@@ -94,6 +138,7 @@ Notice how the colors of the file name in project view changes from black to red
  - Files with red filenames are not under version control
  - Files with green filenames are under version control but are modified
  - Files with black filenames are under version control but are unmodified.
+ - Files with blue filenames are under version control, modified but not staged for commit.
 
 The version control dialog let you add and commit the files, similar to git on the command line. To commit
 `hello.py` select "VCS -> Git -> Add" and then "VCS->Commit":
@@ -101,6 +146,9 @@ The version control dialog let you add and commit the files, similar to git on t
 
 There is a short-cut to the version control log at the bottom edge of the PyCharm Window. The log is also
 accessible from "VCS"->"Git"->"Show History"
+
+- Make changes and see the differences between working directory and last commit. 
+- You can see the git branch history and log from the Version Control tool window. 
 
 #### Checking out a project from GitHub or another public Git Repository
 From the "VCS" menu it also possible to check-out source code from Github or other repositories. Here is an
@@ -141,7 +189,7 @@ You get a red result. Select "test_parsing_one" and the view shows you what went
 ![](../img/PyC_testred.png)
 
 ### Code Inspection
-We will do Code Inspection to see how well this code  adheres to the [PEP8 Style Guide for Python code](https://www.python.org/dev/peps/pep-0008/).
+We will do Code Inspection to see how well this code adheres to the [PEP8 Style Guide for Python code](https://www.python.org/dev/peps/pep-0008/).
 By default PyCharm have set violations of the PEP8 Style Guide to 'weak warning'. We will modify
 the setting such that violations of the PEP 8 Style Guide is more pronounced.
 
@@ -156,34 +204,6 @@ violations happen.
 
 You can select the each warning and reformat the file, removing the PEP8-violations. 
 
-### The Project Interpreter
-Under "Preferences->Project:IDEprep->Project Interpreter-> "Add local" (the mechanical wheel) is it possible
-to configure your interpreter environment. Once you select "Add local", you get a dialog where you can
-select type of interpreter and type of package manager you want to use (if you have both a regular Python 
-and Python from Anaconda.org installed)
-![](../img/PyC_local_py_interpreter.png)
-#### Create environment
-![](../img/PyC_cr_conda_env.png)
-
-We will change the Project Interpreter.
-Select "PyCharm->Preferences->Project:<project-name>->ProjectInterpreter"
-Here we can select our preferred  Python Environment.
-
-We create a new Python virtual environment, and this is established in our project area under
-the venv sub-directory:
-
-### Requirements.txt
-Python Code often comes with a list of required modules which is installed with pip. Here we show you
-how you can install necessary modules listed in the file requirements.txt. (The pip installation tool
-uses requirements.txt as example file in its documetation).
-![](../img/PyC_integrated_tools.png)
-```txt
-numpy
-scipy
-pandas
-```
-The event log will state that the installation of the packages where succesfully.
-![](../img/PyC_eventlog_env.png)
 
 ### You should use an IDE because...
 it alleviates the process of instantiating your abstract ideas:

@@ -85,17 +85,21 @@ by select the "Red X".
 It is also possible to execute the code in a terminal which is part of PyCharm.
 
 ![](../img/PyC_hw.png)
+### PyCharm Settings/Preferences dialog {#Configure}
+
+- **Windows and Linux** - *File -> Settings* 
+- **macOS** - *PyCharm -> Preferences*
 
 ### Creating tasks and tracking unfinished work
 - How do you track tasks that require feedback/attention from other researchers?
-- Use `#TODO` or `#FIXME` to track unfinshed work
+- We can add `#TODO` or `#FIXME` before code to track unfinshed work
 - The TODO tool window lists all the tasks marked as TODO or FIXME (case insensitive)
 - For example, add TODO: add documentation 
-- You can add a custom pattern via (configure -> editor -> TODO)
+- You can add a custom pattern via [Settings/Preferences](#Configure) -> editor -> TODO
 
 
 ### The Project Interpreter
-Under "Preferences->Project:IDEprep->Project Interpreter-> "Add local" (the mechanical wheel) it is possible
+Under [Settings/Preferences](#Configure)->Project:IDEprep->Project Interpreter-> "Add local" (the mechanical wheel) it is possible
 to configure your interpreter environment. Once you select "Add local", you get a dialog where you can
 select type of interpreter and type of package manager you want to use (if you have both a regular Python 
 and Python from Anaconda.org installed)
@@ -104,7 +108,7 @@ and Python from Anaconda.org installed)
 ![](../img/PyC_cr_conda_env.png)
 
 We will change the Project Interpreter.
-Select "PyCharm->Preferences->Project:<project-name>->ProjectInterpreter"
+Select "[Settings/Preferences](#Configure)->Project:<project-name>->ProjectInterpreter"
 Here we can select our preferred Python Environment.
 
 We create a new Python virtual environment, and this is established in our project area under
@@ -114,18 +118,21 @@ the venv sub-directory:
 Python Code often comes with a list of required modules which is installed with pip. Here we show you
 how you can install necessary modules. In python, requirements.txt is commonly used for managing dependencies. 
 
-#### Create requirements.txt file in the root directory of the project
+#### Create requirements.txt file in the root directory of the project {#dependecies}
 
-To configure this as default requirements file
+To configure this as default requirements file, go to [Settings/Preferences](#Configure) -> Tools in PyCharm
 ![](../img/PyC_integrated_tools.png)
+
+Add requirements.txt as the default requirements file.
 
 Now add some requirements to `requirements.txt`
 ```txt
+jupyter
 numpy
 scipy
 ```
-If you look at the python files, you will see notifications about requirements that has to be installed.
-The event log will state that the installation of the packages where succesfully.
+As you add requirements, you will see notifications about requirements that has to be installed.
+The event log will state that the packages are installed succesfully.
 ![](../img/PyC_eventlog_env.png)
 
 
@@ -135,10 +142,10 @@ You do this by selecting "VCS"->"Enable Version Control Integration". Here you c
 ![](../img/PyC-vc_enable.png)
 
 Notice how the colors of the file name in project view changes from black to red:
- - Files with red filenames are not under version control
- - Files with green filenames are under version control but are modified
- - Files with black filenames are under version control but are unmodified.
- - Files with blue filenames are under version control, modified but not staged for commit.
+ - Files with red filenames are not tracked by git
+ - Files with green filenames are added to git but not committed
+ - Files with black filenames are commited and are unmodified.
+ - Files with blue filenames are tracked by git and are modified.
 
 The version control dialog let you add and commit the files, similar to git on the command line. To commit
 `hello.py` select "VCS -> Git -> Add" and then "VCS->Commit":
@@ -152,31 +159,32 @@ accessible from "VCS"->"Git"->"Show History"
 
 #### Checking out a project from GitHub or another public Git Repository
 From the "VCS" menu it also possible to check-out source code from Github or other repositories. Here is an
-example, choose "VCS"->"Checkout from Version Control"->"Github". You will get an dialog look like:
-![](../img/PyC_clone_repo.png)
+example, choose "VCS"->"Checkout from Version Control"->"Github". You will get a dialog look like:
+
+![](../img/ide_checkout_github.png)
 
 The address to the repository is
 
 ```
-https://source.coderefinery.org/bjornlin/RomanNumberConverter.git
+https://github.com/Vathasav/ide-examples.git
 ```
 
 Choose a project name for the cloned source. PyCharm opens the cloned repository as a separate project.
-This project is just one file which defines a class and some test cases. Based on the naming it seems
+
+Open `RomanNumberConverter.py`. This file defines a class and some test cases. Based on the naming it seems
 that this is class which can convert Roman Numbers to integers. The different tests supports also this.
 
-The tests are written with pytest. To run this tests you will need pytest installed. You can check the
-python packages installed under "Preferences->Project:<your project name>"->Project Interpreter.
+The tests are written with pytest. To run this tests you will need pytest installed. 
 
-If you do not find pytest in your package listing, select "Plus" and search for pytest in the new Dialog.
+If you don't have pytest, add pytest to the requirements file as [mentioned earlier](#dependecies)
 
 PyCharm will recognize the tests as written according to pytest. If you select "Run"->"Run", you will have
 "py.test in RomanNumberConverter.py" as one execution option.
 
-![](../img/PyC_runpytest.png)
+![](../img/ide_test_run_configuration.png)
 
-After executing the pytest, you should get a result like this, all test passed.
-![](../img/PyC_testresult.png)
+After executing the pytest, you should get a result something like this, all test passed.
+![](../img/ide_test_pass.png)
 
 How will it look if test fails? Add the following code at the bottom of the source code.
 
@@ -186,14 +194,18 @@ def test_parsing_one():
     assert value.convert_to_decimal() == 2
 ```
 You get a red result. Select "test_parsing_one" and the view shows you what went wrong with this one test.
-![](../img/PyC_testred.png)
+![](../img/ide_test_fail.png)
+
+Let us correct it and try to add a commit: 
+  - PyCharm shows the differences between the last commit and local file
+  - Checks if any TODO tasks that are left -> Helps us to track unfinished work
 
 ### Code Inspection
 We will do Code Inspection to see how well this code adheres to the [PEP8 Style Guide for Python code](https://www.python.org/dev/peps/pep-0008/).
 By default PyCharm have set violations of the PEP8 Style Guide to 'weak warning'. We will modify
 the setting such that violations of the PEP 8 Style Guide is more pronounced.
 
-Open "PyCharm"->"Preferences" and search for `pep8`. Change the severity regarding violation of PEP8
+Open [Settings/Preferences](#Configure) and search for `pep8`. Change the severity regarding violation of PEP8
 coding style and naming convention from `weak warning` to `warning`.
 ![](../img/PyC_pep8warn.png)
 
@@ -203,7 +215,6 @@ violations happen.
 ![](../img/PyC_codeinspect.png)
 
 You can select the each warning and reformat the file, removing the PEP8-violations. 
-
 
 ### You should use an IDE because...
 it alleviates the process of instantiating your abstract ideas:

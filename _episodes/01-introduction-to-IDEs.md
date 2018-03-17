@@ -56,12 +56,12 @@ We start by creating a project.
 
 ### PyCharm environment
 The screen is divided in a project area and a gray canvas.
-![PyCharm Project Area](../img/PyC_project_area.png)
+![PyCharm Project Area](../img/ide_introduction.png)
 
 This is currently an empty project. It contains the default setup for a project with a Python Interpreter.
 If you double click on "External Libraries", you will see your Python Environment.
 
-![PyCharm Interpreter Expanded](../img/PyC_py_expand.png)
+![PyCharm Interpreter Expanded](../img/ide_introduction_libraries.png)
 
 Note, if you want to remove a view select the "Black&&White"-vertical bar. For a horizontal view,
 there will be a corresonding horizontal bar.
@@ -80,11 +80,11 @@ print('Hello World!')
 The file can be excuted by selecting "Run"->"Run". The output from the execution will disappear
 by select the "Red X".
 
-![](../img/PyC_run.png)
+![](../img/ide_program_hello.png)
 
 It is also possible to execute the code in a terminal which is part of PyCharm.
 
-![](../img/PyC_hw.png)
+![](../img/ide_execute_program_from_terminal.png)
 ### PyCharm Settings/Preferences dialog {#Configure}
 
 - **Windows and Linux** - *File -> Settings* 
@@ -105,7 +105,7 @@ select type of interpreter and type of package manager you want to use (if you h
 and Python from Anaconda.org installed)
 ![](../img/PyC_local_py_interpreter.png)
 #### Create environment
-![](../img/PyC_cr_conda_env.png)
+![](../img/ide_add_interpreter.png)
 
 We will change the Project Interpreter.
 Select "[Settings/Preferences](#Configure)->Project:<project-name>->ProjectInterpreter"
@@ -121,7 +121,7 @@ how you can install necessary modules. In python, requirements.txt is commonly u
 #### Create requirements.txt file in the root directory of the project {#dependecies}
 
 To configure this as default requirements file, go to [Settings/Preferences](#Configure) -> Tools in PyCharm
-![](../img/PyC_integrated_tools.png)
+![](../img/ide_add_requirements.png)
 
 Add requirements.txt as the default requirements file.
 
@@ -131,9 +131,9 @@ jupyter
 numpy
 scipy
 ```
-As you add requirements, you will see notifications about requirements that has to be installed.
+Open a Python file, you will see notifications on top about requirements that has to be installed.
 The event log will state that the packages are installed succesfully.
-![](../img/PyC_eventlog_env.png)
+![](../img/ide_update_requirements_file.png)
 
 
 ### Enabling Version Control
@@ -207,12 +207,12 @@ the setting such that violations of the PEP 8 Style Guide is more pronounced.
 
 Open [Settings/Preferences](#Configure) and search for `pep8`. Change the severity regarding violation of PEP8
 coding style and naming convention from `weak warning` to `warning`.
-![](../img/PyC_pep8warn.png)
+![](../img/ide_pep8_warnings.png)
 
 Having done that, do the code inspection by selecting "Code"->"Code Inspection". PyCharm produce 
 a view with the individual violations. The source code is also colored in areas where the 
 violations happen.
-![](../img/PyC_codeinspect.png)
+![](../img/ide_pep8_inspection.png)
 
 You can select the each warning and reformat the file, removing the PEP8-violations. 
 

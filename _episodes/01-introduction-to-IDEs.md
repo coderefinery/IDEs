@@ -50,12 +50,12 @@ We start by creating a project.
  - In the dialog "Welcome to PyCharm", choose "Create New Project"
  - Give the project directory an appropriate name, like "Introduction_to_IDE"
  - Note: You can configure line separators between functions, line numbers, white spaces via (configure -> editor -> general -> appearance)
+
 ![PyCharm Project Dialog](../img/PyC_proj_dialog.png)
-
-
 
 ### PyCharm environment
 The screen is divided in a project area and a gray canvas.
+
 ![PyCharm Project Area](../img/ide_introduction.png)
 
 This is currently an empty project. It contains the default setup for a project with a Python Interpreter.
@@ -121,6 +121,7 @@ how you can install necessary modules. In python, requirements.txt is commonly u
 #### Create requirements.txt file in the root directory of the project {#dependecies}
 
 To configure this as default requirements file, go to [Settings/Preferences](#Configure) -> Tools in PyCharm
+
 ![](../img/ide_add_requirements.png)
 
 Add requirements.txt as the default requirements file.
@@ -133,6 +134,7 @@ scipy
 ```
 Open a Python file, you will see notifications on top about requirements that has to be installed.
 The event log will state that the packages are installed succesfully.
+
 ![](../img/ide_update_requirements_file.png)
 
 
@@ -158,15 +160,18 @@ accessible from "VCS"->"Git"->"Show History"
 - You can see the git branch history and log from the Version Control tool window. 
 
 #### Checking out a project from GitHub or another public Git Repository
+
+Fork [this repository](https://github.com/Vathasav/ide-examples.git) into your github account.
+ 
 From the "VCS" menu it also possible to check-out source code from Github or other repositories. Here is an
 example, choose "VCS"->"Checkout from Version Control"->"Github". You will get a dialog look like:
 
 ![](../img/ide_checkout_github.png)
 
-The address to the repository is
-
-```
-https://github.com/Vathasav/ide-examples.git
+Add your forked repository url, it will be something like:
+ 
+```shell
+https://github.com/your_username/ide-examples.git
 ```
 
 Choose a project name for the cloned source. PyCharm opens the cloned repository as a separate project.
@@ -194,11 +199,13 @@ def test_parsing_one():
     assert value.convert_to_decimal() == 2
 ```
 You get a red result. Select "test_parsing_one" and the view shows you what went wrong with this one test.
+
 ![](../img/ide_test_fail.png)
 
-Let us correct it and try to add a commit: 
+Let us correct it and try to add a commit and push: 
   - PyCharm shows the differences between the last commit and local file
   - Checks if any TODO tasks that are left -> Helps us to track unfinished work
+  - Fix the test, commit and push to the remote repository
 
 ### Code Inspection
 We will do Code Inspection to see how well this code adheres to the [PEP8 Style Guide for Python code](https://www.python.org/dev/peps/pep-0008/).
@@ -207,11 +214,13 @@ the setting such that violations of the PEP 8 Style Guide is more pronounced.
 
 Open [Settings/Preferences](#Configure) and search for `pep8`. Change the severity regarding violation of PEP8
 coding style and naming convention from `weak warning` to `warning`.
+
 ![](../img/ide_pep8_warnings.png)
 
 Having done that, do the code inspection by selecting "Code"->"Code Inspection". PyCharm produce 
 a view with the individual violations. The source code is also colored in areas where the 
 violations happen.
+
 ![](../img/ide_pep8_inspection.png)
 
 You can select the each warning and reformat the file, removing the PEP8-violations. 

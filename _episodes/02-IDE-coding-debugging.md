@@ -12,7 +12,7 @@ keypoints:
 
 # PyCharm Coding && debugging
 
-If you haven't cloned this repository: https://github.com/Vathasav/ide-examples.git in the earlier lesson, please clone it.
+If you haven't forked and cloned [this repository](https://github.com/Vathasav/ide-examples.git) in the earlier lesson, please clone it.
 
 ### A small type along example
 
@@ -47,6 +47,7 @@ As we type, we get support from PyCharm - it completes quite a few of our intent
  - Help you with regular expressions. Place cursor near "findall"
  
 By clicking on the light bubble, you can select checking of the regular expression.
+
 ![](../img/PyC_regexp.png)
 
 Note: you can set custom keyboard keys using keymapper in "Settings/Preferences".
@@ -85,7 +86,9 @@ the mouse between line 8 and push the mouse button. Do this once more at line 17
 Execution is stop at these points when the code is executed in the debugger.
 
 First run the program normally, to experience its behavior. The program asks for input.
+
 ![](../img/ide_add_breakpoints.png)
+
 The breakpoints do not influence the execution of the program. Once it as calculated a result,
 select the "Red Square" to stop the execution. "The Red X" remove the session.
 
@@ -96,6 +99,7 @@ the lower one in the dialog.
 
 The debugger will execute the program until it hits a break point. At the break point it is
 possible to inspect the state of the program. The debugger present this to us:
+
 ![](../img/ide_breakpoint_encountered.png)
 
 In the code, the state of the variables are printed. PyCharm call this inline debugging and it
@@ -125,7 +129,6 @@ It takes nth number and
 If input is given as 4, then
 1) sum = 10 (1+2+3+4)
 2) multiplication = 24 (1 * 2 * 3 * 4)
-
 """
 from __future__ import print_function
 
@@ -152,7 +155,7 @@ demo(input_number)
 
 ### Code refactoring
 
-We can refactor the `demo function`in above code into separate functions for addition and multiplication
+We can refactor the `demo function` in above code into separate functions for addition and multiplication
 - How do you normally divide existing code into functions?
 - Pycharm can do it on behalf of us
 

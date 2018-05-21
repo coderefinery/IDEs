@@ -1,18 +1,62 @@
 ---
 layout: episode
-title: "Getting to know PyCharm"
+title: "Getting to know tools for developing code"
 teaching: 20
 exercises: 10
 questions:
+  - "What tools are used for developing code"
   - "What is an IDE?"
-  - "Why to use an IDE?"
 objectives:
+  - "Clarify differences between code editors and IDE's"
   - "Basic concept of IDE is introduced"
   - "Main IDE usage benefits explained"
-  - "Managing Virtual Environments with PyCharm"
 keypoints:
-  - "IDEs are helpful, really..."
+  - "IDEs can be helpful, if you are not proficient with code editors"
 ---
+
+## Questions
+
+- What tools do you use for developing code?
+- How do you compile or execute the code?
+- How do you debug the code?
+
+# General steps in developing code
+
+- Writing the code
+- Compiling the code
+- Executing the code
+- Debugging the code
+- Tracking the code with version control
+
+# What tools are available for developing code
+- Code editors for writing code (e.g. vi, nano, emacs, notepads, textmate, etc)
+- Command line tools
+     - for compiling, executing and debugging the code
+     - for version control   
+
+- Integrated development environments (IDE's) that combine all tools together. An Integrated Development Environment or IDE is a self-contained package that allow you to write, compile, execute and debug code in the same place.
+
+# Code editors vs IDE's
+
+## Code editors
+- Code editors are general purpose and can be used for writing code in multiple programming languages
+- Many code editors are limited to writing code
+- One need to switch between a code editor, command line tools, compilers or interpreters for compiling and executing the code
+- You need to switch between multiple tools
+
+## IDE's
+- IDEs are developed to make software development faster and usually offers:
+    - code auto-completion; refactoring support; fast find of files, function, class; debug support; integrated build tools; source control management 
+- IDE examples: Netbeans, Eclipse, PyCharm, Ruby Mine, Visual Studio
+- Generally, IDE is focused on a single language and contains the compiler/interpreter and debugger specific to the language
+- One IDE may not be fit for all programming languages
+- Ide's do lot of things on behalf of us
+
+## Choosing between a code editor and IDE
+
+- Both IDE and code editors share common features such as code completion, hints, highlighting sections of code
+- Choosing between an IDE or code editor is largely a matter of personal preference, the particular programming language and the workflows
+
 # What is an Integrated Development Environment (IDE)
 ![](../img/PYC_IDE.png)
 
@@ -41,9 +85,10 @@ especially the keyboard shortcuts, to reap the benefits.
 
 ## Introduction to PyCharm
 
-We will go through the main parts of PyCharm. We have selected PyCharm as the tool to demonstrate,
-and at the same time motivating the use of Integrated Development Environments. We want to show you why
-IDEs are useful.
+We will go through the main parts of PyCharm. We have selected PyCharm as the IDE and want to demonstrate the use of Integrated Development Environments. We want to show you how
+IDEs integrate features necessary for developing code.
+
+Note: Most of the IDE's offer similar features and also support the functionality that we discuss
 
 We start by creating a project.
  - Start PyCharm
@@ -104,39 +149,6 @@ to configure your interpreter environment. Once you select "Add local", you get 
 select type of interpreter and type of package manager you want to use (if you have both a regular Python 
 and Python from Anaconda.org installed)
 ![](../img/PyC_local_py_interpreter.png)
-#### Create environment
-![](../img/ide_add_interpreter.png)
-
-We will change the Project Interpreter.
-Select "[Settings/Preferences](#Configure)->Project:<project-name>->ProjectInterpreter"
-Here we can select our preferred Python Environment.
-
-We create a new Python virtual environment, and this is established in our project area under
-the venv sub-directory:
-
-### Manage dependencies
-Python Code often comes with a list of required modules which is installed with pip. Here we show you
-how you can install necessary modules. In python, requirements.txt is commonly used for managing dependencies. 
-
-#### Create requirements.txt file in the root directory of the project {#dependecies}
-
-To configure this as default requirements file, go to [Settings/Preferences](#Configure) -> Tools in PyCharm
-
-![](../img/ide_add_requirements.png)
-
-Add requirements.txt as the default requirements file.
-
-Now add some requirements to `requirements.txt`
-```txt
-jupyter
-numpy
-scipy
-```
-Open a Python file, you will see notifications on top about requirements that has to be installed.
-The event log will state that the packages are installed succesfully.
-
-![](../img/ide_update_requirements_file.png)
-
 
 ### Enabling Version Control
 When you start a new project Version Control, you must enable your preferred Version Control system.
@@ -181,8 +193,6 @@ that this is class which can convert Roman Numbers to integers. The different te
 
 The tests are written with pytest. To run this tests you will need pytest installed. 
 
-If you don't have pytest, add pytest to the requirements file as [mentioned earlier](#dependecies)
-
 PyCharm will recognize the tests as written according to pytest. If you select "Run"->"Run", you will have
 "py.test in RomanNumberConverter.py" as one execution option.
 
@@ -225,7 +235,7 @@ violations happen.
 
 You can select the each warning and reformat the file, removing the PEP8-violations. 
 
-### You should use an IDE because...
+### Pros and Cons of IDE...
 it alleviates the process of instantiating your abstract ideas:
 - decreases pain
 - boosts effectiveness

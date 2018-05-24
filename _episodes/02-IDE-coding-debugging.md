@@ -44,12 +44,8 @@ As we type, we get support from PyCharm - it completes quite a few of our intent
  - Quick definition for functions (cmd+Y in Mac, Ctrl+Shift+I in windows)
  - You can navigate to function declaration and see what the function is supposed to do
  - External documentation is available, and you can add your own through "Settings/Preferences" (Search doc)
- - Help you with regular expressions. Place cursor near "findall"
+ - Helps you with regular expressions
  
-By clicking on the light bubble, you can select checking of the regular expression.
-
-![](../img/PyC_regexp.png)
-
 Note: you can set custom keyboard keys using keymapper in "Settings/Preferences".
 
 ### Debugging
@@ -93,7 +89,7 @@ The breakpoints do not influence the execution of the program. Once it as calcul
 select the "Red Square" to stop the execution. "The Red X" remove the session.
 
 Next, execute the program under the control of the debugger. Select "Run"->"Debug". Note, that
-there is two "Debug". First time you run something in the debugger, you need to need to select
+there is two "Debug". First time you run something in the debugger, you need to select
 the lower one in the dialog.
 ![](../img/PyC_dbx_dbxselect.png)
 

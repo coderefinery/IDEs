@@ -8,6 +8,7 @@ questions:
 objectives:
   - "How can I debug?"
 keypoints:
+  - "IDEs can be really helpful for debugging code"
 ---
 
 # PyCharm Coding && debugging
@@ -76,19 +77,14 @@ print('multiplication of given inputs is {}'.format(result))
 First run the program normally, to experience its behavior. The program asks for input.
 The actual result deviates from the expected result.
 
-Let us debug the code by placing breakpoints. For example, let us see the input inside the multiplication function by placing breakpoint in it. 
+Let us debug the code by placing breakpoints. For example, the multiplication can go wrong either in multiplication function or in a call made to the multiplication function. 
 Set breakpoints in the program by pointing
 the mouse between line 8 and push the mouse button. Do this once more at line 17.
 Execution is stop at these points when the code is executed in the debugger.
 
-First run the program normally, to experience its behavior. The program asks for input.
-
 ![](../img/ide_add_breakpoints.png)
 
-The breakpoints do not influence the execution of the program. Once it as calculated a result,
-select the "Red Square" to stop the execution. "The Red X" remove the session.
-
-Next, execute the program under the control of the debugger. Select "Run"->"Debug". Note, that
+Execute the program under the control of the debugger. Select "Run"->"Debug". Note, that
 there is two "Debug". First time you run something in the debugger, you need to select
 the lower one in the dialog.
 ![](../img/PyC_dbx_dbxselect.png)

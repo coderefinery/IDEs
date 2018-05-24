@@ -11,16 +11,19 @@ objectives:
   - "Basic concept of IDE is introduced"
   - "Main IDE usage benefits explained"
 keypoints:
-  - "IDEs can be helpful, if you are not proficient with code editors"
+  - "IDEs are helpful and can boost effectiveness"
 ---
 
 ## Questions
 
+- Is choosing the right tools for developing code important?
 - What tools do you use for developing code?
 - How do you compile or execute the code?
 - How do you debug the code?
+- How do you search for files that uses a function or class?
 
-# General steps in developing code
+
+## General steps in developing code
 
 - Writing the code
 - Compiling the code
@@ -28,67 +31,54 @@ keypoints:
 - Debugging the code
 - Tracking the code with version control
 
-# What tools are available for developing code
-- Code editors for writing code (e.g. vi, nano, emacs, notepads, textmate, etc)
+## Tools available for developing code
+
+- Text-based code editors for writing code (e.g. vi, nano, emacs, [sublime text](https://www.sublimetext.com/), [Atom](https://atom.io/) , etc)
 - Command line tools
-     - for compiling, executing and debugging the code
-     - for version control   
+     - for compiling code (e.g. gcc, GFortran, javac, etc)
+     - for executing code (e.g. python and java command line interpreters, etc ) 
+     - for debugging code (e.g. [gdb](https://www.gnu.org/software/gdb/), [pdb](https://docs.python.org/3/library/pdb.html), [jdb](https://docs.oracle.com/javase/7/docs/technotes/tools/windows/jdb.html), etc)
+     - for version control (e.g. git)   
 
-- Integrated development environments (IDE's) that combine all tools together. An Integrated Development Environment or IDE is a self-contained package that allow you to write, compile, execute and debug code in the same place.
-
+- Integrated development environments (IDE's) brings you "everything" you need to be a productive programmer to your finger tips 
+![ide_features](../img/PyC_IDE.png)
+    - IDE is a self-contained package that allow you to write, compile, execute and debug code in the same place
+    - IDE examples: [Netbeans](https://netbeans.org/), [Eclipse](https://www.eclipse.org/ide/), [PyCharm](https://www.jetbrains.com/pycharm/), [Ruby Mine](https://www.jetbrains.com/ruby/), [Visual Studio](https://www.visualstudio.com/vs/)
 # Code editors vs IDE's
 
 ## Code editors
-- Code editors are general purpose and can be used for writing code in multiple programming languages
+
+- Code editors are general purpose and can be used for writing code in various programming languages
 - Many code editors are limited to writing code
 - One need to switch between a code editor, command line tools, compilers or interpreters for compiling and executing the code
-- You need to switch between multiple tools
+- One need to switch between multiple tools for developing the code
 
 ## IDE's
-- IDEs are developed to make software development faster and usually offers:
-    - code auto-completion; refactoring support; fast find of files, function, class; debug support; integrated build tools; source control management 
-- IDE examples: Netbeans, Eclipse, PyCharm, Ruby Mine, Visual Studio
-- Generally, IDE is focused on a single language and contains the compiler/interpreter and debugger specific to the language
+
+- IDEs are developed to make software development faster and usually offer
+    - code auto-completion, refactoring support
+    - fast find of files, function, class
+    - debug support, integrated build tools, source control management 
+- IDE is generally focused on a single language and contains the compiler/interpreter and debugger specific to the language
 - One IDE may not be fit for all programming languages
-- Ide's do lot of things on behalf of us
+- IDEs do a lot of things on behalf of us
+- The pro is that an IDE really integrates features you need. The cons is that you need to learn the in-and-outs of the IDE,
+especially the keyboard shortcuts, to reap the benefits.  
 
 ## Choosing between a code editor and IDE
 
 - Both IDE and code editors share common features such as code completion, hints, highlighting sections of code
-- Choosing between an IDE or code editor is largely a matter of personal preference, the particular programming language and the workflows
+- Choosing between an IDE or code editor largely depends on the personal preference, the particular programming language and the workflows
 
-# What is an Integrated Development Environment (IDE)
-![](../img/PYC_IDE.png)
+Note: If you are not already proficient in a code editor, then you should definitely checkout the IDE suitable for your programming language 
 
-An Integrated Development Environment (IDE) brings you "everything" you need to be a productive programmer to your finger tips. Does this make sense in when working with research software? Take a look
-at Bjarne Stroustrup's general statements about Software Development and Design. 
+## Integrated Development Environments (IDEs)
 
-###  Bjarne Stroustrup writing about Development and Design (The Programming Language C++, edition 3)
-  - Design and programming are iterative activities
-  - The systems we construct tend to be at the limit of the complexity that  we and our tools can handle
-  - There are no "cookbook" methods that can replace intelligence,experience, and good taste in design and programming  
-  - Successful software development is a long-term activity
-  - The most important single aspect of software development is to be clear about what you are trying to build
-  - **The different phases of a software project, such as design, programming, and testing, cannot be strictly separated**
-  - Programming and design cannot be considered without also considering the management of these activities.
-
-The value proposition of an IDE is to make this process more efficient.
-![](../img/PyC_process.png)
-
-The plausibility of this value proposition very much depend upon your line of work;
- - How much software development you do?
- - How large code base you depend upon?
- - Do you share code with others and so on.
-
-The pro is that an IDE really integrates features you need. The cons is that you need to learn the in-and-outs of the IDE,
-especially the keyboard shortcuts, to reap the benefits.    
-
-## Introduction to PyCharm
-
-We will go through the main parts of PyCharm. We have selected PyCharm as the IDE and want to demonstrate the use of Integrated Development Environments. We want to show you how
+In this lesson we will give overview of an IDE and its functionality. We have selected PyCharm as the IDE to demonstrate the use of Integrated Development Environments. We want to show you how
 IDEs integrate features necessary for developing code.
 
-Note: Most of the IDE's offer similar features and also support the functionality that we discuss
+Note: Most of the IDE's offer similar features and support the functionality that we discuss in this lesson. This demonstration is relevant
+for other IDE's as well.
 
 We start by creating a project.
  - Start PyCharm
@@ -145,21 +135,19 @@ It is also possible to execute the code in a terminal which is part of PyCharm.
 
 ### The Project Interpreter
 Under [Settings/Preferences](#Configure)->Project:IDEprep->Project Interpreter-> "Add local" (the mechanical wheel) it is possible
-to configure your interpreter environment. Once you select "Add local", you get a dialog where you can
-select type of interpreter and type of package manager you want to use (if you have both a regular Python 
-and Python from Anaconda.org installed)
+to configure your interpreter environment.
 ![](../img/PyC_local_py_interpreter.png)
 
 ### Enabling Version Control
-When you start a new project Version Control, you must enable your preferred Version Control system.
+When you start a new project, it is a good practice to enable your preferred Version Control system.
 You do this by selecting "VCS"->"Enable Version Control Integration". Here you can select Git.
 ![](../img/PyC-vc_enable.png)
 
-Notice how the colors of the file name in project view changes from black to red:
- - Files with red filenames are not tracked by git
- - Files with green filenames are added to git but not committed
- - Files with black filenames are commited and are unmodified.
- - Files with blue filenames are tracked by git and are modified.
+Notice how the colors of the file name in project view changes from black to <span style="color:red">red</span>:
+ - Files with <span style="color:red"> red filenames </span> are not tracked by git
+ - Files with <span style="color:green">green filenames </span> are added to git but not committed
+ - Files with  black filenames are commited and are unmodified.
+ - Files with <span style="color:blue"> blue filenames </span> are tracked by git and are modified.
 
 The version control dialog let you add and commit the files, similar to git on the command line. To commit
 `hello.py` select "VCS -> Git -> Add" and then "VCS->Commit":
@@ -215,7 +203,7 @@ You get a red result. Select "test_parsing_one" and the view shows you what went
 Let us correct it and try to add a commit and push: 
   - PyCharm shows the differences between the last commit and local file
   - Checks if any TODO tasks that are left -> Helps us to track unfinished work
-  - Fix the test, commit and push to the remote repository
+  - Fix the test, commit and push to your forked repository
 
 ### Code Inspection
 We will do Code Inspection to see how well this code adheres to the [PEP8 Style Guide for Python code](https://www.python.org/dev/peps/pep-0008/).

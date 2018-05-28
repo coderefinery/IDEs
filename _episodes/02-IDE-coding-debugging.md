@@ -8,6 +8,7 @@ questions:
 objectives:
   - "How can I debug?"
 keypoints:
+  - "IDEs can be really helpful for debugging code"
 ---
 
 # PyCharm Coding && debugging
@@ -44,12 +45,8 @@ As we type, we get support from PyCharm - it completes quite a few of our intent
  - Quick definition for functions (cmd+Y in Mac, Ctrl+Shift+I in windows)
  - You can navigate to function declaration and see what the function is supposed to do
  - External documentation is available, and you can add your own through "Settings/Preferences" (Search doc)
- - Help you with regular expressions. Place cursor near "findall"
+ - Helps you with regular expressions
  
-By clicking on the light bubble, you can select checking of the regular expression.
-
-![](../img/PyC_regexp.png)
-
 Note: you can set custom keyboard keys using keymapper in "Settings/Preferences".
 
 ### Debugging
@@ -80,20 +77,15 @@ print('multiplication of given inputs is {}'.format(result))
 First run the program normally, to experience its behavior. The program asks for input.
 The actual result deviates from the expected result.
 
-Let us debug the code by placing breakpoints. For example, let us see the input inside the multiplication function by placing breakpoint in it. 
+Let us debug the code by placing breakpoints. For example, the multiplication can go wrong either in multiplication function or in a call made to the multiplication function. 
 Set breakpoints in the program by pointing
 the mouse between line 8 and push the mouse button. Do this once more at line 17.
 Execution is stop at these points when the code is executed in the debugger.
 
-First run the program normally, to experience its behavior. The program asks for input.
-
 ![](../img/ide_add_breakpoints.png)
 
-The breakpoints do not influence the execution of the program. Once it as calculated a result,
-select the "Red Square" to stop the execution. "The Red X" remove the session.
-
-Next, execute the program under the control of the debugger. Select "Run"->"Debug". Note, that
-there is two "Debug". First time you run something in the debugger, you need to need to select
+Execute the program under the control of the debugger. Select "Run"->"Debug". Note, that
+there is two "Debug". First time you run something in the debugger, you need to select
 the lower one in the dialog.
 ![](../img/PyC_dbx_dbxselect.png)
 

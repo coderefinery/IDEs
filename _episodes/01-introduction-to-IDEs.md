@@ -1,49 +1,84 @@
 ---
 layout: episode
-title: "Getting to know PyCharm"
+title: "Getting to know tools for developing code"
 teaching: 20
 exercises: 10
 questions:
+  - "What tools are used for developing code"
   - "What is an IDE?"
-  - "Why to use an IDE?"
 objectives:
+  - "Clarify differences between code editors and IDE's"
   - "Basic concept of IDE is introduced"
   - "Main IDE usage benefits explained"
-  - "Managing Virtual Environments with PyCharm"
 keypoints:
-  - "IDEs are helpful, really..."
+  - "IDEs are helpful and can boost effectiveness"
 ---
-# What is an Integrated Development Environment (IDE)
-![](../img/PYC_IDE.png)
 
-An Integrated Development Environment (IDE) brings you "everything" you need to be a productive programmer to your finger tips. Does this make sense in when working with research software? Take a look
-at Bjarne Stroustrup's general statements about Software Development and Design. 
+## Questions
 
-###  Bjarne Stroustrup writing about Development and Design (The Programming Language C++, edition 3)
-  - Design and programming are iterative activities
-  - The systems we construct tend to be at the limit of the complexity that  we and our tools can handle
-  - There are no "cookbook" methods that can replace intelligence,experience, and good taste in design and programming  
-  - Successful software development is a long-term activity
-  - The most important single aspect of software development is to be clear about what you are trying to build
-  - **The different phases of a software project, such as design, programming, and testing, cannot be strictly separated**
-  - Programming and design cannot be considered without also considering the management of these activities.
+- Is choosing the right tools for developing code important?
+- What tools do you use for developing code?
+- How do you compile or execute the code?
+- How do you debug the code?
+- How do you search for files that uses a function or class?
 
-The value proposition of an IDE is to make this process more efficient.
-![](../img/PyC_process.png)
 
-The plausibility of this value proposition very much depend upon your line of work;
- - How much software development you do?
- - How large code base you depend upon?
- - Do you share code with others and so on.
+## General steps in developing code
 
-The pro is that an IDE really integrates features you need. The cons is that you need to learn the in-and-outs of the IDE,
-especially the keyboard shortcuts, to reap the benefits.    
+- Writing the code
+- Compiling the code
+- Executing the code
+- Debugging the code
+- Tracking the code with version control
 
-## Introduction to PyCharm
+## Tools available for developing code
 
-We will go through the main parts of PyCharm. We have selected PyCharm as the tool to demonstrate,
-and at the same time motivating the use of Integrated Development Environments. We want to show you why
-IDEs are useful.
+- Text-based code editors for writing code (e.g. vi, nano, emacs, [sublime text](https://www.sublimetext.com/), [Atom](https://atom.io/) , etc)
+- Command line tools
+     - for compiling code (e.g. gcc, GFortran, javac, etc)
+     - for executing code (e.g. python and java command line interpreters, etc ) 
+     - for debugging code (e.g. [gdb](https://www.gnu.org/software/gdb/), [pdb](https://docs.python.org/3/library/pdb.html), [jdb](https://docs.oracle.com/javase/7/docs/technotes/tools/windows/jdb.html), etc)
+     - for version control (e.g. git)   
+
+- Integrated development environments (IDE's) brings you "everything" you need to be a productive programmer to your finger tips 
+![ide_features](../img/PyC_IDE.png)
+    - IDE is a self-contained package that allow you to write, compile, execute and debug code in the same place
+    - IDE examples: [Netbeans](https://netbeans.org/), [Eclipse](https://www.eclipse.org/ide/), [PyCharm](https://www.jetbrains.com/pycharm/), [Ruby Mine](https://www.jetbrains.com/ruby/), [Visual Studio](https://www.visualstudio.com/vs/)
+# Code editors vs IDE's
+
+## Code editors
+
+- Code editors are general purpose and can be used for writing code in various programming languages
+- Many code editors are limited to writing code
+- One need to switch between a code editor, command line tools, compilers or interpreters for compiling and executing the code
+- One need to switch between multiple tools for developing the code
+
+## IDE's
+
+- IDEs are developed to make software development faster and usually offer
+    - code auto-completion, refactoring support
+    - fast find of files, function, class
+    - debug support, integrated build tools, source control management 
+- IDE is generally focused on a single language and contains the compiler/interpreter and debugger specific to the language
+- One IDE may not be fit for all programming languages
+- IDEs do a lot of things on behalf of us
+- The pro is that an IDE really integrates features you need. The cons is that you need to learn the in-and-outs of the IDE,
+especially the keyboard shortcuts, to reap the benefits.  
+
+## Choosing between a code editor and IDE
+
+- Both IDE and code editors share common features such as code completion, hints, highlighting sections of code
+- Choosing between an IDE or code editor largely depends on the personal preference, the particular programming language and the workflows
+
+Note: If you are not already proficient in a code editor, then you should definitely checkout the IDE suitable for your programming language 
+
+## Integrated Development Environments (IDEs)
+
+In this lesson we will give overview of an IDE and its functionality. We have selected PyCharm as the IDE to demonstrate the use of Integrated Development Environments. We want to show you how
+IDEs integrate features necessary for developing code.
+
+Note: Most of the IDE's offer similar features and support the functionality that we discuss in this lesson. This demonstration is relevant
+for other IDE's as well.
 
 We start by creating a project.
  - Start PyCharm
@@ -100,54 +135,19 @@ It is also possible to execute the code in a terminal which is part of PyCharm.
 
 ### The Project Interpreter
 Under [Settings/Preferences](#Configure)->Project:IDEprep->Project Interpreter-> "Add local" (the mechanical wheel) it is possible
-to configure your interpreter environment. Once you select "Add local", you get a dialog where you can
-select type of interpreter and type of package manager you want to use (if you have both a regular Python 
-and Python from Anaconda.org installed)
+to configure your interpreter environment.
 ![](../img/PyC_local_py_interpreter.png)
-#### Create environment
-![](../img/ide_add_interpreter.png)
-
-We will change the Project Interpreter.
-Select "[Settings/Preferences](#Configure)->Project:<project-name>->ProjectInterpreter"
-Here we can select our preferred Python Environment.
-
-We create a new Python virtual environment, and this is established in our project area under
-the venv sub-directory:
-
-### Manage dependencies
-Python Code often comes with a list of required modules which is installed with pip. Here we show you
-how you can install necessary modules. In python, requirements.txt is commonly used for managing dependencies. 
-
-#### Create requirements.txt file in the root directory of the project {#dependecies}
-
-To configure this as default requirements file, go to [Settings/Preferences](#Configure) -> Tools in PyCharm
-
-![](../img/ide_add_requirements.png)
-
-Add requirements.txt as the default requirements file.
-
-Now add some requirements to `requirements.txt`
-```txt
-jupyter
-numpy
-scipy
-```
-Open a Python file, you will see notifications on top about requirements that has to be installed.
-The event log will state that the packages are installed succesfully.
-
-![](../img/ide_update_requirements_file.png)
-
 
 ### Enabling Version Control
-When you start a new project Version Control, you must enable your preferred Version Control system.
+When you start a new project, it is a good practice to enable your preferred Version Control system.
 You do this by selecting "VCS"->"Enable Version Control Integration". Here you can select Git.
 ![](../img/PyC-vc_enable.png)
 
-Notice how the colors of the file name in project view changes from black to red:
- - Files with red filenames are not tracked by git
- - Files with green filenames are added to git but not committed
- - Files with black filenames are commited and are unmodified.
- - Files with blue filenames are tracked by git and are modified.
+Notice how the colors of the file name in project view changes from black to <span style="color:red">red</span>:
+ - Files with <span style="color:red"> red filenames </span> are not tracked by git
+ - Files with <span style="color:green">green filenames </span> are added to git but not committed
+ - Files with  black filenames are commited and are unmodified.
+ - Files with <span style="color:blue"> blue filenames </span> are tracked by git and are modified.
 
 The version control dialog let you add and commit the files, similar to git on the command line. To commit
 `hello.py` select "VCS -> Git -> Add" and then "VCS->Commit":
@@ -181,8 +181,6 @@ that this is class which can convert Roman Numbers to integers. The different te
 
 The tests are written with pytest. To run this tests you will need pytest installed. 
 
-If you don't have pytest, add pytest to the requirements file as [mentioned earlier](#dependecies)
-
 PyCharm will recognize the tests as written according to pytest. If you select "Run"->"Run", you will have
 "py.test in RomanNumberConverter.py" as one execution option.
 
@@ -205,7 +203,7 @@ You get a red result. Select "test_parsing_one" and the view shows you what went
 Let us correct it and try to add a commit and push: 
   - PyCharm shows the differences between the last commit and local file
   - Checks if any TODO tasks that are left -> Helps us to track unfinished work
-  - Fix the test, commit and push to the remote repository
+  - Fix the test, commit and push to your forked repository
 
 ### Code Inspection
 We will do Code Inspection to see how well this code adheres to the [PEP8 Style Guide for Python code](https://www.python.org/dev/peps/pep-0008/).
@@ -225,7 +223,7 @@ violations happen.
 
 You can select the each warning and reformat the file, removing the PEP8-violations. 
 
-### You should use an IDE because...
+### Pros and Cons of IDE...
 it alleviates the process of instantiating your abstract ideas:
 - decreases pain
 - boosts effectiveness

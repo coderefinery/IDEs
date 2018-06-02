@@ -5,10 +5,11 @@ teaching: 20
 exercises: 10
 questions:
   - "What tools are used for developing code"
+  - "What is a code editor"
   - "What is an IDE?"
 objectives:
   - "Clarify differences between code editors and IDE's"
-  - "Basic concept of IDE is introduced"
+  - "Basic concepts of code editors and IDEs are introduced"
   - "Main IDE usage benefits explained"
 keypoints:
   - "IDEs are helpful and can boost effectiveness"
@@ -16,42 +17,55 @@ keypoints:
 
 ## Questions
 
-- Is choosing the right tools for developing code important?
 - What tools do you use for developing code?
 - How do you compile or execute the code?
 - How do you debug the code?
 - How do you search for files that uses a function or class?
+- Is choosing the right tools for developing code important?
 
-
-## General steps in developing code
+## General workflow in developing code
 
 - Writing the code
 - Compiling the code
 - Executing the code
 - Debugging the code
 - Tracking the code with version control
+- Searching files, functions, classes, etc
 
 ## Tools available for developing code
 
-- Text-based code editors for writing code (e.g. vi, nano, emacs, [sublime text](https://www.sublimetext.com/), [Atom](https://atom.io/) , etc)
+- Terminal-based text editors for writing code (e.g. vi/vim, nano, emacs, etc)
 - Command line tools
      - for compiling code (e.g. gcc, GFortran, javac, etc)
      - for executing code (e.g. python and java command line interpreters, etc ) 
      - for debugging code (e.g. [gdb](https://www.gnu.org/software/gdb/), [pdb](https://docs.python.org/3/library/pdb.html), [jdb](https://docs.oracle.com/javase/7/docs/technotes/tools/windows/jdb.html), etc)
      - for version control (e.g. git)   
 
+- Text-based code editors (e.g. [sublime text](https://www.sublimetext.com/), [Atom](https://atom.io/), [Visual Studio Code](https://code.visualstudio.com/))
+
 - Integrated development environments (IDE's) brings you "everything" you need to be a productive programmer to your finger tips 
 ![ide_features](../img/PyC_IDE.png)
+    - IDEs are developed to maximize programmer productivity 
     - IDE is a self-contained package that allow you to write, compile, execute and debug code in the same place
     - IDE examples: [Netbeans](https://netbeans.org/), [Eclipse](https://www.eclipse.org/ide/), [PyCharm](https://www.jetbrains.com/pycharm/), [Ruby Mine](https://www.jetbrains.com/ruby/), [Visual Studio](https://www.visualstudio.com/vs/)
-# Code editors vs IDE's
+  
+# Terminal-based editors vs code editors vs IDE's
+
+## Terminal-based editors
+
+- Terminal editors like Emacs and Vim are quite famous in Linux environments
+- Steep learning curve
+- Many terminal editors are limited to writing code
+- General purpose editors and can be used for writing code in various programming languages
+- One need to switch between a code editor, command line tools, compilers or interpreters for compiling and executing the code
+- One need to switch between multiple tools for developing the code
 
 ## Code editors
 
-- Code editors are general purpose and can be used for writing code in various programming languages
-- Many code editors are limited to writing code
-- One need to switch between a code editor, command line tools, compilers or interpreters for compiling and executing the code
-- One need to switch between multiple tools for developing the code
+- Code editors are light-weight IDE's
+- Mainly developed for writing code
+- General purpose editors and can be used for writing code in various programming languages
+- Support auto-completion, terminal integration, version control integration, etc 
 
 ## IDE's
 
@@ -65,12 +79,45 @@ keypoints:
 - The pro is that an IDE really integrates features you need. The cons is that you need to learn the in-and-outs of the IDE,
 especially the keyboard shortcuts, to reap the benefits.  
 
-## Choosing between a code editor and IDE
+## Choosing between Terminal editor - code editor - IDE
+
+- Good command line skills are needed for effectively using terminal editors
+- Continue using Emacs and Vim, if you are already proficient
 
 - Both IDE and code editors share common features such as code completion, hints, highlighting sections of code
 - Choosing between an IDE or code editor largely depends on the personal preference, the particular programming language and the workflows
 
-Note: If you are not already proficient in a code editor, then you should definitely checkout the IDE suitable for your programming language 
+- If you use multiple programming languages then code editors offer good support
+
+Note: If you are not already proficient in a terminal editor or code editor, then you should definitely checkout the IDE suitable for your programming language
+ 
+## Demonstrating terminal editors
+
+For demonstrating terminal editor we are using a simple function that multiplies two given numbers
+
+### C++
+```shell
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    double firstNumber, secondNumber, productOfTwoNumbers;
+    cout << "Enter two numbers: ";
+
+    // Stores two floating point numbers in variable firstNumber and secondNumber respectively
+    cin >> firstNumber >> secondNumber;
+ 
+    // Performs multiplication and stores the result in variable productOfTwoNumbers
+    productOfTwoNumbers = firstNumber * secondNumber;  
+
+    cout << "Product = " << productOfTwoNumbers;    
+    
+    return 0;
+}
+```
+
+Executing the following code snippet in a terminal editor
 
 ## Integrated Development Environments (IDEs)
 

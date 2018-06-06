@@ -1,6 +1,6 @@
 ---
 layout: episode
-title: "PyCharm Coding and Debugging"
+title: "Good to know: PyCharm Coding and Debugging"
 teaching: 15
 exercises: 15
 questions:

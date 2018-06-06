@@ -1,6 +1,6 @@
 ---
 layout: episode
-title: "PyCharm features"
+title: "Good to know: PyCharm features"
 teaching:
 exercises: 
 questions:

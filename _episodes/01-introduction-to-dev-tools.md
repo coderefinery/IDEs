@@ -2,7 +2,7 @@
 layout: episode
 title: "Getting to know tools for developing code"
 teaching: 20
-exercises: 10
+exercises: 25
 questions:
   - "What tools are used for developing code"
   - "What is a code editor"
@@ -44,10 +44,13 @@ keypoints:
 - Text-based code editors (e.g. [sublime text](https://www.sublimetext.com/), [Atom](https://atom.io/), [Visual Studio Code](https://code.visualstudio.com/))
 
 - Integrated development environments (IDE's) brings you "everything" you need to be a productive programmer to your finger tips 
-![ide_features](../img/PyC_IDE.png)
     - IDEs are developed to maximize programmer productivity 
     - IDE is a self-contained package that allow you to write, compile, execute and debug code in the same place
     - IDE examples: [Netbeans](https://netbeans.org/), [Eclipse](https://www.eclipse.org/ide/), [PyCharm](https://www.jetbrains.com/pycharm/), [Ruby Mine](https://www.jetbrains.com/ruby/), [Visual Studio](https://www.visualstudio.com/vs/)
+    
+  ![Ide_featrues](../img/Ide.png)
+
+    
   
 # Terminal-based editors vs code editors vs IDE's
 
@@ -85,7 +88,7 @@ especially the keyboard shortcuts, to reap the benefits.
 
 
 | Terminal editor        | Code editor           | IDE  |
-| :---------------: |:-------------:|: -----:|
+| :--------------- |:-------------|:---------------|
 | Good command line skills are needed for effectively using terminal editors | If you use multiple programming languages then code editors offer good support      | If you are working with large code bases, then you should definitely checkout the IDE suitable for your programming language |
 | Continue using Emacs and Vim, if you are already proficient      | Both IDE and code editors share common features such as code completion, hints, highlighting sections of code      |   IDEs offer rich support for Debugging and Code refactoring |
 | Supports multiple programming languages | Supports multiple programming languages      |    Focused on a single language |
@@ -124,7 +127,11 @@ We are using a simple function that multiplies two given numbers
 - To open a file: *vim filename*
 - To add text: *Press i*
 - To save and exit vim: *Hit Escape, then type :wq and hit Enter*
-- Multiple tools have to be used - for executing, debugging, version control and refactoring code 
+- Multiple CLI tools have to be used 
+    - for executing: python interpreter
+    - for debugging: python pdb module
+    - version control: git
+    - search and replacing code: [grep](https://www.gnu.org/software/grep/manual/grep.html) and [sed](https://www.gnu.org/software/sed/) utilities 
 
 ## Demonstrating code editor
 
@@ -136,21 +143,23 @@ We start by opening VS Code.
  - Start VS Code
  - In the welcome dialog, choose "Open folder"
  - Create new folder and give an appropriate name, e.g "Code_editor"
- - As you make modifications, the settings for current folder will be stored under the .vscode folder in your root folder.
 
 
 ![VS Code Dialog](../img/vscode_welcome.png)
 
+  
 ### VS Code environment
+
 The UI is divided into multiple areas.
 
 - Editor - The main area to edit your files. You can open multiple editors side by side (up to 3)
 - Activity Bar - Located on the far left-hand side, this lets you switch between views and gives you additional context-specific indicators
-- Side Bar - Contains different views like the Explorer to assist you while working on your project.
-- Status Bar - Information about the opened project and the files you edit.
-- Panels - You can display different panels below the editor region for output or debug information, errors and warnings, or an integrated terminal. Panel can also be moved to the right for more vertical space.
+- Side Bar - Contains different views to assist you while working on your project
+- Status Bar - Information about the opened project and the files you edit
+- Panels - Displays integrated terminal, output or debug information, errors and warnings, etc
 
-![VSCode-UI](../img/vscode-ui.png)
+
+![VSCode-UI](../img/vsc_ui.png)
 
 ### Activity Bar
 
@@ -175,8 +184,9 @@ The UI is divided into multiple areas.
 - **macOS** - *Code -> Preferences -> Settings*  (⌘,)
 - You can add your settings to **user settings** tab to override default settings
     e.g. add "editor.fontSize" to user settings and adjust it as needed
-    
-- You can use the keyboard shortcuts of your old editor (such as Sublime Text, Atom, and Vim) in VS Code. Plese check [here](https://code.visualstudio.com/docs/getstarted/keybindings#_keymap-extensions) for details.
+
+- Note: As you make modifications, the settings for current folder will be stored under the **.vscode** folder in your current folder
+- You can use the keyboard shortcuts of your old editor (such as Sublime Text, Atom, and Vim) in VS Code. Plese check [here](https://code.visualstudio.com/docs/getstarted/keybindings#_keymap-extensions) for details
  
 ### Windows users
 
@@ -215,7 +225,7 @@ For demonstrating VS Code we are using a simple program that multiplies two give
     print("product of two numbers : %s" % product_of_numbers)
 ```
 
-- Run the code by "Right clicking" -> "Run python code in terminal"
+- Run the code by "Right clicking" on editor -> "Run python code in terminal"
 ##### Exercise:
 
 - Add a new variable to take third number
@@ -253,16 +263,16 @@ int main(int argc, char const *argv[]) {
 }    
 ```
 
-- To build C++ application from VS Code, you will need to generate a tasks.json file:
-- Open the Command Palette
-    - Select the Tasks: Configure Tasks command
-    - click Create tasks.json file from templates, and you will see a list of task runner templates
-    - Select Others to create a task which runs an external command
-    - Change the command to the command line expression you use to build your application (for example g++)
+- To build C++ application from VS Code, you will need to generate a **tasks.json** file:
+- Open the **Command Palette**
+    - Select the **Tasks: Configure Tasks** command
+    - click **Create tasks.json file** from templates, and you will see a list of task runner templates
+    - Select **Others** to create a task which runs an external command
+    - Change the the **command** in **tasks.json** file to the command line expression you use to build your application (for example g++)
     - Add any required args (for example -g to build for debugging)
     - You can also change the label to be more descriptive
 
-- Run the code by opening command palette -> run task
+- Run the code by opening **command palette -> run task -> continue without scanning**
 
 For debugging, please visit this [page](https://code.visualstudio.com/docs/languages/cpp#_debugging-your-code)
 
@@ -276,34 +286,38 @@ For debugging, please visit this [page](https://code.visualstudio.com/docs/langu
 #### For FORTRAN users
 
 - Create a file by right clicking in explorer and select "New File". Call the file `multiplication.f90`
+
 - VS Code shows the appropriate extensions to install
     - Alternatively you can "click extensions icon" -> "Search for fortran"
+
+
 - Install the Modern Fortran extension
 
 - Add the following fortran code to the file:
+
 ```shell
-program hello
-implicit none
-
-integer            :: firstNumber,secondNumber
-
-print*,"enter two integers"
-read (*,*) firstNumber, secondNumber
-
-print *, "The product of given numbers ", firstNumber * secondNumber
-
-end program hello
+    program hello
+    implicit none
+    
+    integer            :: firstNumber,secondNumber
+    
+    print*,"enter two integers"
+    read (*,*) firstNumber, secondNumber
+    
+    print *, "The product of given numbers ", firstNumber * secondNumber
+    
+    end program hello
 
 ```
 
-- To build fortran application from VS Code, you will need to generate a tasks.json file:
-- Open the Command Palette
-    - Select the Tasks: Configure Tasks... command
-    - click Create tasks.json file from templates, and you will see a list of task runner templates.
-    - Select Others to create a task which runs an external command.
-    - Change the command to the command line expression you use to build your application (for example gfortran).
+- To build fortran application from VS Code, you will need to generate a **tasks.json** file:
+- Open the **Command Palette**
+    - Select the **Tasks: Configure Tasks** command
+    - click **Create tasks.json** file from templates, and you will see a list of task runner templates.
+    - Select **Others** to create a task which runs an external command.
+    - Change the **command** in **tasks.json** file to the command line expression you use to build your application (for example gfortran).
     - You can also change the label to be more descriptive.
-- Run the code by opening command palette -> run task -> continue without scanning
+- Run the code by opening **command palette -> run task -> continue without scanning**
 ![VSCode-task-fortran](../img/vscode-task-fortran.png)
 
 ##### Exercise:
@@ -334,9 +348,12 @@ end program hello
 - search where "firstnumber" variable is used
 - replace "firstnumber" with "firstinput"
 
-### demonstrate debugging as well
+### Debugging with VS Code
 #### Python
-#### C++
+
+- In case of Python, go to debug window and press **green** button
+- Select "Python experimental"
+- Debugger will start automatically
 
 
 ## Pros and Cons 
@@ -345,7 +362,7 @@ end program hello
 - \+ Supports various programming languages
 
 - \- steep learning curve
-- \- On needs to master keyboard shortcuts and CLI tools for using effectively
+- \- one needs to master keyboard shortcuts and CLI tools for using effectively
  
 
 ### Code Editor

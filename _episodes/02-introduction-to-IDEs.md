@@ -2,7 +2,7 @@
 layout: episode
 title: "Getting to know IDEs"
 teaching: 10
-exercises: 10
+exercises: 20
 questions:
   - "What is an IDE?"
 objectives:
@@ -45,6 +45,8 @@ there will be a corresonding horizontal bar.
 Create a python file by selecting a "File"->"New"->"Python File". Call the file `demo`, and add the following
 Python code to the file:
 
+Note: the code is not working according to specification, we will fix it later by debugging
+
 ```python
 """
 Code to demonstrate debugging behavior of PyCharm
@@ -61,28 +63,25 @@ from __future__ import print_function
 
 def demo(n):
     sum = 0
-    multiplication = 1
+    multiplication = 0
 
-    for i in range(1,n+1):
+    for i in range(n):
         sum = sum + i
 
     print('sum is {}'.format(sum))
 
-    for x in range(1, n+1):
-        multiplication = multiplication * x
+    for x in range(n):
+        multiplication = multiplication * n
 
     print('multiplication is {}'.format(multiplication))
 
 
 input_number = int(input('enter nth number: '))
-print(input_number)
 demo(input_number)
 ```
 
 The file can be executed by selecting "Run"->"Run". The output from the execution will disappear
 by select the "Red X".
-
-![](../img/ide_program_hello.png)
 
 ### PyCharm Settings/Preferences dialog {#Configure}
 
@@ -95,6 +94,39 @@ by select the "Red X".
 - The TODO tool window lists all the tasks marked as TODO or FIXME (case insensitive)
 - For example, add TODO: add documentation 
 - You can add a custom pattern via [Settings/Preferences](#Configure) -> editor -> TODO
+
+### Debugging with PyCharm
+
+First run the *demo* program normally, to experience its behavior. The program asks for input.
+The actual result deviates from the expected result.
+
+Let us debug the code by placing breakpoints. Set breakpoints in the program by pointing
+the mouse on the line you want to examine and push the mouse button.
+
+![](../img/pycharm_set_bp.png)
+
+Execute the program under the control of the debugger. Select "Run"->"Debug". Note, that
+there is two "Debug". First time you run something in the debugger, you need to select
+the lower one in the dialog.
+![](../img/PyC_dbx_dbxselect.png)
+
+The debugger will execute the program until it hits a break point. At the break point it is
+possible to inspect the state of the program. The debugger present this to us:
+
+![](../img/pycharm_demo_bp.png)
+
+In the code, the state of the variables are printed. PyCharm call this inline debugging and it
+is a replacement for your print statements, which you would otherwise add to the code for
+getting the state of different variables.
+
+By selecting the green "Play"-button, the code will execute to the next break point. 
+
+#### Stepping
+The view provides several stepping "buttons", use the
+one with a red line through it, "Step into my code".  See how the variables are updated inline.
+
+#### Exercise: Correct the demo snippet by placing break points
+
 
 ### Code refactoring
 

@@ -16,8 +16,8 @@ keypoints:
 In this lesson we will give overview of an IDE and its functionality. We have selected PyCharm as the IDE to demonstrate the use of Integrated Development Environments. We want to show you how
 IDEs integrate features necessary for developing code.
 
-Note: Most of the IDE's offer similar features and support the functionality that we discuss in this lesson. This demonstration is relevant
-for other IDE's as well.
+Note: Most of the IDEs offer similar features and support the functionality that we discuss in this lesson. This demonstration is relevant
+for other IDEs as well.
 
 We start by creating a project.
  - Start PyCharm
@@ -153,7 +153,7 @@ Select the code from which you want to create a function and then Right click ->
 
 ### IDE vs Code editor
 
-- IDE's do many things like Code Editors
+- IDEs do many things like Code Editors
     - Debugging support
     - version control integration
 

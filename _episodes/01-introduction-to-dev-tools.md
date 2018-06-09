@@ -44,7 +44,7 @@ keypoints:
 
 - Text-based code editors (e.g. [sublime text](https://www.sublimetext.com/), [Atom](https://atom.io/), [Visual Studio Code](https://code.visualstudio.com/))
 
-- Integrated development environments (IDE's) brings you "everything" you need to be a productive programmer to your finger tips 
+- Integrated development environments (IDEs) brings you "everything" you need to be a productive programmer to your finger tips 
     - IDEs are developed to maximize programmer productivity 
     - IDE is a self-contained package that allow you to write, compile, execute and debug code in the same place
     - IDE examples: [Netbeans](https://netbeans.org/), [Eclipse](https://www.eclipse.org/ide/), [PyCharm](https://www.jetbrains.com/pycharm/), [Ruby Mine](https://www.jetbrains.com/ruby/), [Visual Studio](https://www.visualstudio.com/vs/)
@@ -53,7 +53,7 @@ keypoints:
 
     
   
-# Terminal-based editors vs code editors vs IDE's
+# Terminal-based editors vs code editors vs IDEs
 
 ## Terminal-based editors
 
@@ -66,12 +66,12 @@ keypoints:
 
 ## Code editors
 
-- Code editors are light-weight IDE's
+- Code editors are light-weight IDEs
 - Mainly developed for writing code
 - General purpose editors and can be used for writing code in various programming languages
 - Support auto-completion, terminal integration, version control integration, etc 
 
-## IDE's
+## IDEs
 
 - IDE is generally focused on a single language and contains the compiler/interpreter and debugger specific to the language
     - (e.g. not easy to use RStudio for developing code in Python and R)

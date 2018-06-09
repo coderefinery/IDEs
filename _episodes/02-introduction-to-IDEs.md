@@ -85,14 +85,14 @@ by select the "Red X".
 
 ### PyCharm Settings/Preferences dialog {#Configure}
 
-- **Windows and Linux** - *File -> Settings* 
+- **Windows and Linux** - *File -> Settings*
 - **macOS** - *PyCharm -> Preferences*
 
 ### Creating tasks and tracking unfinished work
 - How do you track tasks that require feedback/attention from other researchers?
 - We can add `#TODO` or `#FIXME` before code to track unfinshed work
 - The TODO tool window lists all the tasks marked as TODO or FIXME (case insensitive)
-- For example, add TODO: add documentation 
+- For example, add TODO: add documentation
 - You can add a custom pattern via [Settings/Preferences](#Configure) -> editor -> TODO
 
 ### Debugging with PyCharm
@@ -119,7 +119,7 @@ In the code, the state of the variables are printed. PyCharm call this inline de
 is a replacement for your print statements, which you would otherwise add to the code for
 getting the state of different variables.
 
-By selecting the green "Play"-button, the code will execute to the next break point. 
+By selecting the green "Play"-button, the code will execute to the next break point.
 
 #### Stepping
 The view provides several stepping "buttons", use the
@@ -149,7 +149,7 @@ Select the code from which you want to create a function and then Right click ->
 - Supports markdown
     - You need to install markdown plugin from **Settings/Preferences -> Plugins** and restart PyCharm
     - Click file `README.md` and add some text to it. Click Show editor and preview on the right upper corner.
-- Sphinx can be used from PyCharm as well via **Tools -> Sphinx Quickstart** (if sphinx is installed in your environment) 
+- Sphinx can be used from PyCharm as well via **Tools -> Sphinx Quickstart** (if sphinx is installed in your environment)
 
 ### IDE vs Code editor
 

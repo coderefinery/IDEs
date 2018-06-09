@@ -38,21 +38,21 @@ keypoints:
 - Terminal-based text editors for writing code (e.g. vi/vim, nano, emacs, etc)
 - Command line tools
      - for compiling code (e.g. gcc, GFortran, javac, etc)
-     - for executing code (e.g. python and java command line interpreters, etc ) 
+     - for executing code (e.g. python and java command line interpreters, etc )
      - for debugging code (e.g. [gdb](https://www.gnu.org/software/gdb/), [pdb](https://docs.python.org/3/library/pdb.html), [jdb](https://docs.oracle.com/javase/7/docs/technotes/tools/windows/jdb.html), etc)
-     - for version control (e.g. git)   
+     - for version control (e.g. git)
 
 - Text-based code editors (e.g. [sublime text](https://www.sublimetext.com/), [Atom](https://atom.io/), [Visual Studio Code](https://code.visualstudio.com/))
 
-- Integrated development environments (IDEs) brings you "everything" you need to be a productive programmer to your finger tips 
-    - IDEs are developed to maximize programmer productivity 
+- Integrated development environments (IDEs) brings you "everything" you need to be a productive programmer to your finger tips
+    - IDEs are developed to maximize programmer productivity
     - IDE is a self-contained package that allow you to write, compile, execute and debug code in the same place
     - IDE examples: [Netbeans](https://netbeans.org/), [Eclipse](https://www.eclipse.org/ide/), [PyCharm](https://www.jetbrains.com/pycharm/), [Ruby Mine](https://www.jetbrains.com/ruby/), [Visual Studio](https://www.visualstudio.com/vs/)
-    
+
   ![Ide_featrues](../img/Ide.png)
 
-    
-  
+
+
 # Terminal-based editors vs code editors vs IDEs
 
 ## Terminal-based editors
@@ -69,7 +69,7 @@ keypoints:
 - Code editors are light-weight IDEs
 - Mainly developed for writing code
 - General purpose editors and can be used for writing code in various programming languages
-- Support auto-completion, terminal integration, version control integration, etc 
+- Support auto-completion, terminal integration, version control integration, etc
 
 ## IDEs
 
@@ -78,12 +78,12 @@ keypoints:
 - IDEs are developed to make software development faster and usually offer
     - code auto-completion, refactoring support
     - fast find of files, function, class
-    - debug support, integrated build tools, source control management 
+    - debug support, integrated build tools, source control management
 
 - One IDE may not be fit for all programming languages
 - IDEs do a lot of things on behalf of us
 - The pro is that an IDE really integrates features you need. The cons is that you need to learn the in-and-outs of the IDE,
-especially the keyboard shortcuts, to reap the benefits.  
+especially the keyboard shortcuts, to reap the benefits.
 
 ## Choosing between Terminal editor - code editor - IDE
 
@@ -104,7 +104,7 @@ especially the keyboard shortcuts, to reap the benefits.
 
 -->
 
-- Choosing between a terminal editor or code editor or IDE largely depends on the personal preference, the particular programming language and the workflows 
+- Choosing between a terminal editor or code editor or IDE largely depends on the personal preference, the particular programming language and the workflows
 
 ## Demonstrating terminal editor (no need to type along)
 - For demonstrating terminal editor we have selected Vim
@@ -129,17 +129,17 @@ print("product of %s and %s is : %s" % (first_number,second_number,product_of_nu
 - To open a file: *vim filename*
 - To add text: *Press i*
 - To save and exit vim: *Hit Escape, then type :wq and hit Enter*
-- Multiple CLI tools have to be used 
+- Multiple CLI tools have to be used
     - for executing: python interpreter
     - for debugging: python pdb module
     - version control: git
-    - search and replacing code: [grep](https://www.gnu.org/software/grep/manual/grep.html) and [sed](https://www.gnu.org/software/sed/) utilities 
+    - search and replacing code: [grep](https://www.gnu.org/software/grep/manual/grep.html) and [sed](https://www.gnu.org/software/sed/) utilities
 
 ## Demonstrating code editor
 
-In this lesson we will give overview of a code editor and its functionality. We have selected **Visual Studio Code (VS Code)** to demonstrate the use of a code editor. 
+In this lesson we will give overview of a code editor and its functionality. We have selected **Visual Studio Code (VS Code)** to demonstrate the use of a code editor.
 
-Note: Other code editors also offer similar features and support the functionality that we discuss in this lesson. 
+Note: Other code editors also offer similar features and support the functionality that we discuss in this lesson.
 
 We start by opening VS Code.
  - Start VS Code
@@ -149,7 +149,7 @@ We start by opening VS Code.
 
 ![VS Code Dialog](../img/vscode_welcome.png)
 
-  
+
 ### VS Code environment
 
 The UI is divided into multiple areas.
@@ -174,7 +174,7 @@ The UI is divided into multiple areas.
 ### Command palette
 
 - Keyboard can be used to access VS Code features
-- Pressing **Ctrl + Shift + P** (Windows, Linux) brings up the Command Palette. **⇧⌘P** (Mac) 
+- Pressing **Ctrl + Shift + P** (Windows, Linux) brings up the Command Palette. **⇧⌘P** (Mac)
     - you can access all the functionality of VS Code, including keyboard shortcuts for the most common operations.
     - e.g. new file, new folder, git commands
 
@@ -182,14 +182,14 @@ The UI is divided into multiple areas.
 
 ### VS Code Settings/Preferences dialog {#Configure}
 
-- **Windows and Linux** - *File -> Preferences -> Settings*  (⌘,) 
+- **Windows and Linux** - *File -> Preferences -> Settings*  (⌘,)
 - **macOS** - *Code -> Preferences -> Settings*  (⌘,)
 - You can add your settings to **user settings** tab to override default settings
     e.g. add "editor.fontSize" to user settings and adjust it as needed
 
 - Note: As you make modifications, the settings for current folder will be stored under the **.vscode** folder in your current folder
 - You can use the keyboard shortcuts of your old editor (such as Sublime Text, Atom, and Vim) in VS Code. Plese check [here](https://code.visualstudio.com/docs/getstarted/keybindings#_keymap-extensions) for details
- 
+
 ### Windows users
 
 - You can also attach your git bash to VS Code
@@ -204,7 +204,7 @@ We can use the code editors for writing code in multiple programming languages, 
 
 For demonstrating VS Code we are using a simple program that asks user input (integers) and prints the product of the given input.
 
-#### For Python users 
+#### For Python users
 
 - Create a file by right clicking in explorer and select "New File". Call the file `multiplication.py`
 - VS Code shows the appropriate extensions to install
@@ -263,7 +263,7 @@ int main(int argc, char const *argv[]) {
   std::cout << "product of given input is " << productResult << '\n';
 
   return 0;
-}    
+}
 ```
 
 - To build C++ application from VS Code, you will need to generate a **tasks.json** file:
@@ -358,14 +358,14 @@ end program product
 - Debugger will start automatically
 
 
-## Pros and Cons 
+## Pros and Cons
 ### Terminal editors
 - \+ Pre-installed on many operating systems
 - \+ Supports various programming languages
 
 - \- steep learning curve
 - \- one needs to master keyboard shortcuts and CLI tools for using effectively
- 
+
 
 ### Code Editor
 Code editors are light weight and general purpose
@@ -374,4 +374,4 @@ Code editors are light weight and general purpose
 
 - ±multi functional
 - ±can be used for variety of tasks
- 
+

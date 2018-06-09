@@ -298,7 +298,7 @@ For debugging, please visit this [page](https://code.visualstudio.com/docs/langu
 
 - Add the following fortran code to the file:
 
-```shell
+```fortran
 program product
     implicit none
 

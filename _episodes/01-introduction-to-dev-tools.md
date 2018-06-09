@@ -8,7 +8,7 @@ questions:
   - "What is a code editor"
   - "What is an IDE?"
 objectives:
-  - "Clarify differences between code editors and IDE's"
+  - "Clarify differences between code editors and IDEs"
   - "Basic concepts of code editors and IDEs are introduced"
   - "Demonstrate how various tools can be used for developing code"
 keypoints:
@@ -20,6 +20,7 @@ keypoints:
 - What tools do you use for developing code?
 - How do you compile or execute the code?
 - How do you debug the code?
+- How do you rename a function or variable across the entire project?
 - How do you search for files that uses a function or class?
 - Is choosing right tools important?
 
@@ -110,18 +111,19 @@ especially the keyboard shortcuts, to reap the benefits.
 - Vim is pre-installed on many operating systems
 - Vim can be customized as needed, please check [here](https://www.linode.com/docs/tools-reference/tools/introduction-to-vim-customization/)
 
-We are using a simple function that multiplies two given numbers
+We are using a simple program that asks user input (integers) and prints the product of the given input.
 
 ```python
-    def multiplication(first_number, second_number):
-        return first_number * second_number
-    
-    first_number = int(input("enter first number :"))
-    second_number = int(input("enter second number :"))
-    
-    product_of_numbers = multiplication(first_number, second_number)
-    
-    print("product of two numbers : %s" % product_of_numbers)
+def multiplication(first_number, second_number):
+    return first_number * second_number
+
+first_number = int(input("enter first number :"))
+second_number = int(input("enter second number :"))
+
+product_of_numbers = multiplication(first_number, second_number)
+
+print("product of %s and %s is : %s" % (first_number,second_number,product_of_numbers))
+
 ```
 
 - To open a file: *vim filename*
@@ -200,7 +202,7 @@ The UI is divided into multiple areas.
 
 We can use the code editors for writing code in multiple programming languages, let's see how:
 
-For demonstrating VS Code we are using a simple program that multiplies two given numbers
+For demonstrating VS Code we are using a simple program that asks user input (integers) and prints the product of the given input.
 
 #### For Python users 
 
@@ -214,15 +216,16 @@ For demonstrating VS Code we are using a simple program that multiplies two give
 - Add the following Python code to the file:
 
 ```python
-    def multiplication(first_number, second_number):
-        return first_number * second_number
-    
-    first_number = int(input("enter first number :"))
-    second_number = int(input("enter second number :"))
-    
-    product_of_numbers = multiplication(first_number, second_number)
-    
-    print("product of two numbers : %s" % product_of_numbers)
+def multiplication(first_number, second_number):
+    return first_number * second_number
+
+first_number = int(input("enter first number :"))
+second_number = int(input("enter second number :"))
+
+product_of_numbers = multiplication(first_number, second_number)
+
+print("product of %s and %s is : %s" % (first_number,second_number,product_of_numbers))
+
 ```
 
 - Run the code by "Right clicking" on editor -> "Run python code in terminal"
@@ -247,7 +250,7 @@ using namespace std;
 
 int main(int argc, char const *argv[]) {
 
-  double firstNumber, secondNumber, multiplicationResult;
+  double firstNumber, secondNumber, productResult;
 
   std::cout << "Enter first number" << '\n';
   std::cin >> firstNumber;
@@ -255,9 +258,9 @@ int main(int argc, char const *argv[]) {
   std::cout << "Enter second number" << '\n';
   std::cin >> secondNumber;
 
-  multiplicationResult = firstNumber * secondNumber;
+  productResult = firstNumber * secondNumber;
 
-  std::cout << "multiplication of given numbers " << multiplicationResult << '\n';
+  std::cout << "product of given input is " << productResult << '\n';
 
   return 0;
 }    
@@ -296,18 +299,17 @@ For debugging, please visit this [page](https://code.visualstudio.com/docs/langu
 - Add the following fortran code to the file:
 
 ```shell
-    program hello
-    implicit none
-    
-    integer            :: firstNumber,secondNumber
-    
-    print*,"enter two integers"
-    read (*,*) firstNumber, secondNumber
-    
-    print *, "The product of given numbers ", firstNumber * secondNumber
-    
-    end program hello
+program product
+implicit none
 
+integer            :: firstNumber,secondNumber
+
+print*,"enter two integers"
+read (*,*) firstNumber, secondNumber
+
+print *, "product of given input is", firstNumber * secondNumber
+
+end program product
 ```
 
 - To build fortran application from VS Code, you will need to generate a **tasks.json** file:

@@ -300,16 +300,15 @@ For debugging, please visit this [page](https://code.visualstudio.com/docs/langu
 
 ```shell
 program product
-implicit none
+    implicit none
 
-integer            :: firstNumber,secondNumber
+    integer :: i, j
 
-print*,"enter two integers"
-read (*,*) firstNumber, secondNumber
+    print *, "enter two integers"
+    read (*,*) i, j
 
-print *, "product of given input is", firstNumber * secondNumber
-
-end program product
+    print *, "product of given input is", i * j
+end program
 ```
 
 - To build fortran application from VS Code, you will need to generate a **tasks.json** file:
